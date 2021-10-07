@@ -6,14 +6,16 @@
 Hi, I'm Ned
 ===========
 
+I'm a Python software developer and community organizer.  My personal site is
+https://nedbatchelder.com.  I'm an organizer of `Boston Python`_.
+
 You can find me at:
 
-- Libera IRC, I'm nedbat in #python.
-- I'm `@nedbat on Twitter <twitter>`_
-- I'm sometimes in the `Python Discord`_
+- On `Libera IRC`_, I'm nedbat in #python.
+- I'm `@nedbat on Twitter <twitter>`_.
+- I'm sometimes in the `Python Discord`_.
 
-
-Recent blog posts:
+Recent `blog posts <blog>`_:
 
 .. [[[cog
     import cog, requests
@@ -31,3 +33,6 @@ Recent blog posts:
 
 .. _twitter: https://twitter.com/nedbat
 .. _Python Discord: https://pythondiscord.com
+.. _blog: https://nedbatchelder.com/blog
+.. _Boston Python: https://bostonpython.com
+.. _Libera IRC: https://libera.chat
