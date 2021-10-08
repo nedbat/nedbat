@@ -7,7 +7,7 @@ Process this file with cog:
 
 -->
 
-# Hi, I'm Ned
+## Hi, I'm Ned
 
 I'm a Python software developer and community organizer.  My personal site is
 https://nedbatchelder.com.  I'm an organizer of [Boston Python][bp].
@@ -21,15 +21,22 @@ You can find me at:
 Recent [blog posts][blog]:
 
 <!-- [[[cog
-    import cog, requests
+    import datetime
+    import cog
+    import requests
+
     data = requests.get("https://nedbatchelder.com/summary.json").json()
     for entry in data["entries"][:4]:
-        cog.outl(f"- **[{entry['title']}]({entry['url']})** ({entry['when_human']}): {entry['description_text']}")
+        when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
+        cog.outl(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): {entry['description_text']} *([read]({entry['url']}))*")
+    cog.outl("- and [many more][blog]..")
+
 ]]] -->
-- **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)** (04 Oct): Coverage.py 6.0 is now available. It’s a major version bump for two reasons:
-- **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)** (27 Sep): I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day.
-- **[Real Django site](https://nedbatchelder.com/blog/202109/real_django_site.html)** (13 Sep): Big changes behind the scenes here at nedbatchelder.com, but only a small change for you.
-- **[Me on Bug Hunters Café](https://nedbatchelder.com/blog/202108/me_on_bug_hunters_caf.html)** (23 Aug): I was a guest on the Bug Hunters Café podcast: episode #12, The Café Within.
+- **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)** (4 Oct 2021): Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read](https://nedbatchelder.com/blog/202110/coverage_60.html))*
+- **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)** (27 Sep 2021): I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day. *([read](https://nedbatchelder.com/blog/202109/300_walks.html))*
+- **[Real Django site](https://nedbatchelder.com/blog/202109/real_django_site.html)** (13 Sep 2021): Big changes behind the scenes here at nedbatchelder.com, but only a small change for you. *([read](https://nedbatchelder.com/blog/202109/real_django_site.html))*
+- **[Me on Bug Hunters Café](https://nedbatchelder.com/blog/202108/me_on_bug_hunters_caf.html)** (23 Aug 2021): I was a guest on the Bug Hunters Café podcast: episode #12, The Café Within. *([read](https://nedbatchelder.com/blog/202108/me_on_bug_hunters_caf.html))*
+- and [many more][blog]..
 <!-- [[[end]]] -->
 
 [twitter]: https://twitter.com/nedbat
