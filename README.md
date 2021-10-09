@@ -9,13 +9,16 @@ Process this file with cog:
 
 ## Hi, I'm Ned
 
-I'm a Python software developer and community organizer.  My personal site is
-https://nedbatchelder.com.  I'm an organizer of [Boston Python][bp].
+I'm a Python software developer and community organizer.
+
+- My personal site is https://nedbatchelder.com.
+- I work at [edX](https://edx.org) on [Open edX](https://openedx.org).
+- I'm an organizer of [Boston Python][bp].
 
 You can find me at:
 
-- On [Libera IRC][libera], I'm nedbat in #python.
 - I'm [@nedbat on Twitter][twitter].
+- On [Libera IRC][libera], I'm nedbat in #python.
 - I'm sometimes in the [Python Discord][discord].
 
 Recent [blog posts][blog]:
@@ -29,6 +32,7 @@ Recent [blog posts][blog]:
     for entry in data["entries"][:4]:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
         cog.outl(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): {entry['description_text']} *([read]({entry['url']}))*")
+    # Have to print this from in here to get the spacing right.
     cog.outl("- and [many more][blog]..")
 
 ]]] -->
