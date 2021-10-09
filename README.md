@@ -31,10 +31,11 @@ Recent [blog posts][blog]:
     data = requests.get("https://nedbatchelder.com/summary.json").json()
     for entry in data["entries"][:4]:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
-        cog.outl(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): {entry['description_text']} *([read]({entry['url']}))*")
+        cog.out(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): ")
+        cog.out(f"{entry['description_text']} *([read..]({entry['url']}))*")
+        cog.outl()
     # Have to print this from in here to get the spacing right.
     cog.outl("- and [many more][blog]..")
-
 ]]] -->
 - **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)** (4 Oct 2021): Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read](https://nedbatchelder.com/blog/202110/coverage_60.html))*
 - **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)** (27 Sep 2021): I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day. *([read](https://nedbatchelder.com/blog/202109/300_walks.html))*
