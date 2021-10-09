@@ -29,7 +29,7 @@ Recent [blog posts][blog]:
     import requests
 
     data = requests.get("https://nedbatchelder.com/summary.json").json()
-    for entry in data["entries"][:4]:
+    for entry in data["entries"][:3]:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
         cog.out(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): ")
         cog.out(f"{entry['description_text']} *([read..]({entry['url']}))*")
