@@ -5,8 +5,6 @@ on:
     # Run at 2:30 am
     - cron: "30 2 * * *"
   push:
-    branches:
-      - master
   workflow_dispatch:
 
 defaults:
