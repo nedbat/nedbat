@@ -41,7 +41,7 @@ jobs:
 
       - name: "Commit and push if changed"
         run: |
-          if ! git diff --quiet @ @{u}; then
+          if ! git diff --quiet; then
             git diff
             git commit -am "Updated README"
             git push
