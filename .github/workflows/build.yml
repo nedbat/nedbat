@@ -1,0 +1,50 @@
+name: "Build the README"
+
+on:
+  schedule:
+    # Run at 2:30 am
+    - cron: "30 2 * * *"
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  GIT_AUTHOR_NAME: README-bot
+  GIT_AUTHOR_EMAIL: actions@users.noreply.github.com
+
+jobs:
+  build:
+    name: "Build the README"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "Check out the repo"
+        uses: "actions/checkout@v2"
+        with:
+          fetch-depth: "0"
+
+      - name: "Set up Python"
+        uses: "actions/setup-python@v2"
+        with:
+          python-version: "3.9"
+
+      - name: "Install dependencies"
+        run: |
+          python -m pip install -r requirements.pip
+
+      - name: "Cog README"
+        run: |
+          python -m cogapp -r README.md
+
+      - name: "Commit and push if changed"
+        run: |
+          if ! git diff --quiet @ @{u}; then
+            git diff
+            git commit -am "Updated README"
+            git push
+          fi
