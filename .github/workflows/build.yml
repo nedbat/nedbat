@@ -43,7 +43,6 @@ jobs:
 
       - name: "Commit and push if changed"
         run: |
-          env
           if ! git diff --quiet; then
             git diff
             git commit -am "Updated README"
