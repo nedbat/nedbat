@@ -11,12 +11,6 @@ defaults:
   run:
     shell: bash
 
-env:
-  GIT_AUTHOR_NAME: README-bot
-  GIT_AUTHOR_EMAIL: actions@users.noreply.github.com
-  GIT_COMMITTER_NAME: README-bot
-  GIT_COMMITTER_EMAIL: actions@users.noreply.github.com
-
 jobs:
   build:
     name: "Build the README"
@@ -45,6 +39,8 @@ jobs:
         run: |
           if ! git diff --quiet; then
             git diff
+            git config user.name README-bot
+            git config user.email actions@users.noreply.github.com
             git commit -am "Updated README"
             git push
           fi
