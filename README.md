@@ -11,7 +11,7 @@ Process this file with cog:
 
 I'm a Python software developer and community organizer.
 
-- My personal site is https://nedbatchelder.com.
+- My personal site is **[nedbatchelder.com][nedbat]**.
 - I work at [edX](https://edx.org) on [Open edX](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
 
@@ -43,8 +43,9 @@ Recent [blog posts][blog]:
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
+[nedbat]: https://nedbatchelder.com
+[blog]: https://nedbatchelder.com/blog
 [twitter]: https://twitter.com/nedbat
 [discord]: https://pythondiscord.com
-[blog]: https://nedbatchelder.com/blog
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com
