@@ -37,9 +37,9 @@ Recent [blog posts][blog]:
     # Have to print this from in here to get the spacing right.
     cog.outl("- and [many more][blog]..")
 ]]] -->
+- **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)** (1 Nov 2021): There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*
 - **[Django Chat podcast](https://nedbatchelder.com/blog/202110/django_chat_podcast.html)** (13 Oct 2021): I had a fun conversation on the Django Chat podcast with Will Vincent and Carlton Gibson. It was a great discussion. *([read..](https://nedbatchelder.com/blog/202110/django_chat_podcast.html))*
 - **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)** (4 Oct 2021): Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read..](https://nedbatchelder.com/blog/202110/coverage_60.html))*
-- **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)** (27 Sep 2021): I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day. *([read..](https://nedbatchelder.com/blog/202109/300_walks.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
