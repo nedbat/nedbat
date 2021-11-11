@@ -3,7 +3,7 @@
 Process this file with cog:
 
     $ python -m pip install -r requirements.pip
-    $ python -m cogapp -r README.md
+    $ python -m cogapp -rP README.md
 
 -->
 
@@ -31,11 +31,11 @@ Recent [blog posts][blog]:
     data = requests.get("https://nedbatchelder.com/summary.json").json()
     for entry in data["entries"][:3]:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
-        cog.out(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): ")
-        cog.out(f"{entry['description_text']} *([read..]({entry['url']}))*")
-        cog.outl()
+        print(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b %Y}): ", end="")
+        print(f"{entry['description_text']} *([read..]({entry['url']}))*", end="")
+        print()
     # Have to print this from in here to get the spacing right.
-    cog.outl("- and [many more][blog]..")
+    print("- and [many more][blog]..")
 ]]] -->
 - **[Computing a GitHub Action matrix with cog](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html)** (7 Nov 2021): Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
 - **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)** (1 Nov 2021): There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*

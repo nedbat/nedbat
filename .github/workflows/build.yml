@@ -33,7 +33,7 @@ jobs:
 
       - name: "Cog README"
         run: |
-          python -m cogapp -r README.md
+          python -m cogapp -rP README.md
 
       - name: "Commit and push if changed"
         run: |
