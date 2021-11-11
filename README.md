@@ -56,38 +56,38 @@ I had a fun conversation on the Django Chat podcast with Will Vincent and Carlto
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
-I maintain [a few Python packages][ned_pypi]:
+I maintain [a few Python packages][ned_pypi], including:
 
 <!-- [[[cog
     pkgs = {
-        # pypi name: #   (human name, github repo, description),
+        # pypi name: (human name, github repo, description),
         "coverage": ("Coverage.py", "nedbat/coveragepy", "the code coverage tool for Python"),
         "scriv": ("Scriv", "nedbat/scriv", "changelog generator"),
         "cogapp": ("Cog", "nedbat/cog", "small bits of computation for static files"),
         "aptus": ("Aptus", "nedbat/aptus", "Mandelbrot fractal viewer"),
     }
     for pkg, (human, repo, description) in pkgs.items():
-        print(f"- [**{human}**](https://github.com/{repo}): {description}  ")
-        print(f"  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat)](https://pypi.org/project/{pkg})")
-        print(f"  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat)](https://github.com/{repo}/commits)")
-        print(f"  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{pkg}?style=flat)](https://pypistats.org/packages/{pkg})")
+        print(f'- [**{human}**](https://github.com/{repo}): {description}  ')
+        print(f'  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat "The {pkg} PyPI page")](https://pypi.org/project/{pkg})')
+        print(f'  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat "Recent {human.lower()} commits")](https://github.com/{repo}/commits)')
+        print(f'  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{pkg}?style=flat "Download stats for {pkg}")](https://pypistats.org/packages/{pkg})')
 ]]] -->
 - [**Coverage.py**](https://github.com/nedbat/coveragepy): the code coverage tool for Python  
-  [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat)](https://pypi.org/project/coverage)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat)](https://github.com/nedbat/coveragepy/commits)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat)](https://pypistats.org/packages/coverage)
+  [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
 - [**Scriv**](https://github.com/nedbat/scriv): changelog generator  
-  [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat)](https://pypi.org/project/scriv)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat)](https://github.com/nedbat/scriv/commits)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat)](https://pypistats.org/packages/scriv)
+  [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat "Download stats for scriv")](https://pypistats.org/packages/scriv)
 - [**Cog**](https://github.com/nedbat/cog): small bits of computation for static files  
-  [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat)](https://pypi.org/project/cogapp)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat)](https://github.com/nedbat/cog/commits)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat)](https://pypistats.org/packages/cogapp)
+  [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
 - [**Aptus**](https://github.com/nedbat/aptus): Mandelbrot fractal viewer  
-  [![PyPI](https://img.shields.io/pypi/v/aptus?style=flat)](https://pypi.org/project/aptus)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat)](https://github.com/nedbat/aptus/commits)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat)](https://pypistats.org/packages/aptus)
+  [![PyPI](https://img.shields.io/pypi/v/aptus?style=flat "The aptus PyPI page")](https://pypi.org/project/aptus)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat "Recent aptus commits")](https://github.com/nedbat/aptus/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
