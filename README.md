@@ -11,7 +11,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
 
 -->
 
-## Hi, I'm Ned
+I'm **Ned Batchelder**, a Python software developer and community organizer.
 
 [![GitHub Sponsor](https://img.shields.io/static/v1?label=%E2%9D%A4&message=Sponsor&logo=GitHub&color=brightgreen&link=https://github.com/sponsors/nedbat&style=flat "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
 [![Twitter](https://img.shields.io/badge/-@nedbat-9ddcf7?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/nedbat "Follow me on Twitter")][twitter]
@@ -20,9 +20,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
 [![Discord](https://img.shields.io/badge/-@nedbat-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white&link=https://discord.gg/python "Python Discord")][discord]
 [![PyPI](https://img.shields.io/badge/-nedbatchelder-4B8BBE?style=flat&labelColor=306998&logo=Python&logoColor=FFE873&link=https://pypi.org/user/nedbatchelder/ "My packages on PyPI")][ned_pypi]
 
-I'm a Python software developer and community organizer.
-
-- My personal site is **[nedbatchelder.com][nedbat]**.
+- My personal site is [https://nedbatchelder.com][nedbat].
 - I work at [edX](https://edx.org) on [Open edX](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
 
@@ -32,6 +30,10 @@ You can find me at:
 - On [Libera IRC][libera], I'm nedbat in #python.
 - I'm sometimes in the [Python Discord][discord].
 
+<details>
+<summary><b>Blog posts</b></summary>
+
+
 Recent [blog posts][blog]:
 
 <!-- [[[cog
@@ -39,7 +41,7 @@ Recent [blog posts][blog]:
     import requests
 
     data = requests.get("https://nedbatchelder.com/summary.json").json()
-    for entry in data["entries"][:3]:
+    for entry in data["entries"][:4]:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
         # Two trailing spaces make a line break in Markdown.
         print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b %Y}  ")
@@ -53,8 +55,16 @@ Here’s how I used embedded Python code to generate a complex GitHub Action mat
 There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*
 - **[Django Chat podcast](https://nedbatchelder.com/blog/202110/django_chat_podcast.html)**, 13 Oct 2021  
 I had a fun conversation on the Django Chat podcast with Will Vincent and Carlton Gibson. It was a great discussion. *([read..](https://nedbatchelder.com/blog/202110/django_chat_podcast.html))*
+- **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)**, 4 Oct 2021  
+Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read..](https://nedbatchelder.com/blog/202110/coverage_60.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
+
+</details>
+
+<details>
+<summary><b>My Python packages</b></summary>
+
 
 I maintain [a few Python packages][ned_pypi], including:
 
@@ -89,6 +99,8 @@ I maintain [a few Python packages][ned_pypi], including:
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat "Recent aptus commits")](https://github.com/nedbat/aptus/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
+
+</details>
 
 [nedbat]: https://nedbatchelder.com
 [blog]: https://nedbatchelder.com/blog
