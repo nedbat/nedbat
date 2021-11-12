@@ -77,7 +77,7 @@ print(md_badge(
     text="Python Discord", link="https://discord.gg/python",
 ))
 print(md_badge(
-    logo="python", logo_color="FFE873", label_color="306998", message="my packages", color="4B8BBE",
+    logo="python", logo_color="FFE873", label_color="306998", message="PyPI packages", color="4B8BBE",
     text="My PyPI packages", link="https://pypi.org/user/nedbatchelder",
 ))
 ]]] -->
