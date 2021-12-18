@@ -99,60 +99,100 @@ You can find me at:
 - On [Libera IRC][libera], I'm nedbat in #python.
 - I'm sometimes in the [Python Discord][discord].
 
-<details>
-<summary><b>Blog posts</b></summary>
-
-<br/>Recent [blog posts][blog]:
+<!--
+  ##
+  ## BLOG POSTS
+  ##
+  -->
 
 <!-- [[[cog
     import datetime
     import requests
 
-    data = requests.get("https://nedbatchelder.com/summary.json").json()
-    for entry in data["entries"][:4]:
+    blogdata = requests.get("https://nedbatchelder.com/summary.json").json()
+
+    def write_blog_post(entry):
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
         # Two trailing spaces make a line break in Markdown.
         print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b %Y}  ")
         print(f"{entry['description_text']} *([read..]({entry['url']}))*")
-    # Have to print this from in here to get the spacing right.
-    print("- and [many more][blog]..")
+]]] -->
+<!-- [[[end]]] -->
+
+My latest [blog][blog] post:
+
+<!-- [[[cog
+    write_blog_post(blogdata["entries"][0])
 ]]] -->
 - **[Load-balanced xdist](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html)**, 11 Dec 2021  
 I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html))*
+<!-- [[[end]]] -->
+
+<details>
+<summary><b>More blog posts</b></summary>
+
+<!-- [[[cog
+    for entry in blogdata["entries"][1:6]:
+        write_blog_post(entry)
+    # Have to print this from in here to get the spacing right.
+    print("- and [many more][blog]..")
+]]] -->
 - **[Computing a GitHub Action matrix with cog](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html)**, 7 Nov 2021  
 Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
 - **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)**, 1 Nov 2021  
 There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*
 - **[Django Chat podcast](https://nedbatchelder.com/blog/202110/django_chat_podcast.html)**, 13 Oct 2021  
 I had a fun conversation on the Django Chat podcast with Will Vincent and Carlton Gibson. It was a great discussion. *([read..](https://nedbatchelder.com/blog/202110/django_chat_podcast.html))*
+- **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)**, 4 Oct 2021  
+Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read..](https://nedbatchelder.com/blog/202110/coverage_60.html))*
+- **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)**, 27 Sep 2021  
+I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day. *([read..](https://nedbatchelder.com/blog/202109/300_walks.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
 </details>
 
-<details>
-<summary><b>My Python packages</b></summary>
-
-<br/>I maintain [a few Python packages][ned_pypi], including:
+<!--
+  ##
+  ## PYPI PACKAGES
+  ##
+  -->
 
 <!-- [[[cog
-    pkgs = {
+    pkgs = [
         # pypi name: (human name, github repo, description),
-        "coverage": ("Coverage.py", "nedbat/coveragepy", "the code coverage tool for Python"),
-        "scriv": ("Scriv", "nedbat/scriv", "changelog generator"),
-        "cogapp": ("Cog", "nedbat/cog", "small bits of computation for static files"),
-        "aptus": ("Aptus", "nedbat/aptus", "Mandelbrot fractal viewer"),
-    }
-    for pkg, (human, repo, description) in pkgs.items():
+        ("coverage", "Coverage.py", "nedbat/coveragepy", "the code coverage tool for Python"),
+        ("scriv", "Scriv", "nedbat/scriv", "changelog generator"),
+        ("cogapp", "Cog", "nedbat/cog", "small bits of computation for static files"),
+        ("aptus", "Aptus", "nedbat/aptus", "Mandelbrot fractal viewer"),
+    ]
+
+    def write_package(pkg, human, repo, description):
         print(f'- [**{human}**](https://github.com/{repo}): {description}  ')
         print(f'  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat "The {pkg} PyPI page")](https://pypi.org/project/{pkg})')
         print(f'  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat "Recent {human.lower()} commits")](https://github.com/{repo}/commits)')
         print(f'  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{pkg}?style=flat "Download stats for {pkg}")](https://pypistats.org/packages/{pkg})')
 ]]] -->
+<!-- [[[end]]] -->
+
+I maintain [a few Python packages][ned_pypi], including:
+
+<!-- [[[cog
+    write_package(*pkgs[0])
+]]] -->
 - [**Coverage.py**](https://github.com/nedbat/coveragepy): the code coverage tool for Python  
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
+<!-- [[[end]]] -->
+
+<details>
+<summary><b>More of my Python packages</b></summary>
+
+<!-- [[[cog
+    for args in pkgs[1:]:
+        write_package(*args)
+]]] -->
 - [**Scriv**](https://github.com/nedbat/scriv): changelog generator  
   [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits)
