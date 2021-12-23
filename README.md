@@ -93,7 +93,7 @@ print(md_badge(
 - I work at [edX](https://edx.org) on [Open edX](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
 
-You can find me at:
+You can **find me** at:
 
 - I'm [@nedbat on Twitter][twitter].
 - On [Libera IRC][libera], I'm nedbat in #python.
@@ -119,7 +119,7 @@ You can find me at:
 ]]] -->
 <!-- [[[end]]] -->
 
-My latest [blog][blog] post:
+My latest **[blog][blog]** post:
 
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
@@ -175,7 +175,7 @@ I’ve been continuing the walking I described in Pandemic walks, and have now c
 ]]] -->
 <!-- [[[end]]] -->
 
-I maintain [a few Python packages][ned_pypi], including:
+I maintain a few [**Python packages**][ned_pypi], including:
 
 <!-- [[[cog
     write_package(*pkgs[0])
