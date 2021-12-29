@@ -124,8 +124,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[Load-balanced xdist](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html)**, 11 Dec 2021  
-I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html))*
+- **[Gem: exploding string alternatives](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html)**, 28 Dec 2021  
+Here’s a Python gem: a small bit of Python that uses the power of the language and standard library well. *([read..](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -137,6 +137,8 @@ I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..]
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[Load-balanced xdist](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html)**, 11 Dec 2021  
+I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html))*
 - **[Computing a GitHub Action matrix with cog](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html)**, 7 Nov 2021  
 Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
 - **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)**, 1 Nov 2021  
@@ -145,8 +147,6 @@ There’s a feature request to add a per-file threshold to coverage.py. I didn�
 I had a fun conversation on the Django Chat podcast with Will Vincent and Carlton Gibson. It was a great discussion. *([read..](https://nedbatchelder.com/blog/202110/django_chat_podcast.html))*
 - **[Coverage 6.0](https://nedbatchelder.com/blog/202110/coverage_60.html)**, 4 Oct 2021  
 Coverage.py 6.0 is now available. It’s a major version bump for two reasons: *([read..](https://nedbatchelder.com/blog/202110/coverage_60.html))*
-- **[300 walks](https://nedbatchelder.com/blog/202109/300_walks.html)**, 27 Sep 2021  
-I’ve been continuing the walking I described in Pandemic walks, and have now completed 300 such walks, 1648 miles. Walking new streets every day, but from the same point, actually means walking a lot of the same streets every day. *([read..](https://nedbatchelder.com/blog/202109/300_walks.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
