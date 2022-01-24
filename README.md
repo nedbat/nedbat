@@ -124,8 +124,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
-My cog tool has been having a resurgence of late: a number of people are discovering it’s useful to run a little bit of Python code inside otherwise static files. *([read..](https://nedbatchelder.com/blog/202201/cog_resurgence.html))*
+- **[Refactoring Boston](https://nedbatchelder.com/blog/202201/refactoring_boston.html)**, 23 Jan 2022  
+Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -137,6 +137,8 @@ My cog tool has been having a resurgence of late: a number of people are discove
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
+My cog tool has been having a resurgence of late: a number of people are discovering it’s useful to run a little bit of Python code inside otherwise static files. *([read..](https://nedbatchelder.com/blog/202201/cog_resurgence.html))*
 - **[Gem: exploding string alternatives](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html)**, 28 Dec 2021  
 Here’s a Python gem: a small bit of Python that uses the power of the language and standard library well. *([read..](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html))*
 - **[Load-balanced xdist](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html)**, 11 Dec 2021  
@@ -145,8 +147,6 @@ I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..]
 Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
 - **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)**, 1 Nov 2021  
 There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*
-- **[Django Chat podcast](https://nedbatchelder.com/blog/202110/django_chat_podcast.html)**, 13 Oct 2021  
-I had a fun conversation on the Django Chat podcast with Will Vincent and Carlton Gibson. It was a great discussion. *([read..](https://nedbatchelder.com/blog/202110/django_chat_podcast.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
