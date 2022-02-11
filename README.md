@@ -124,8 +124,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[Refactoring Boston](https://nedbatchelder.com/blog/202201/refactoring_boston.html)**, 23 Jan 2022  
-Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
+- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022  
+Suppose you have some work on a git branch that you started from one branch, and you want to move that work to be based on a different branch, as if you had started from there originally. The git rebase command gives you the tools to do it, but it’s complicated, and I can never remember the details, so I finally figured it out and made an alias to do it. *([read..](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -137,6 +137,8 @@ Boston has undergone many changes. Where did Broadway go? *([read..](https://ned
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[Refactoring Boston](https://nedbatchelder.com/blog/202201/refactoring_boston.html)**, 23 Jan 2022  
+Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
 - **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
 My cog tool has been having a resurgence of late: a number of people are discovering it’s useful to run a little bit of Python code inside otherwise static files. *([read..](https://nedbatchelder.com/blog/202201/cog_resurgence.html))*
 - **[Gem: exploding string alternatives](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html)**, 28 Dec 2021  
@@ -145,8 +147,6 @@ Here’s a Python gem: a small bit of Python that uses the power of the language
 I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html))*
 - **[Computing a GitHub Action matrix with cog](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html)**, 7 Nov 2021  
 Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
-- **[Coverage goals](https://nedbatchelder.com/blog/202111/coverage_goals.html)**, 1 Nov 2021  
-There’s a feature request to add a per-file threshold to coverage.py. I didn’t add the feature, I wrote a proof-of-concept: goals.py. *([read..](https://nedbatchelder.com/blog/202111/coverage_goals.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
