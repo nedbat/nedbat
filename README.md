@@ -124,8 +124,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022  
-Suppose you have some work on a git branch that you started from one branch, and you want to move that work to be based on a different branch, as if you had started from there originally. The git rebase command gives you the tools to do it, but it’s complicated, and I can never remember the details, so I finally figured it out and made an alias to do it. *([read..](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html))*
+- **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb 2022  
+If your mocks aren’t working, it might be because mocks are slippery. Make them strict. *([read..](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -137,6 +137,8 @@ Suppose you have some work on a git branch that you started from one branch, and
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022  
+Suppose you have some work on a git branch that you started from one branch, and you want to move that work to be based on a different branch, as if you had started from there originally. The git rebase command gives you the tools to do it, but it’s complicated, and I can never remember the details, so I finally figured it out and made an alias to do it. *([read..](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html))*
 - **[Refactoring Boston](https://nedbatchelder.com/blog/202201/refactoring_boston.html)**, 23 Jan 2022  
 Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
 - **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
@@ -145,8 +147,6 @@ My cog tool has been having a resurgence of late: a number of people are discove
 Here’s a Python gem: a small bit of Python that uses the power of the language and standard library well. *([read..](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html))*
 - **[Load-balanced xdist](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html)**, 11 Dec 2021  
 I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..](https://nedbatchelder.com/blog/202112/loadbalanced_xdist.html))*
-- **[Computing a GitHub Action matrix with cog](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html)**, 7 Nov 2021  
-Here’s how I used embedded Python code to generate a complex GitHub Action matrix. *([read..](https://nedbatchelder.com/blog/202111/github_action_matrix_with_cog.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
