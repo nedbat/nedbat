@@ -162,6 +162,7 @@ I wrote a pytest plugin to evenly balance tests across xdist workers. *([read..]
     pkgs = [
         # pypi name: (human name, github repo, description),
         ("coverage", "Coverage.py", "nedbat/coveragepy", "the code coverage tool for Python"),
+        ("dinghy", "Dinghy", "nedbat/dinghy", "GitHub daily digest maker"),
         ("scriv", "Scriv", "nedbat/scriv", "changelog generator"),
         ("cogapp", "Cog", "nedbat/cog", "small bits of computation for static files"),
         ("aptus", "Aptus", "nedbat/aptus", "Mandelbrot fractal viewer"),
