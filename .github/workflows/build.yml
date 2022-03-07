@@ -6,6 +6,7 @@ on:
     - cron: "30 2 * * *"
   push:
   workflow_dispatch:
+  repository_dispatch:
 
 defaults:
   run:
