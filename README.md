@@ -214,6 +214,16 @@ I maintain a few [**Python packages**][ned_pypi], including:
 
 </details>
 
+<br/>
+<br/>
+
+<!-- [[[cog
+    import datetime
+    when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
+    print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
+]]] -->
+<!-- [[[end]]] -->
+
 [nedbat]: https://nedbatchelder.com
 [blog]: https://nedbatchelder.com/blog
 [twitter]: https://twitter.com/nedbat
