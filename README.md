@@ -220,9 +220,8 @@ I maintain a few [**Python packages**][ned_pypi], including:
 <!-- [[[cog
     import datetime
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
-    print(f"*(made with [cog](https://github.com/nedbat/cog) at {when})*")
+    print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-07 11:03)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
