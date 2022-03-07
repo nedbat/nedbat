@@ -125,7 +125,7 @@ My latest **[blog][blog]** post:
     write_blog_post(blogdata["entries"][0])
 ]]] -->
 - **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022  
-I’ve been blogging for 20 years! I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
+I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -222,7 +222,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-07 19:58 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-03-07 20:06 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
