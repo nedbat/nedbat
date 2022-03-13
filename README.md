@@ -161,14 +161,16 @@ My cog tool has been having a resurgence of late: a number of people are discove
 <!-- [[[cog
     pkgs = [
         # pypi name: (human name, github repo, description),
-        ("coverage", "Coverage.py", "nedbat/coveragepy", "the code coverage tool for Python"),
-        ("dinghy", "Dinghy", "nedbat/dinghy", "GitHub daily digest maker"),
-        ("scriv", "Scriv", "nedbat/scriv", "changelog generator"),
-        ("cogapp", "Cog", "nedbat/cog", "small bits of computation for static files"),
-        ("aptus", "Aptus", "nedbat/aptus", "Mandelbrot fractal viewer"),
+        ("coverage", "Coverage.py", "nedbat/coveragepy"),
+        ("dinghy", "Dinghy", "nedbat/dinghy"),
+        ("scriv", "Scriv", "nedbat/scriv"),
+        ("cogapp", "Cog", "nedbat/cog"),
+        ("aptus", "Aptus", "nedbat/aptus"),
     ]
 
-    def write_package(pkg, human, repo, description):
+    def write_package(pkg, human, repo, description=None):
+        if not description:
+            description = requests.get(f"https://api.github.com/repos/{repo}").json()["description"]
         print(f'- [**{human}**](https://github.com/{repo}): {description}  ') # trailing spaces for Markdown line break...
         print(f'  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat "The {pkg} PyPI page")](https://pypi.org/project/{pkg})')
         print(f'  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat "Recent {human.lower()} commits")](https://github.com/{repo}/commits)')
@@ -181,7 +183,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
 <!-- [[[cog
     write_package(*pkgs[0])
 ]]] -->
-- [**Coverage.py**](https://github.com/nedbat/coveragepy): the code coverage tool for Python  
+- [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python  
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
@@ -194,15 +196,15 @@ I maintain a few [**Python packages**][ned_pypi], including:
     for args in pkgs[1:]:
         write_package(*args)
 ]]] -->
-- [**Dinghy**](https://github.com/nedbat/dinghy): GitHub daily digest maker  
+- [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool  
   [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/dinghy?style=flat "Download stats for dinghy")](https://pypistats.org/packages/dinghy)
-- [**Scriv**](https://github.com/nedbat/scriv): changelog generator  
+- [**Scriv**](https://github.com/nedbat/scriv): changelog management tool  
   [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat "Download stats for scriv")](https://pypistats.org/packages/scriv)
-- [**Cog**](https://github.com/nedbat/cog): small bits of computation for static files  
+- [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
@@ -222,7 +224,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-13 13:00 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-03-13 15:26 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
