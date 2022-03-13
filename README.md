@@ -124,8 +124,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022  
-I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
+- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar 2022  
+Dinghy is a tool I wrote to summarize activity on GitHub issues and pull requests. You configure it to look at certain GitHub resources over a recent time period, and it produces a compact digest of what’s been happening: *([read..](https://nedbatchelder.com/blog/202203/dinghy_digests.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -137,6 +137,8 @@ I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. 
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022  
+I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
 - **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb 2022  
 If your mocks aren’t working, it might be because mocks are slippery. Make them strict. *([read..](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html))*
 - **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022  
@@ -145,8 +147,6 @@ Suppose you have some work on a git branch that you started from one branch, and
 Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
 - **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
 My cog tool has been having a resurgence of late: a number of people are discovering it’s useful to run a little bit of Python code inside otherwise static files. *([read..](https://nedbatchelder.com/blog/202201/cog_resurgence.html))*
-- **[Gem: exploding string alternatives](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html)**, 28 Dec 2021  
-Here’s a Python gem: a small bit of Python that uses the power of the language and standard library well. *([read..](https://nedbatchelder.com/blog/202112/gem_exploding_string_alternatives.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -222,7 +222,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-07 20:06 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-03-13 13:00 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
