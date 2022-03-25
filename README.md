@@ -55,6 +55,8 @@ https://onlinepngtools.com/convert-png-to-data-uri
 
 I'm **Ned Batchelder**, a Python software developer and community organizer.
 
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)
+
 <!-- [[[cog
 print(md_badge(
     logo="GitHub", label="\N{HEAVY BLACK HEART}", message="Sponsor me", color="brightgreen",
@@ -224,7 +226,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-13 15:26 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-03-25 08:21 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
