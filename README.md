@@ -126,8 +126,8 @@ My latest **[blog][blog]** post:
 <!-- [[[cog
     write_blog_post(blogdata["entries"][0])
 ]]] -->
-- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar 2022  
-Dinghy is a tool I wrote to summarize activity on GitHub issues and pull requests. You configure it to look at certain GitHub resources over a recent time period, and it produces a compact digest of what’s been happening: *([read..](https://nedbatchelder.com/blog/202203/dinghy_digests.html))*
+- **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr 2022  
+Design patterns are a great way to think about interactions among classes. But the Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -139,6 +139,8 @@ Dinghy is a tool I wrote to summarize activity on GitHub issues and pull request
     # Have to print this from in here to get the spacing right.
     print("- and [many more][blog]..")
 ]]] -->
+- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar 2022  
+Dinghy is a tool I wrote to summarize activity on GitHub issues and pull requests. You configure it to look at certain GitHub resources over a recent time period, and it produces a compact digest of what’s been happening: *([read..](https://nedbatchelder.com/blog/202203/dinghy_digests.html))*
 - **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022  
 I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
 - **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb 2022  
@@ -147,8 +149,6 @@ If your mocks aren’t working, it might be because mocks are slippery. Make the
 Suppose you have some work on a git branch that you started from one branch, and you want to move that work to be based on a different branch, as if you had started from there originally. The git rebase command gives you the tools to do it, but it’s complicated, and I can never remember the details, so I finally figured it out and made an alias to do it. *([read..](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html))*
 - **[Refactoring Boston](https://nedbatchelder.com/blog/202201/refactoring_boston.html)**, 23 Jan 2022  
 Boston has undergone many changes. Where did Broadway go? *([read..](https://nedbatchelder.com/blog/202201/refactoring_boston.html))*
-- **[Cog resurgence](https://nedbatchelder.com/blog/202201/cog_resurgence.html)**, 14 Jan 2022  
-My cog tool has been having a resurgence of late: a number of people are discovering it’s useful to run a little bit of Python code inside otherwise static files. *([read..](https://nedbatchelder.com/blog/202201/cog_resurgence.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -226,7 +226,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-03-25 12:30 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-04-10 13:08 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
