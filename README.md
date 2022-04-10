@@ -127,7 +127,7 @@ My latest **[blog][blog]** post:
     write_blog_post(blogdata["entries"][0])
 ]]] -->
 - **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr 2022  
-Design patterns are a great way to think about interactions among classes. But the Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
+Design patterns are a great way to think about interactions among classes. But the classic Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
 <!-- [[[end]]] -->
 
 <details>
@@ -226,7 +226,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-04-10 13:08 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-04-10 18:49 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
