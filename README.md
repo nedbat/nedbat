@@ -113,46 +113,35 @@ You can **find me** at:
 
     blogdata = requests.get("https://nedbatchelder.com/summary.json").json()
 
-    def write_blog_post(entry):
+    def write_blog_post(entry, twoline=False):
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
-        # Two trailing spaces make a line break in Markdown.
-        print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b %Y}  ")
-        print(f"{entry['description_text']} *([read..]({entry['url']}))*")
+        print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b %Y}", end="")
+        if twoline:
+            # Two trailing spaces make a line break in Markdown.
+            print(f"  \n{entry['description_text']} *([read..]({entry['url']}))*")
+        else:
+            print()
 ]]] -->
 <!-- [[[end]]] -->
 
-My latest **[blog][blog]** post:
+My latest **[blog][blog]** posts:
 
 <!-- [[[cog
-    write_blog_post(blogdata["entries"][0])
+    entries = blogdata["entries"][:6]
+    for i, entry in enumerate(entries):
+        write_blog_post(entry, twoline=(i < 2))
+    print("- and [many more][blog]..")
 ]]] -->
 - **[Python custom formatting](https://nedbatchelder.com/blog/202204/python_custom_formatting.html)**, 14 Apr 2022  
 Python objects can define their own format mini-language. *([read..](https://nedbatchelder.com/blog/202204/python_custom_formatting.html))*
-<!-- [[[end]]] -->
-
-<details>
-<summary><b>More blog posts</b></summary>
-
-<!-- [[[cog
-    for entry in blogdata["entries"][1:6]:
-        write_blog_post(entry)
-    # Have to print this from in here to get the spacing right.
-    print("- and [many more][blog]..")
-]]] -->
 - **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr 2022  
 Design patterns are a great way to think about interactions among classes. But the classic Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
-- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar 2022  
-Dinghy is a tool I wrote to summarize activity on GitHub issues and pull requests. You configure it to look at certain GitHub resources over a recent time period, and it produces a compact digest of what’s been happening: *([read..](https://nedbatchelder.com/blog/202203/dinghy_digests.html))*
-- **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022  
-I’ve been blogging for 20 years! In that time I’ve covered a lot of ground. *([read..](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html))*
-- **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb 2022  
-If your mocks aren’t working, it might be because mocks are slippery. Make them strict. *([read..](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html))*
-- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022  
-Suppose you have some work on a git branch that you started from one branch, and you want to move that work to be based on a different branch, as if you had started from there originally. The git rebase command gives you the tools to do it, but it’s complicated, and I can never remember the details, so I finally figured it out and made an alias to do it. *([read..](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html))*
+- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar 2022
+- **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar 2022
+- **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb 2022
+- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb 2022
 - and [many more][blog]..
 <!-- [[[end]]] -->
-
-</details>
 
 <!--
   ##
@@ -183,21 +172,13 @@ Suppose you have some work on a git branch that you started from one branch, and
 I maintain a few [**Python packages**][ned_pypi], including:
 
 <!-- [[[cog
-    write_package(*pkgs[0])
+    for args in pkgs:
+        write_package(*args)
 ]]] -->
 - [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python  
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-<!-- [[[end]]] -->
-
-<details>
-<summary><b>More of my Python packages</b></summary>
-
-<!-- [[[cog
-    for args in pkgs[1:]:
-        write_package(*args)
-]]] -->
 - [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool  
   [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits)
@@ -216,8 +197,6 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
 
-</details>
-
 <br/>
 <br/>
 
@@ -226,7 +205,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-04-15 03:49 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-04-18 19:01 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
