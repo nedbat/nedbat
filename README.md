@@ -115,7 +115,7 @@ You can **find me** at:
 
     def write_blog_post(entry, twoline=False):
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
-        print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b %Y}", end="")
+        print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b}", end="")
         if twoline:
             # Two trailing spaces make a line break in Markdown.
             print(f"  \n{entry['description_text']} *([read..]({entry['url']}))*")
