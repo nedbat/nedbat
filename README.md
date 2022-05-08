@@ -132,14 +132,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=(i < 2))
     print("- and [many more][blog]..")
 ]]] -->
+- **[Twitter tidbits](https://nedbatchelder.com/blog/202205/twitter_tidbits.html)**, 8 May  
+Lately I’ve been posting Python tidbits on Twitter. It’s been fun finding things that people might not yet know, fitting them into a tweet, and giving them some energy. *([read..](https://nedbatchelder.com/blog/202205/twitter_tidbits.html))*
 - **[Python custom formatting](https://nedbatchelder.com/blog/202204/python_custom_formatting.html)**, 14 Apr  
 Python objects can define their own format mini-language. *([read..](https://nedbatchelder.com/blog/202204/python_custom_formatting.html))*
-- **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr  
-Design patterns are a great way to think about interactions among classes. But the classic Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
+- **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr
 - **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar
 - **[20 years of blogging](https://nedbatchelder.com/blog/202203/20_years_of_blogging.html)**, 7 Mar
 - **[Why your mock still doesn’t work](https://nedbatchelder.com/blog/202202/why_your_mock_still_doesnt_work.html)**, 18 Feb
-- **[Moving a git branch to a new base](https://nedbatchelder.com/blog/202202/moving_a_git_branch_to_a_new_base.html)**, 10 Feb
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -205,7 +205,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-04-18 23:03 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-05-08 13:18 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
