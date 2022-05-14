@@ -128,8 +128,8 @@ My latest **[blog][blog]** posts:
 
 <!-- [[[cog
     entries = blogdata["entries"][:6]
-    for i, entry in enumerate(entries):
-        write_blog_post(entry, twoline=(i < 2))
+    for entry in entries:
+        write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
 - **[Twitter tidbits](https://nedbatchelder.com/blog/202205/twitter_tidbits.html)**, 8 May  
