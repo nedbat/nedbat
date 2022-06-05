@@ -132,6 +132,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Adding a dunder to an object](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html)**, 5 Jun  
+We had a tricky debugging need at work: we wanted to track how an attribute on an object was changing. Here’s the unusual solution we used. *([read..](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html))*
 - **[Custom search keywords](https://nedbatchelder.com/blog/202205/custom_search_keywords.html)**, 26 May  
 Define custom browser search keywords to super-charge your common searches. *([read..](https://nedbatchelder.com/blog/202205/custom_search_keywords.html))*
 - **[Cairo in Jupyter, better](https://nedbatchelder.com/blog/202205/cairo_in_jupyter_better.html)**, 15 May  
@@ -142,8 +144,6 @@ Lately I’ve been posting Python tidbits on Twitter. Here’s a bit about how I
 Python objects can define their own format mini-language. *([read..](https://nedbatchelder.com/blog/202204/python_custom_formatting.html))*
 - **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr  
 Design patterns are a great way to think about interactions among classes. But the classic Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
-- **[Dinghy digests](https://nedbatchelder.com/blog/202203/dinghy_digests.html)**, 13 Mar  
-Dinghy is a tool I wrote to summarize activity on GitHub issues and pull requests. You configure it to look at certain GitHub resources over a recent time period, and it produces a compact digest of what’s been happening: *([read..](https://nedbatchelder.com/blog/202203/dinghy_digests.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -209,7 +209,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-05-26 12:39 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-06-05 15:01 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
