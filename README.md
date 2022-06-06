@@ -167,9 +167,9 @@ Design patterns are a great way to think about interactions among classes. But t
     pkgs = [
         # pypi name: (human name, github repo, description),
         ("coverage", "Coverage.py", "nedbat/coveragepy"),
+        ("cogapp", "Cog", "nedbat/cog"),
         ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("scriv", "Scriv", "nedbat/scriv"),
-        ("cogapp", "Cog", "nedbat/cog"),
         ("aptus", "Aptus", "nedbat/aptus"),
     ]
 
