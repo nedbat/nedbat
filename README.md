@@ -142,6 +142,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[400 walks](https://nedbatchelder.com/blog/202206/400_walks.html)**, 14 Jun  
+Yesterday I did my 400th pandemic walk. These started as a way to get exercise during lockdown with my son Nat, as I wrote about in Pandemic walks (Feb 2021) and 300 walks (Sept 2021). *([read..](https://nedbatchelder.com/blog/202206/400_walks.html))*
 - **[Adding a dunder to an object](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html)**, 5 Jun  
 We had a tricky debugging need at work: we wanted to track how an attribute on an object was changing. Here’s the unusual solution we used. *([read..](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html))*
 - **[Custom search keywords](https://nedbatchelder.com/blog/202205/custom_search_keywords.html)**, 26 May  
@@ -152,8 +154,6 @@ I finally came up with a way I like to create PyCairo drawings in a Jupyter note
 Lately I’ve been posting Python tidbits on Twitter. Here’s a bit about how I make them. *([read..](https://nedbatchelder.com/blog/202205/twitter_tidbits.html))*
 - **[Python custom formatting](https://nedbatchelder.com/blog/202204/python_custom_formatting.html)**, 14 Apr  
 Python objects can define their own format mini-language. *([read..](https://nedbatchelder.com/blog/202204/python_custom_formatting.html))*
-- **[Singleton is a bad idea](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html)**, 10 Apr  
-Design patterns are a great way to think about interactions among classes. But the classic Singleton pattern is bad: you shouldn’t use it and there are better options. *([read..](https://nedbatchelder.com/blog/202204/singleton_is_a_bad_idea.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -219,7 +219,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-06-06 15:12 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-06-14 10:10 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
