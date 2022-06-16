@@ -142,6 +142,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Math factoid of the day: 60](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html)**, 16 Jun  
+60 shows up in lots of places, including Archimedean solids *([read..](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html))*
 - **[400 walks](https://nedbatchelder.com/blog/202206/400_walks.html)**, 14 Jun  
 Yesterday I did my 400th pandemic walk. These started as a way to get exercise during lockdown with my son Nat, as I wrote about in Pandemic walks (Feb 2021) and 300 walks (Sept 2021). *([read..](https://nedbatchelder.com/blog/202206/400_walks.html))*
 - **[Adding a dunder to an object](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html)**, 5 Jun  
@@ -152,8 +154,6 @@ Define custom browser search keywords to super-charge your common searches. *([r
 I finally came up with a way I like to create PyCairo drawings in a Jupyter notebook. *([read..](https://nedbatchelder.com/blog/202205/cairo_in_jupyter_better.html))*
 - **[Twitter tidbits](https://nedbatchelder.com/blog/202205/twitter_tidbits.html)**, 8 May  
 Lately I’ve been posting Python tidbits on Twitter. Here’s a bit about how I make them. *([read..](https://nedbatchelder.com/blog/202205/twitter_tidbits.html))*
-- **[Python custom formatting](https://nedbatchelder.com/blog/202204/python_custom_formatting.html)**, 14 Apr  
-Python objects can define their own format mini-language. *([read..](https://nedbatchelder.com/blog/202204/python_custom_formatting.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -219,7 +219,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-06-14 10:10 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-06-16 11:06 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
