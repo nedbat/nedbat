@@ -142,6 +142,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[The Fall](https://nedbatchelder.com/blog/202207/the_fall.html)**, 13 Jul  
+One moment I was riding my bike; the next thing I remember, I was sitting on the ground talking to an EMT from the ambulance parked nearby. *([read..](https://nedbatchelder.com/blog/202207/the_fall.html))*
 - **[Math factoid of the day: 60](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html)**, 16 Jun  
 60 shows up in lots of places, including Archimedean solids *([read..](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html))*
 - **[400 walks](https://nedbatchelder.com/blog/202206/400_walks.html)**, 14 Jun  
@@ -152,8 +154,6 @@ We had a tricky debugging need at work: we wanted to track how an attribute on a
 Define custom browser search keywords to super-charge your common searches. *([read..](https://nedbatchelder.com/blog/202205/custom_search_keywords.html))*
 - **[Cairo in Jupyter, better](https://nedbatchelder.com/blog/202205/cairo_in_jupyter_better.html)**, 15 May  
 I finally came up with a way I like to create PyCairo drawings in a Jupyter notebook. *([read..](https://nedbatchelder.com/blog/202205/cairo_in_jupyter_better.html))*
-- **[Twitter tidbits](https://nedbatchelder.com/blog/202205/twitter_tidbits.html)**, 8 May  
-Lately I’ve been posting Python tidbits on Twitter. Here’s a bit about how I make them. *([read..](https://nedbatchelder.com/blog/202205/twitter_tidbits.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -219,7 +219,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-07-12 04:06 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-07-14 03:57 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
