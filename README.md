@@ -142,6 +142,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Truchet images](https://nedbatchelder.com/blog/202208/truchet_images.html)**, 17 Aug  
+Hacking around with Truchet tiles to display images *([read..](https://nedbatchelder.com/blog/202208/truchet_images.html))*
 - **[Fall fallout](https://nedbatchelder.com/blog/202207/fall_fallout.html)**, 30 Jul  
 More about my bike fall since I wrote about it two weeks ago. *([read..](https://nedbatchelder.com/blog/202207/fall_fallout.html))*
 - **[The Fall](https://nedbatchelder.com/blog/202207/the_fall.html)**, 13 Jul  
@@ -152,8 +154,6 @@ One moment I was riding my bike; the next thing I remember, I was sitting on the
 Yesterday I did my 400th pandemic walk. These started as a way to get exercise during lockdown with my son Nat, as I wrote about in Pandemic walks (Feb 2021) and 300 walks (Sept 2021). *([read..](https://nedbatchelder.com/blog/202206/400_walks.html))*
 - **[Adding a dunder to an object](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html)**, 5 Jun  
 We had a tricky debugging need at work: we wanted to track how an attribute on an object was changing. Here’s the unusual solution we used. *([read..](https://nedbatchelder.com/blog/202206/adding_a_dunder_to_an_object.html))*
-- **[Custom search keywords](https://nedbatchelder.com/blog/202205/custom_search_keywords.html)**, 26 May  
-Define custom browser search keywords to super-charge your common searches. *([read..](https://nedbatchelder.com/blog/202205/custom_search_keywords.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -219,7 +219,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-08-03 04:03 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-08-17 23:08 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
