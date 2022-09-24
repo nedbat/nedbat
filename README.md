@@ -149,6 +149,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Truchet backgrounds](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html)**, 23 Sep  
+Abstract but engaging backgrounds made with custom Truchet tiles *([read..](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html))*
 - **[Making a coverage badge](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html)**, 19 Sep  
 This is a sketch of how to use GitHub actions to get a total combined coverage number, and create a badge for your README. *([read..](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html))*
 - **[Stilted](https://nedbatchelder.com/blog/202208/stilted.html)**, 27 Aug  
@@ -159,8 +161,6 @@ Hacking around with Truchet tiles to display images *([read..](https://nedbatche
 More about my bike fall since I wrote about it two weeks ago. *([read..](https://nedbatchelder.com/blog/202207/fall_fallout.html))*
 - **[The Fall](https://nedbatchelder.com/blog/202207/the_fall.html)**, 13 Jul  
 One moment I was riding my bike; the next thing I remember, I was sitting on the ground talking to an EMT from the ambulance parked nearby. *([read..](https://nedbatchelder.com/blog/202207/the_fall.html))*
-- **[Math factoid of the day: 60](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html)**, 16 Jun  
-60 shows up in lots of places, including Archimedean solids *([read..](https://nedbatchelder.com/blog/202206/math_factoid_of_the_day_60.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -229,7 +229,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-09-19 11:30 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-09-24 04:23 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
