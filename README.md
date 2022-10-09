@@ -149,6 +149,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Decorator shortcuts](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html)**, 8 Oct  
+When using many decorators in code, there’s a shortcut you can use if you find yourself repeating them. They can be assigned to a variable just like any other Python expression. *([read..](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html))*
 - **[Truchet backgrounds](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html)**, 23 Sep  
 Abstract but engaging backgrounds made with custom Truchet tiles *([read..](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html))*
 - **[Making a coverage badge](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html)**, 19 Sep  
@@ -159,8 +161,6 @@ For fun this summer, I implemented part of the PostScript language, using PyCair
 Hacking around with Truchet tiles to display images *([read..](https://nedbatchelder.com/blog/202208/truchet_images.html))*
 - **[Fall fallout](https://nedbatchelder.com/blog/202207/fall_fallout.html)**, 30 Jul  
 More about my bike fall since I wrote about it two weeks ago. *([read..](https://nedbatchelder.com/blog/202207/fall_fallout.html))*
-- **[The Fall](https://nedbatchelder.com/blog/202207/the_fall.html)**, 13 Jul  
-One moment I was riding my bike; the next thing I remember, I was sitting on the ground talking to an EMT from the ambulance parked nearby. *([read..](https://nedbatchelder.com/blog/202207/the_fall.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -229,7 +229,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-10-08 15:54 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-10-09 04:12 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
