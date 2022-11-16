@@ -118,6 +118,7 @@ print(md_badge(
 You can **find me** at:
 
 - I'm [@nedbat on Twitter][twitter].
+- On Mastodon I'm [@nedbat@hachyderm.io][mastodon].
 - On [Libera IRC][libera], I'm nedbat in #python.
 - I'm sometimes in the [Python Discord][discord].
 
@@ -235,6 +236,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
 [nedbat]: https://nedbatchelder.com
 [blog]: https://nedbatchelder.com/blog
 [twitter]: https://twitter.com/nedbat
+[mastodon]: https://hachyderm.io/@nedbat
 [discord]: https://pythondiscord.com
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com
