@@ -160,6 +160,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Secure maintainer workflow](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html)**, 21 Nov  
+I’m trying to establish a more secure workflow for maintaining public packages. *([read..](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html))*
 - **[Ideal open source](https://nedbatchelder.com/blog/202210/ideal_open_source.html)**, 29 Oct  
 DHH says we can choose our purpose in open source. I don’t feel all the freedom he describes. *([read..](https://nedbatchelder.com/blog/202210/ideal_open_source.html))*
 - **[Decorator shortcuts](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html)**, 8 Oct  
@@ -170,8 +172,6 @@ Abstract but engaging backgrounds made with custom Truchet tiles. *([read..](htt
 This is a sketch of how to use GitHub actions to get a total combined coverage number, and create a badge for your README. *([read..](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html))*
 - **[Stilted](https://nedbatchelder.com/blog/202208/stilted.html)**, 27 Aug  
 For fun this summer, I implemented part of the PostScript language, using PyCairo for rendering. I call it Stilted. *([read..](https://nedbatchelder.com/blog/202208/stilted.html))*
-- **[Truchet images](https://nedbatchelder.com/blog/202208/truchet_images.html)**, 17 Aug  
-Hacking around with Truchet tiles to display images. *([read..](https://nedbatchelder.com/blog/202208/truchet_images.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -240,7 +240,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-11-16 09:11 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-11-21 11:30 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
