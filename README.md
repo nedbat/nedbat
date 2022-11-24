@@ -65,12 +65,19 @@ https://onlinepngtools.com/convert-png-to-data-uri
             text=f"Follow @{handle} on Twitter", link=f"https://twitter.com/{handle}",
         )
 
+    def md_dynamic_badge(url, query, **kwargs):
+        qargs = {
+            "url": url,
+            "query": query,
+            "label": kwargs.pop("label"),
+        }
+        return md_badge(url="/badge/dynamic/json", qargs=qargs, **kwargs)
+
     def md_badge_mastodon(server, handle):
         # from: https://github.com/badges/shields/issues/4492#issuecomment-1297165535
-        return md_badge(
-            url=f"/badge/dynamic/json",
-            qargs={"label": "Mastodon", "query": "totalItems", "url": f"https://{server}/users/{handle}/followers.json"},
-            logo="mastodon", color="b6c3d0", label_color="450657",
+        return md_dynamic_badge(
+            url=f"https://{server}/users/{handle}/followers.json", query="totalItems",
+            label="Mastodon", logo="mastodon", color="b6c3d0", label_color="450657",
             text=f"Follow @{handle} on Mastodon", link=f"https://{server}/@{handle}",
         )
 
@@ -246,7 +253,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-11-24 07:36 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-11-24 09:04 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
