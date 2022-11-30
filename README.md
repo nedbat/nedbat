@@ -95,7 +95,7 @@ print(md_badge(
     logo=pencil_icon, logo_color="white", label_color="eeeeee", message="Blog etc", color="888888", 
     text="Read my blog", link="https://nedbatchelder.com",
 ))
-print(md_badge_mastodon("nedbat.com", "nedbat"))
+print(md_badge_mastodon("hachyderm.io", "nedbat"))
 print(md_badge_twitter("nedbat"))
 print(md_badge(
     logo="meetup", logo_color="red", label_color="eeeeee", message="Boston Python", color="4d7954",
