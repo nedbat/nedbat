@@ -129,7 +129,7 @@ print(md_badge(
 [![Join us at Boston Python](https://img.shields.io/badge/-Boston%20Python-4d7954?style=flat&labelColor=eeeeee&logo=meetup&logoColor=red&link=https%3A%2F%2Fabout.bostonpython.com "Join us at Boston Python")](https://about.bostonpython.com)
 [![Python Discord](https://img.shields.io/badge/-Discord-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2Fpython "Python Discord")](https://discord.gg/python)
 [![Sponsor me on GitHub](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub&link=https%3A%2F%2Fgithub.com%2Fsponsors%2Fnedbat "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
-[![Stack Overflow reputation](https://img.shields.io/badge/-355k%20%F0%9F%9F%A1%E2%80%8972%20%E2%9A%AA%E2%80%89557%20%F0%9F%9F%A4%E2%80%89652-e6873e?style=flat&labelColor=333333&logo=stackoverflow&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F14343%2Fned-batchelder "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
+[![Stack Overflow reputation](https://img.shields.io/badge/-355k%20%F0%9F%9F%A1%E2%80%8972%20%E2%9A%AA%E2%80%89557%20%F0%9F%9F%A4%E2%80%89653-e6873e?style=flat&labelColor=333333&logo=stackoverflow&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F14343%2Fned-batchelder "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
 [![My PyPI packages](https://img.shields.io/badge/-PyPI%20packages-4B8BBE?style=flat&labelColor=306998&logo=python&logoColor=FFE873&link=https%3A%2F%2Fpypi.org%2Fuser%2Fnedbatchelder "My PyPI packages")](https://pypi.org/user/nedbatchelder)
 <!-- [[[end]]] -->
 
@@ -173,6 +173,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Secure maintainer workflow, continued](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html)**, 22 Dec  
+Picking up from Secure maintainer workflow, especially the comments there (thanks!), here are some more things I’m doing to keep my maintainer workflow safe. *([read..](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html))*
 - **[Mastodon: servers, good and bad](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html)**, 27 Nov  
 Like many people these days, I’m looking around at alternatives to Twitter, and Mastodon is a clear favorite. Comparing the two, the big differences, both good and bad, come down to servers. *([read..](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html))*
 - **[Secure maintainer workflow](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html)**, 21 Nov  
@@ -183,8 +185,6 @@ DHH says we can choose our purpose in open source. I don’t feel all the freedo
 When using many decorators in code, there’s a shortcut you can use if you find yourself repeating them. They can be assigned to a variable just like any other Python expression. *([read..](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html))*
 - **[Truchet backgrounds](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html)**, 23 Sep  
 Abstract but engaging backgrounds made with custom Truchet tiles. *([read..](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html))*
-- **[Making a coverage badge](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html)**, 19 Sep  
-This is a sketch of how to use GitHub actions to get a total combined coverage number, and create a badge for your README. *([read..](https://nedbatchelder.com/blog/202209/making_a_coverage_badge.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -253,7 +253,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-12-19 20:27 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-12-23 02:49 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
