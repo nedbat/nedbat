@@ -173,6 +173,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Talk Python to Me: Tools for README](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html)**, 26 Dec  
+Michael Kennedy invited me on his podcast to chat about a round-up of tools for README maintenance and other similar project automation: Talk Python to Me #395: Tools for README.md Creation and Maintenance. *([read..](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html))*
 - **[Secure maintainer workflow, continued](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html)**, 22 Dec  
 Picking up from Secure maintainer workflow, especially the comments there (thanks!), here are some more things I’m doing to keep my maintainer workflow safe. *([read..](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html))*
 - **[Mastodon: servers, good and bad](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html)**, 27 Nov  
@@ -183,8 +185,6 @@ I’m trying to establish a more secure workflow for maintaining public packages
 DHH says we can choose our purpose in open source. I don’t feel all the freedom he describes. *([read..](https://nedbatchelder.com/blog/202210/ideal_open_source.html))*
 - **[Decorator shortcuts](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html)**, 8 Oct  
 When using many decorators in code, there’s a shortcut you can use if you find yourself repeating them. They can be assigned to a variable just like any other Python expression. *([read..](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html))*
-- **[Truchet backgrounds](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html)**, 23 Sep  
-Abstract but engaging backgrounds made with custom Truchet tiles. *([read..](https://nedbatchelder.com/blog/202209/truchet_backgrounds.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -253,7 +253,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-12-25 02:50 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2022-12-26 15:02 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
