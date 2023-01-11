@@ -173,6 +173,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Same words, different meanings](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html)**, 10 Jan  
+One of the difficulties when comparing programming languages is that they sometimes use the same words to describe similar things, but always with differences. Sometimes the differences are large enough that we want to use different words, but often they are not. *([read..](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html))*
 - **[Talk Python to Me: Tools for README](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html)**, 26 Dec  
 Michael Kennedy invited me on his podcast to chat about a round-up of tools for README maintenance and other similar project automation: Talk Python to Me #395: Tools for README.md Creation and Maintenance. *([read..](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html))*
 - **[Secure maintainer workflow, continued](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html)**, 22 Dec  
@@ -183,8 +185,6 @@ Like many people these days, I’m looking around at alternatives to Twitter, an
 I’m trying to establish a more secure workflow for maintaining public packages. *([read..](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html))*
 - **[Ideal open source](https://nedbatchelder.com/blog/202210/ideal_open_source.html)**, 29 Oct  
 DHH says we can choose our purpose in open source. I don’t feel all the freedom he describes. *([read..](https://nedbatchelder.com/blog/202210/ideal_open_source.html))*
-- **[Decorator shortcuts](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html)**, 8 Oct  
-When using many decorators in code, there’s a shortcut you can use if you find yourself repeating them. They can be assigned to a variable just like any other Python expression. *([read..](https://nedbatchelder.com/blog/202210/decorator_shortcuts.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -253,7 +253,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2022-12-29 02:49 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-01-11 01:27 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
