@@ -13,9 +13,24 @@ https://onlinepngtools.com/convert-png-to-data-uri
 
 <!-- [[[cog
     import datetime
+    import sys
+    import time
     from urllib.parse import quote, urlencode
 
     import requests
+
+    def requests_get_json(url):
+        """Get JSON data from a URL, with retries."""
+        for _ in range(3):
+            resp = requests.get(url)
+            if resp.status_code == 200:
+                break
+            print(f"{resp.status_code} from {url}:", file=sys.stderr)
+            print(resp.text, file=sys.stderr)
+            time.sleep(1)
+        else:
+            raise Exception(f"Couldn't get data from {url}")
+        return resp.json()
 
     def shields_url(
         url=None,
@@ -109,7 +124,7 @@ print(md_badge(
     logo="GitHub", label="\N{HEAVY BLACK HEART}", message="Sponsor me", color="brightgreen",
     text="Sponsor me on GitHub", link="https://github.com/sponsors/nedbat",
 ))
-so_data = requests.get("https://api.stackexchange.com/2.3/users/14343?order=desc&sort=reputation&site=stackoverflow").json()["items"][0]
+so_data = requests_get_json("https://api.stackexchange.com/2.3/users/14343?order=desc&sort=reputation&site=stackoverflow")["items"][0]
 repk = round(so_data["reputation"], -3) // 1000
 gold = so_data["badge_counts"]["gold"]
 silver = so_data["badge_counts"]["silver"]
@@ -152,7 +167,7 @@ You can **find me** at:
   -->
 
 <!-- [[[cog
-    blogdata = requests.get("https://nedbatchelder.com/summary.json").json()
+    blogdata = requests_get_json("https://nedbatchelder.com/summary.json")
 
     def write_blog_post(entry, twoline=False):
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
@@ -206,7 +221,7 @@ DHH says we can choose our purpose in open source. I don’t feel all the freedo
 
     def write_package(pkg, human, repo, twitter=None, description=None):
         if not description:
-            description = requests.get(f"https://api.github.com/repos/{repo}").json()["description"]
+            description = requests_get_json(f"https://api.github.com/repos/{repo}")["description"]
         print(f'- [**{human}**](https://github.com/{repo}): {description}  ') # trailing spaces for Markdown line break...
         print(f'  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat "The {pkg} PyPI page")](https://pypi.org/project/{pkg})')
         print(f'  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat "Recent {human.lower()} commits")](https://github.com/{repo}/commits)')
@@ -253,7 +268,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-01-11 01:27 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-01-14 08:57 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
