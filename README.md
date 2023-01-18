@@ -13,6 +13,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
 
 <!-- [[[cog
     import datetime
+    import os
     import sys
     import time
     from urllib.parse import quote, urlencode
@@ -21,8 +22,13 @@ https://onlinepngtools.com/convert-png-to-data-uri
 
     def requests_get_json(url):
         """Get JSON data from a URL, with retries."""
+        headers = {}
+        token = os.environ.get("GITHUB_TOKEN", "")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+
         for _ in range(3):
-            resp = requests.get(url)
+            resp = requests.get(url, headers=headers)
             if resp.status_code == 200:
                 break
             print(f"{resp.status_code} from {url}:", file=sys.stderr)
