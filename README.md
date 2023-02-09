@@ -98,8 +98,6 @@ https://onlinepngtools.com/convert-png-to-data-uri
         return md_image(src=shields_url(**kwargs), text=kwargs["text"], link=kwargs["link"])
 
     def md_badge_twitter(handle):
-        # Twitter API shutdown means this doesn't work anymore.
-        return ""
         return md_badge(
             url=f"/twitter/follow/{handle}.svg", label=f"@{handle}",
             logo="twitter", logo_color="white", label_color="1ca0f1",
@@ -139,7 +137,7 @@ print(md_badge(
     text="Read my blog", link="https://nedbatchelder.com",
 ))
 print(md_badge_mastodon("hachyderm.io", "nedbat"))
-print(md_badge_twitter("nedbat"))
+#print(md_badge_twitter("nedbat"))
 print(md_badge(
     logo="meetup", logo_color="red", label_color="eeeeee", message="Boston Python", color="4d7954",
     text="Join us at Boston Python", link="https://about.bostonpython.com",
@@ -254,8 +252,8 @@ I’m trying to establish a more secure workflow for maintaining public packages
         print(f'  [![PyPI](https://img.shields.io/pypi/v/{pkg}?style=flat "The {pkg} PyPI page")](https://pypi.org/project/{pkg})')
         print(f'  [![GitHub last commit](https://img.shields.io/github/last-commit/{repo}?logo=github&style=flat "Recent {human.lower()} commits")](https://github.com/{repo}/commits)')
         print(f'  [![PyPI - Downloads](https://img.shields.io/pypi/dm/{pkg}?style=flat "Download stats for {pkg}")](https://pypistats.org/packages/{pkg})')
-        if twitter:
-            print('  ', md_badge_twitter(twitter), sep='')
+        #if twitter:
+        #    print('  ', md_badge_twitter(twitter), sep='')
 ]]] -->
 <!-- [[[end]]] -->
 
