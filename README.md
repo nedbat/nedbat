@@ -98,6 +98,8 @@ https://onlinepngtools.com/convert-png-to-data-uri
         return md_image(src=shields_url(**kwargs), text=kwargs["text"], link=kwargs["link"])
 
     def md_badge_twitter(handle):
+        # Twitter API shutdown means this doesn't work anymore.
+        return ""
         return md_badge(
             url=f"/twitter/follow/{handle}.svg", label=f"@{handle}",
             logo="twitter", logo_color="white", label_color="1ca0f1",
