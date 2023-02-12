@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Late initialization with mypy](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html)**, 12 Feb  
+Let’s say you have a complex class with a number of attributes. The class is used in a few different ways, so sometimes the attributes are available, but sometimes they haven’t been initialized yet. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html))*
 - **[Scriv 1.2: create GitHub releases](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html)**, 18 Jan  
 I’ve been adding to scriv, my changelog management tool. The latest release is 1.2.0, with improvements to creating GitHub releases. *([read..](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html))*
 - **[Same words, different meanings](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html)**, 10 Jan  
@@ -217,8 +219,6 @@ Michael Kennedy invited me on his podcast to chat about a round-up of tools for 
 Picking up from Secure maintainer workflow, especially the comments there (thanks!), here are some more things I’m doing to keep my maintainer workflow safe. *([read..](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html))*
 - **[Mastodon: servers, good and bad](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html)**, 27 Nov  
 Like many people these days, I’m looking around at alternatives to Twitter, and Mastodon is a clear favorite. Comparing the two, the big differences, both good and bad, come down to servers. *([read..](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html))*
-- **[Secure maintainer workflow](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html)**, 21 Nov  
-I’m trying to establish a more secure workflow for maintaining public packages. *([read..](https://nedbatchelder.com/blog/202211/secure_maintainer_workflow.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -283,7 +283,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-02-09 14:06 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-02-12 19:01 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
