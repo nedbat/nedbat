@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Late initialization, reconsidered](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html)**, 14 Feb  
+A few days ago I posted Late initialization with mypy, and people gave me feedback, and I realized they were right. The placebo solution described there is clever, but too clever. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html))*
 - **[Late initialization with mypy](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html)**, 12 Feb  
 Let’s say you have a complex class with a number of attributes. The class is used in a few different ways, so sometimes the attributes are available, but sometimes they haven’t been initialized yet. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html))*
 - **[Scriv 1.2: create GitHub releases](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html)**, 18 Jan  
@@ -217,8 +219,6 @@ One of the difficulties when comparing programming languages is that they someti
 Michael Kennedy invited me on his podcast to chat about a round-up of tools for README maintenance and other similar project automation: Talk Python to Me #395: Tools for README.md Creation and Maintenance. *([read..](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html))*
 - **[Secure maintainer workflow, continued](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html)**, 22 Dec  
 Picking up from Secure maintainer workflow, especially the comments there (thanks!), here are some more things I’m doing to keep my maintainer workflow safe. *([read..](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html))*
-- **[Mastodon: servers, good and bad](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html)**, 27 Nov  
-Like many people these days, I’m looking around at alternatives to Twitter, and Mastodon is a clear favorite. Comparing the two, the big differences, both good and bad, come down to servers. *([read..](https://nedbatchelder.com/blog/202211/mastodon_servers_good_and_bad.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -283,7 +283,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-02-12 19:01 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-02-14 12:46 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
