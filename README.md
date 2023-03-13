@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Watchgha](https://nedbatchelder.com/blog/202303/watchgha.html)**, 13 Mar  
+Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog/202303/watchgha.html))*
 - **[Late initialization, reconsidered](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html)**, 14 Feb  
 A few days ago I posted Late initialization with mypy, and people gave me feedback, and I realized they were right. The placebo solution described there is clever, but too clever. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html))*
 - **[Late initialization with mypy](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html)**, 12 Feb  
@@ -217,8 +219,6 @@ I’ve been adding to scriv, my changelog management tool. The latest release is
 One of the difficulties when comparing programming languages is that they sometimes use the same words to describe similar things, but always with differences. Sometimes the differences are large enough that we want to use different words, but often they are not. *([read..](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html))*
 - **[Talk Python to Me: Tools for README](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html)**, 26 Dec  
 Michael Kennedy invited me on his podcast to chat about a round-up of tools for README maintenance and other similar project automation: Talk Python to Me #395: Tools for README.md Creation and Maintenance. *([read..](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html))*
-- **[Secure maintainer workflow, continued](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html)**, 22 Dec  
-Picking up from Secure maintainer workflow, especially the comments there (thanks!), here are some more things I’m doing to keep my maintainer workflow safe. *([read..](https://nedbatchelder.com/blog/202212/secure_maintainer_workflow_continued.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -259,7 +259,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-67-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-68-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-03-11 02:46 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-03-13 23:04 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
