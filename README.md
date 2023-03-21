@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Beginner sprint on coverage.py](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html)**, 21 Mar  
+I participated in the PyCascades sprint day yesterday, offering up coverage.py as a project. I was pretty sure it wasn’t beginner-friendly, but the sprint was useful because it pointed out specific ways that it was not, and we fixed some of them. *([read..](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html))*
 - **[Watchgha](https://nedbatchelder.com/blog/202303/watchgha.html)**, 13 Mar  
 Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog/202303/watchgha.html))*
 - **[Late initialization, reconsidered](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html)**, 14 Feb  
@@ -217,8 +219,6 @@ Let’s say you have a complex class with a number of attributes. The class is u
 I’ve been adding to scriv, my changelog management tool. The latest release is 1.2.0, with improvements to creating GitHub releases. *([read..](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html))*
 - **[Same words, different meanings](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html)**, 10 Jan  
 One of the difficulties when comparing programming languages is that they sometimes use the same words to describe similar things, but always with differences. Sometimes the differences are large enough that we want to use different words, but often they are not. *([read..](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html))*
-- **[Talk Python to Me: Tools for README](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html)**, 26 Dec  
-Michael Kennedy invited me on his podcast to chat about a round-up of tools for README maintenance and other similar project automation: Talk Python to Me #395: Tools for README.md Creation and Maintenance. *([read..](https://nedbatchelder.com/blog/202212/talk_python_to_me_tools_for_readme.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-03-19 02:58 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-03-21 23:29 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
