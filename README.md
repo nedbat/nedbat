@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[PyCon 2023](https://nedbatchelder.com/blog/202304/pycon_2023.html)**, 26 Apr  
+Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/202304/pycon_2023.html))*
 - **[Beginner sprint on coverage.py](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html)**, 21 Mar  
 I participated in the PyCascades sprint day yesterday, offering up coverage.py as a project. I was pretty sure it wasn’t beginner-friendly, but the sprint was useful because it pointed out specific ways that it was not, and we fixed some of them. *([read..](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html))*
 - **[Watchgha](https://nedbatchelder.com/blog/202303/watchgha.html)**, 13 Mar  
@@ -217,8 +219,6 @@ A few days ago I posted Late initialization with mypy, and people gave me feedba
 Let’s say you have a complex class with a number of attributes. The class is used in a few different ways, so sometimes the attributes are available, but sometimes they haven’t been initialized yet. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html))*
 - **[Scriv 1.2: create GitHub releases](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html)**, 18 Jan  
 I’ve been adding to scriv, my changelog management tool. The latest release is 1.2.0, with improvements to creating GitHub releases. *([read..](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html))*
-- **[Same words, different meanings](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html)**, 10 Jan  
-One of the difficulties when comparing programming languages is that they sometimes use the same words to describe similar things, but always with differences. Sometimes the differences are large enough that we want to use different words, but often they are not. *([read..](https://nedbatchelder.com/blog/202301/same_words_different_meanings.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-04-26 02:43 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-04-26 14:24 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
