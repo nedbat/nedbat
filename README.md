@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[PyCon 2023 keynote](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html)**, 4 May  
+I gave a keynote at PyCon 2023! *([read..](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html))*
 - **[PyCon 2023](https://nedbatchelder.com/blog/202304/pycon_2023.html)**, 26 Apr  
 Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/202304/pycon_2023.html))*
 - **[Beginner sprint on coverage.py](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html)**, 21 Mar  
@@ -217,8 +219,6 @@ Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog
 A few days ago I posted Late initialization with mypy, and people gave me feedback, and I realized they were right. The placebo solution described there is clever, but too clever. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html))*
 - **[Late initialization with mypy](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html)**, 12 Feb  
 Let’s say you have a complex class with a number of attributes. The class is used in a few different ways, so sometimes the attributes are available, but sometimes they haven’t been initialized yet. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html))*
-- **[Scriv 1.2: create GitHub releases](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html)**, 18 Jan  
-I’ve been adding to scriv, my changelog management tool. The latest release is 1.2.0, with improvements to creating GitHub releases. *([read..](https://nedbatchelder.com/blog/202301/scriv_12_create_github_releases.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-05-02 02:39 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-05-04 10:23 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
