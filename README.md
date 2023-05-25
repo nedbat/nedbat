@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Scriv on Test & Code](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html)**, 25 May  
+Brian Okken and I recorded a podcast about my scriv project and other adjacent topics: Avoid merge conflicts on your CHANGELOG with “scriv”. *([read..](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html))*
 - **[PyCon 2023 keynote](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html)**, 4 May  
 I gave a keynote at PyCon 2023! *([read..](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html))*
 - **[PyCon 2023](https://nedbatchelder.com/blog/202304/pycon_2023.html)**, 26 Apr  
@@ -217,8 +219,6 @@ I participated in the PyCascades sprint day yesterday, offering up coverage.py a
 Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog/202303/watchgha.html))*
 - **[Late initialization, reconsidered](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html)**, 14 Feb  
 A few days ago I posted Late initialization with mypy, and people gave me feedback, and I realized they were right. The placebo solution described there is clever, but too clever. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html))*
-- **[Late initialization with mypy](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html)**, 12 Feb  
-Let’s say you have a complex class with a number of attributes. The class is used in a few different ways, so sometimes the attributes are available, but sometimes they haven’t been initialized yet. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_with_mypy.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-05-25 02:38 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-05-25 13:30 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
