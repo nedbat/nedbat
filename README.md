@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Multi-syntax configuration examples](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html)**, 5 Jun  
+How I used cog to let Coverage.py docs show configuration file example in all their different syntaxes. *([read..](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html))*
 - **[Scriv on Test & Code](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html)**, 25 May  
 Brian Okken and I recorded a podcast about my scriv project and other adjacent topics: Avoid merge conflicts on your CHANGELOG with “scriv”. *([read..](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html))*
 - **[PyCon 2023 keynote](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html)**, 4 May  
@@ -217,8 +219,6 @@ Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/2
 I participated in the PyCascades sprint day yesterday, offering up coverage.py as a project. I was pretty sure it wasn’t beginner-friendly, but the sprint was useful because it pointed out specific ways that it was not, and we fixed some of them. *([read..](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html))*
 - **[Watchgha](https://nedbatchelder.com/blog/202303/watchgha.html)**, 13 Mar  
 Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog/202303/watchgha.html))*
-- **[Late initialization, reconsidered](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html)**, 14 Feb  
-A few days ago I posted Late initialization with mypy, and people gave me feedback, and I realized they were right. The placebo solution described there is clever, but too clever. *([read..](https://nedbatchelder.com/blog/202302/late_initialization_reconsidered.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-06-05 02:46 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-06-06 01:06 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
