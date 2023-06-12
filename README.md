@@ -207,6 +207,8 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Special Olympics swimming](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html)**, 11 Jun  
+The Special Olympics swimming season ended this weekend with the Massachusetts state games. I am a coach on my son Nat’s swim team, and it is one of my favorite things in the world. *([read..](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html))*
 - **[Multi-syntax configuration examples](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html)**, 5 Jun  
 How I used cog to let Coverage.py docs show configuration file example in all their different syntaxes. *([read..](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html))*
 - **[Scriv on Test & Code](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html)**, 25 May  
@@ -217,8 +219,6 @@ I gave a keynote at PyCon 2023! *([read..](https://nedbatchelder.com/blog/202305
 Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/202304/pycon_2023.html))*
 - **[Beginner sprint on coverage.py](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html)**, 21 Mar  
 I participated in the PyCascades sprint day yesterday, offering up coverage.py as a project. I was pretty sure it wasn’t beginner-friendly, but the sprint was useful because it pointed out specific ways that it was not, and we fixed some of them. *([read..](https://nedbatchelder.com/blog/202303/beginner_sprint_on_coveragepy.html))*
-- **[Watchgha](https://nedbatchelder.com/blog/202303/watchgha.html)**, 13 Mar  
-Watch GitHub actions until they finish *([read..](https://nedbatchelder.com/blog/202303/watchgha.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -286,7 +286,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-06-11 02:55 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-06-12 02:47 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
