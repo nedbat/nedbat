@@ -170,7 +170,7 @@ print(md_badge(
 
 
 - My personal site is [https://nedbatchelder.com][nedbat].
-- I work at [2U/edX](https://edx.org) on [Open edX](https://openedx.org).
+- I work at [2U/edX](https://edx.org) on the [Open edX project](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
 
 You can **find me** at:
