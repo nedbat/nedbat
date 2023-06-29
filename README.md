@@ -164,7 +164,7 @@ print(md_badge(
 [![Join us at Boston Python](https://img.shields.io/badge/-Boston%20Python-4d7954?style=flat&labelColor=eeeeee&logo=meetup&logoColor=red&link=https%3A%2F%2Fabout.bostonpython.com "Join us at Boston Python")](https://about.bostonpython.com)
 [![Python Discord](https://img.shields.io/badge/-Discord-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2Fpython "Python Discord")](https://discord.gg/python)
 [![Sponsor me on GitHub](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub&link=https%3A%2F%2Fgithub.com%2Fsponsors%2Fnedbat "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
-[![Stack Overflow reputation](https://img.shields.io/badge/-363k%20%F0%9F%9F%A1%E2%80%8973%20%E2%9A%AA%E2%80%89560%20%F0%9F%9F%A4%E2%80%89658-e6873e?style=flat&labelColor=333333&logo=stackoverflow&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F14343%2Fned-batchelder "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
+[![Stack Overflow reputation](https://img.shields.io/badge/-363k%20%F0%9F%9F%A1%E2%80%8973%20%E2%9A%AA%E2%80%89560%20%F0%9F%9F%A4%E2%80%89659-e6873e?style=flat&labelColor=333333&logo=stackoverflow&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F14343%2Fned-batchelder "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
 [![My PyPI packages](https://img.shields.io/badge/-PyPI%20packages-4B8BBE?style=flat&labelColor=306998&logo=python&logoColor=FFE873&link=https%3A%2F%2Fpypi.org%2Fuser%2Fnedbatchelder "My PyPI packages")](https://pypi.org/user/nedbatchelder)
 <!-- [[[end]]] -->
 
@@ -202,7 +202,8 @@ You can **find me** at:
 My latest **[blog][blog]** posts:
 
 <!-- [[[cog
-    entries = blogdata["entries"][:6]
+    N_ENTRIES = 4
+    entries = blogdata["entries"][:N_ENTRIES]
     for entry in entries:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
@@ -215,10 +216,6 @@ The Special Olympics swimming season ended this weekend with the Massachusetts s
 How I used cog to let Coverage.py docs show configuration file example in all their different syntaxes. *([read..](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html))*
 - **[Scriv on Test & Code](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html)**, 25 May  
 Brian Okken and I recorded a podcast about my scriv project and other adjacent topics: Avoid merge conflicts on your CHANGELOG with “scriv”. *([read..](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html))*
-- **[PyCon 2023 keynote](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html)**, 4 May  
-I gave a keynote at PyCon 2023! *([read..](https://nedbatchelder.com/blog/202305/pycon_2023_keynote.html))*
-- **[PyCon 2023](https://nedbatchelder.com/blog/202304/pycon_2023.html)**, 26 Apr  
-Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/202304/pycon_2023.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -235,6 +232,7 @@ Disjointed reflections on PyCon 2023 *([read..](https://nedbatchelder.com/blog/2
         ("cogapp", "Cog", "nedbat/cog"),
         ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("scriv", "Scriv", "nedbat/scriv"),
+        ("watchgha", "WatchGHA", "nedbat/watchgha"),
         ("aptus", "Aptus", "nedbat/aptus"),
     ]
 
@@ -272,11 +270,40 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat "Download stats for scriv")](https://pypistats.org/packages/scriv)
+- [**WatchGHA**](https://github.com/nedbat/watchgha): Live display of current GitHub action runs  
+  [![PyPI](https://img.shields.io/pypi/v/watchgha?style=flat "The watchgha PyPI page")](https://pypi.org/project/watchgha)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/watchgha?logo=github&style=flat "Recent watchgha commits")](https://github.com/nedbat/watchgha/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/watchgha?style=flat "Download stats for watchgha")](https://pypistats.org/packages/watchgha)
 - [**Aptus**](https://github.com/nedbat/aptus): Mandelbrot fractal viewer  
   [![PyPI](https://img.shields.io/pypi/v/aptus?style=flat "The aptus PyPI page")](https://pypi.org/project/aptus)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat "Recent aptus commits")](https://github.com/nedbat/aptus/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
+
+<!--
+  ##
+  ## OTHER PROJECTS
+  ##
+  -->
+
+I've also made a few informal projects, some mathy art, some small utilities:
+
+- [Flourish](https://github.com/nedbat/flourish) is a harmonograph explorer.
+  [Blog post](https://nedbatchelder.com/blog/202101/flourish.html) and [live site](https://flourish.nedbat.com/).
+- [Stilted](https://github.com/nedbat/stilted) is a toy PostScript implementation.
+  [Blog post](https://nedbatchelder.com/blog/202208/stilted.html).
+- [Truchet images](https://github.com/nedbat/truchet) explores Truchet tiles, and rendering images with them.
+  [Blog post](https://nedbatchelder.com/blog/202208/truchet_images.html).
+- [Gefilte Fish](https://github.com/nedbat/gefilte) is a Python-based DSL for writing Gmail filters.
+  [Blog post](https://nedbatchelder.com/blog/202103/gefilte_fish_gmail_filter_creation.html).
+- [Pydoctor](https://github.com/nedbat/pydoctor) shows details of your Python environment, for troubleshooting.
+- [pkgsample](https://github.com/nedbat/pkgsample), an simple example of how to package a Python project.
+
+<!--
+  ##
+  ## FOOTER
+  ##
+  -->
 
 <br/>
 <br/>
@@ -286,7 +313,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-06-29 02:48 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-06-29 19:53 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
