@@ -208,14 +208,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Untangle your own adventure](https://nedbatchelder.com/blog/202307/untangle_your_own_adventure.html)**, 23 Jul  
+Is there any way to self-guide people through complicated Python set-up? *([read..](https://nedbatchelder.com/blog/202307/untangle_your_own_adventure.html))*
 - **[Math factoid of the day: 61](https://nedbatchelder.com/blog/202306/math_factoid_of_the_day_61.html)**, 16 Jun  
 What’s interesting about 61? *([read..](https://nedbatchelder.com/blog/202306/math_factoid_of_the_day_61.html))*
 - **[Special Olympics swimming](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html)**, 11 Jun  
 The Special Olympics swimming season ended this weekend with the Massachusetts state games. I am a coach on my son Nat’s swim team, and it is one of my favorite things in the world. *([read..](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html))*
 - **[Multi-syntax configuration examples](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html)**, 5 Jun  
 How I used cog to let Coverage.py docs show configuration file example in all their different syntaxes. *([read..](https://nedbatchelder.com/blog/202306/multisyntax_configuration_examples.html))*
-- **[Scriv on Test & Code](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html)**, 25 May  
-Brian Okken and I recorded a podcast about my scriv project and other adjacent topics: Avoid merge conflicts on your CHANGELOG with “scriv”. *([read..](https://nedbatchelder.com/blog/202305/scriv_on_test_code.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -313,7 +313,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-07-20 02:39 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-07-23 11:40 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
