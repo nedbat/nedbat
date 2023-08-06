@@ -208,14 +208,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Alan Kay’s objects and arts](https://nedbatchelder.com/blog/202308/alan_kays_objects_and_arts.html)**, 6 Aug  
+In 1993 (30 years ago!), Alan Kay wrote The early history of Smalltalk, explaining the origins of the language’s ideas, its development, and an assessment of its successes and failures. It’s a thought-provoking piece for a few reasons. *([read..](https://nedbatchelder.com/blog/202308/alan_kays_objects_and_arts.html))*
 - **[Small talk](https://nedbatchelder.com/blog/202307/small_talk.html)**, 28 Jul  
 Small talk can be hard, but helps build connections with people. *([read..](https://nedbatchelder.com/blog/202307/small_talk.html))*
 - **[Untangle your own adventure](https://nedbatchelder.com/blog/202307/untangle_your_own_adventure.html)**, 23 Jul  
 Is there any way to self-guide people through complicated Python set-up? *([read..](https://nedbatchelder.com/blog/202307/untangle_your_own_adventure.html))*
 - **[Math factoid of the day: 61](https://nedbatchelder.com/blog/202306/math_factoid_of_the_day_61.html)**, 16 Jun  
 What’s interesting about 61? *([read..](https://nedbatchelder.com/blog/202306/math_factoid_of_the_day_61.html))*
-- **[Special Olympics swimming](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html)**, 11 Jun  
-The Special Olympics swimming season ended this weekend with the Massachusetts state games. I am a coach on my son Nat’s swim team, and it is one of my favorite things in the world. *([read..](https://nedbatchelder.com/blog/202306/special_olympics_swimming.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -313,7 +313,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-08-06 02:32 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-08-06 20:14 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
