@@ -208,14 +208,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Where did everyone go?](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html)**, 21 Oct  
+It’s been nearly a year since Elon Musk bought and started ruining Twitter. Since then, I’ve been on Mastodon and Bluesky, and I’ve started watching a bunch of RSS feeds I relied on in the days before Twitter. *([read..](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html))*
 - **[The myth of the myth of learning styles](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html)**, 23 Sep  
 “Four different learning styles” has been debunked, but learners still have to learn how they learn, and choose the paths and materials that are right for them. *([read..](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html))*
 - **[Advice to beginners](https://nedbatchelder.com/blog/202309/advice_to_beginners.html)**, 17 Sep  
 I often see questions like, “I’m just starting to learn Python, any advice?” The expected answer is something like “watch this video,” or, “here’s an awesome tutorial,” but more important are some tips about how to learn technology in general. Here are mine: *([read..](https://nedbatchelder.com/blog/202309/advice_to_beginners.html))*
 - **[Hammerspoon](https://nedbatchelder.com/blog/202308/hammerspoon.html)**, 27 Aug  
 For a long time now I’ve displayed a small textual info box in the otherwise unused upper-left corner of my mac screen. It was originally based on GeekTool, but a new laptop got me to re-think it, and now it’s implemented with Hammerspoon. *([read..](https://nedbatchelder.com/blog/202308/hammerspoon.html))*
-- **[Alan Kay’s objects and arts](https://nedbatchelder.com/blog/202308/alan_kays_objects_and_arts.html)**, 6 Aug  
-In 1993 (30 years ago!), Alan Kay wrote The early history of Smalltalk, explaining the origins of the language’s ideas, its development, and an assessment of its successes and failures. It’s a thought-provoking piece for a few reasons. *([read..](https://nedbatchelder.com/blog/202308/alan_kays_objects_and_arts.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -257,7 +257,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-125-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-126-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
@@ -313,7 +313,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-10-18 02:32 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-10-22 02:33 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
