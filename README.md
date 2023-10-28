@@ -208,14 +208,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Reflected energy](https://nedbatchelder.com/blog/202310/reflected_energy.html)**, 28 Oct  
+Find people who add to your energy. Be the kind of person who adds energy to others. *([read..](https://nedbatchelder.com/blog/202310/reflected_energy.html))*
 - **[Where did everyone go?](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html)**, 21 Oct  
 It’s been nearly a year since Elon Musk bought and started ruining Twitter. Since then, I’ve been on Mastodon and Bluesky, and I’ve started watching a bunch of RSS feeds I relied on in the days before Twitter. *([read..](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html))*
 - **[The myth of the myth of learning styles](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html)**, 23 Sep  
 “Four different learning styles” has been debunked, but learners still have to learn how they learn, and choose the paths and materials that are right for them. *([read..](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html))*
 - **[Advice to beginners](https://nedbatchelder.com/blog/202309/advice_to_beginners.html)**, 17 Sep  
 I often see questions like, “I’m just starting to learn Python, any advice?” The expected answer is something like “watch this video,” or, “here’s an awesome tutorial,” but more important are some tips about how to learn technology in general. Here are mine: *([read..](https://nedbatchelder.com/blog/202309/advice_to_beginners.html))*
-- **[Hammerspoon](https://nedbatchelder.com/blog/202308/hammerspoon.html)**, 27 Aug  
-For a long time now I’ve displayed a small textual info box in the otherwise unused upper-left corner of my mac screen. It was originally based on GeekTool, but a new laptop got me to re-think it, and now it’s implemented with Hammerspoon. *([read..](https://nedbatchelder.com/blog/202308/hammerspoon.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -313,7 +313,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-10-22 13:26 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-10-28 16:58 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
