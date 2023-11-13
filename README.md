@@ -216,7 +216,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Debug helpers in coverage.py](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html)**, 12 Nov  
-Debugging in the coverage.py code can be difficult, so I’ve written a lot of helper code to support debugging. I just added some more. *([read..](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html))*
+Specialized code to help you debug your code is really helpful. You should write some. *([read..](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html))*
 - **[Reflected energy](https://nedbatchelder.com/blog/202310/reflected_energy.html)**, 28 Oct  
 Find people who add to your energy. Be the kind of person who adds energy to others. *([read..](https://nedbatchelder.com/blog/202310/reflected_energy.html))*
 - **[Where did everyone go?](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html)**, 21 Oct  
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-11-13 18:32 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-11-13 19:47 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
