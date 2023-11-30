@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Say it again: values not expressions](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html)**, 29 Nov  
+Sometimes you can explain a simple thing for the thousandth time, and come away with a deeper understanding yourself. It happened to me the other day with Python mutable argument default values. *([read..](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html))*
 - **[Debug helpers in coverage.py](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html)**, 12 Nov  
 Specialized code to help you debug your code is really helpful. You should write some. *([read..](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html))*
 - **[Reflected energy](https://nedbatchelder.com/blog/202310/reflected_energy.html)**, 28 Oct  
 Find people who add to your energy. Be the kind of person who adds energy to others. *([read..](https://nedbatchelder.com/blog/202310/reflected_energy.html))*
 - **[Where did everyone go?](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html)**, 21 Oct  
 It’s been nearly a year since Elon Musk bought and started ruining Twitter. Since then, I’ve been on Mastodon and Bluesky, and I’ve started watching a bunch of RSS feeds I relied on in the days before Twitter. *([read..](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html))*
-- **[The myth of the myth of learning styles](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html)**, 23 Sep  
-“Four different learning styles” has been debunked, but learners still have to learn how they learn, and choose the paths and materials that are right for them. *([read..](https://nedbatchelder.com/blog/202309/the_myth_of_the_myth_of_learning_styles.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-11-29 02:35 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-11-30 02:06 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
