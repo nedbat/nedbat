@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Real-world match/case](https://nedbatchelder.com/blog/202312/realworld_matchcase.html)**, 10 Dec  
+A real-world example where Python’s match/case shows its power. *([read..](https://nedbatchelder.com/blog/202312/realworld_matchcase.html))*
 - **[Say it again: values not expressions](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html)**, 29 Nov  
 Sometimes you can explain a simple thing for the thousandth time, and come away with a deeper understanding yourself. It happened to me the other day with Python mutable argument default values. *([read..](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html))*
 - **[Debug helpers in coverage.py](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html)**, 12 Nov  
 Specialized code to help you debug your code is really helpful. You should write some. *([read..](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html))*
 - **[Reflected energy](https://nedbatchelder.com/blog/202310/reflected_energy.html)**, 28 Oct  
 Find people who add to your energy. Be the kind of person who adds energy to others. *([read..](https://nedbatchelder.com/blog/202310/reflected_energy.html))*
-- **[Where did everyone go?](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html)**, 21 Oct  
-It’s been nearly a year since Elon Musk bought and started ruining Twitter. Since then, I’ve been on Mastodon and Bluesky, and I’ve started watching a bunch of RSS feeds I relied on in the days before Twitter. *([read..](https://nedbatchelder.com/blog/202310/where_did_everyone_go.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -264,7 +264,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-144-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-145-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2023-12-10 02:36 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2023-12-10 18:32 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
