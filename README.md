@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Randomly sub-setting test suites](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html)**, 14 Jan  
+I needed to run random subsets of my test suite to narrow down the cause of some mysterious behavior. I didn’t find an existing tool that worked the way I wanted to, so I cobbled something together. *([read..](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html))*
 - **[Coverage.py with sys.monitoring](https://nedbatchelder.com/blog/202312/coveragepy_with_sysmonitoring.html)**, 27 Dec  
 Coverage.py now has experimental support for faster Python execution monitoring in Python 3.12. Please try it out! *([read..](https://nedbatchelder.com/blog/202312/coveragepy_with_sysmonitoring.html))*
 - **[Real-world match/case](https://nedbatchelder.com/blog/202312/realworld_matchcase.html)**, 10 Dec  
 A real-world example where Python’s match/case shows its power. *([read..](https://nedbatchelder.com/blog/202312/realworld_matchcase.html))*
 - **[Say it again: values not expressions](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html)**, 29 Nov  
 Sometimes you can explain a simple thing for the thousandth time, and come away with a deeper understanding yourself. It happened to me the other day with Python mutable argument default values. *([read..](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html))*
-- **[Debug helpers in coverage.py](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html)**, 12 Nov  
-Specialized code to help you debug your code is really helpful. You should write some. *([read..](https://nedbatchelder.com/blog/202311/debug_helpers_in_coveragepy.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-01-09 02:36 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-01-14 17:48 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
