@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[You (probably) don’t need to learn C](https://nedbatchelder.com/blog/202401/you_probably_dont_need_to_learn_c.html)**, 24 Jan  
+I’m tired of this: “You have to learn C so you can understand how a computer really works.” *([read..](https://nedbatchelder.com/blog/202401/you_probably_dont_need_to_learn_c.html))*
 - **[Randomly sub-setting test suites](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html)**, 14 Jan  
 I needed to run random subsets of my test suite to narrow down the cause of some mysterious behavior. I didn’t find an existing tool that worked the way I wanted to, so I cobbled something together. *([read..](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html))*
 - **[Coverage.py with sys.monitoring](https://nedbatchelder.com/blog/202312/coveragepy_with_sysmonitoring.html)**, 27 Dec  
 Coverage.py now has experimental support for faster Python execution monitoring in Python 3.12. Please try it out! *([read..](https://nedbatchelder.com/blog/202312/coveragepy_with_sysmonitoring.html))*
 - **[Real-world match/case](https://nedbatchelder.com/blog/202312/realworld_matchcase.html)**, 10 Dec  
 A real-world example where Python’s match/case shows its power. *([read..](https://nedbatchelder.com/blog/202312/realworld_matchcase.html))*
-- **[Say it again: values not expressions](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html)**, 29 Nov  
-Sometimes you can explain a simple thing for the thousandth time, and come away with a deeper understanding yourself. It happened to me the other day with Python mutable argument default values. *([read..](https://nedbatchelder.com/blog/202311/say_it_again_values_not_expressions.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -264,7 +264,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-168-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-169-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40coveragepy "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-01-22 02:39 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-01-24 15:40 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
