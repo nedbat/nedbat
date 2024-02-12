@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Updated multi-parameter interactive Jupyter notebook](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html)**, 12 Feb  
+A Jupyter notebook with interactive sliders and auto-plotting to run financial simulations *([read..](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html))*
 - **[One way to package Python code right now](https://nedbatchelder.com/blog/202402/one_way_to_package_python_code_right_now.html)**, 10 Feb  
 A simple example of how to package a Python project when you don’t want to get overwhelmed by confusing options. *([read..](https://nedbatchelder.com/blog/202402/one_way_to_package_python_code_right_now.html))*
 - **[I am at liberty](https://nedbatchelder.com/blog/202401/i_am_at_liberty.html)**, 30 Jan  
 As of a few weeks ago, I am between gigs. Riffing on some corporate-speak: “2U and I have mutually determined that 2U is laying me off.” *([read..](https://nedbatchelder.com/blog/202401/i_am_at_liberty.html))*
 - **[You (probably) don’t need to learn C](https://nedbatchelder.com/blog/202401/you_probably_dont_need_to_learn_c.html)**, 24 Jan  
 I’m tired of this: “You have to learn C so you can understand how a computer really works.” *([read..](https://nedbatchelder.com/blog/202401/you_probably_dont_need_to_learn_c.html))*
-- **[Randomly sub-setting test suites](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html)**, 14 Jan  
-I needed to run random subsets of my test suite to narrow down the cause of some mysterious behavior. I didn’t find an existing tool that worked the way I wanted to, so I cobbled something together. *([read..](https://nedbatchelder.com/blog/202401/randomly_subsetting_test_suites.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-02-10 11:54 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-02-12 20:10 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
