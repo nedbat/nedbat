@@ -176,7 +176,7 @@ print(md_badge(
 
 
 - My personal site is [nedbatchelder.com][nedbat].
-- I work at [2U/edX](https://edx.org) on the [Open edX project](https://openedx.org).
+- I'm between gigs. My most recent was at [2U/edX](https://edx.org) working on the [Open edX project](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
 
 You can **find me** at:
