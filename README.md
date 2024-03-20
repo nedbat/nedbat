@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Is this for autistic people?](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html)**, 20 Mar  
+Special Olympics swimming season started this weekend. A new athlete joined us, a young boy I’ll call Bryan. *([read..](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html))*
 - **[Does Python have pointers?](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html)**, 11 Mar  
 People sometimes ask, “Does Python have pointers?” I hate to be the typical senior engineer, but this is one of those questions where the answer is, it depends what you mean by pointer. *([read..](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html))*
 - **[Updated multi-parameter interactive Jupyter notebook](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html)**, 12 Feb  
 A Jupyter notebook with interactive sliders and auto-plotting to run financial simulations *([read..](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html))*
 - **[One way to package Python code right now](https://nedbatchelder.com/blog/202402/one_way_to_package_python_code_right_now.html)**, 10 Feb  
 A simple example of how to package a Python project when you don’t want to get overwhelmed by confusing options. *([read..](https://nedbatchelder.com/blog/202402/one_way_to_package_python_code_right_now.html))*
-- **[I am at liberty](https://nedbatchelder.com/blog/202401/i_am_at_liberty.html)**, 30 Jan  
-As of a few weeks ago, I am between gigs. Riffing on some corporate-speak: “2U and I have mutually determined that 2U is laying me off.” *([read..](https://nedbatchelder.com/blog/202401/i_am_at_liberty.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-03-19 02:32 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-03-20 15:53 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
