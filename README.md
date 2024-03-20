@@ -216,7 +216,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Is this for autistic people?](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html)**, 20 Mar  
-Special Olympics swimming season started this weekend. A new athlete joined us, a young boy I’ll call Bryan. *([read..](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html))*
+Special Olympics swim practices just started. A new young athlete joined us, and he asked a question that has stuck with me: is this for autistic people? *([read..](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html))*
 - **[Does Python have pointers?](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html)**, 11 Mar  
 People sometimes ask, “Does Python have pointers?” I hate to be the typical senior engineer, but this is one of those questions where the answer is, it depends what you mean by pointer. *([read..](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html))*
 - **[Updated multi-parameter interactive Jupyter notebook](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html)**, 12 Feb  
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-03-20 15:53 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-03-20 19:37 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
