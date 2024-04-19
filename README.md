@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[My flexbox layout](https://nedbatchelder.com/blog/202404/my_flexbox_layout.html)**, 19 Apr  
+I recently had to reverse engineer the layout of this site. I created it once upon a time, but had forgotten the details, and to save myself the work five years from now when I have to do it again, I’m noting down what I learned about how it works. *([read..](https://nedbatchelder.com/blog/202404/my_flexbox_layout.html))*
 - **[Try it: function/class coverage report](https://nedbatchelder.com/blog/202404/try_it_functionclass_coverage_report.html)**, 15 Apr  
 I’ve added experimental function and class coverage reports to coverage.py. I’d like feedback about whether they behave the way you want them to. *([read..](https://nedbatchelder.com/blog/202404/try_it_functionclass_coverage_report.html))*
 - **[Is this for autistic people?](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html)**, 20 Mar  
 Special Olympics swim practices just started. A new young athlete joined us, and he asked a question that has stuck with me: is this for autistic people? *([read..](https://nedbatchelder.com/blog/202403/is_this_for_autistic_people.html))*
 - **[Does Python have pointers?](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html)**, 11 Mar  
 People sometimes ask, “Does Python have pointers?” I hate to be the typical senior engineer, but this is one of those questions where the answer is, it depends what you mean by pointer. *([read..](https://nedbatchelder.com/blog/202403/does_python_have_pointers.html))*
-- **[Updated multi-parameter interactive Jupyter notebook](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html)**, 12 Feb  
-A Jupyter notebook with interactive sliders and auto-plotting to run financial simulations *([read..](https://nedbatchelder.com/blog/202402/updated_multiparameter_interactive_jupyter_notebook.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-04-17 02:35 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-04-19 11:09 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
