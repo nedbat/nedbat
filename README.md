@@ -215,14 +215,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Coverage at a crossroads](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html)**, 21 Jun  
+This is an interesting time for coverage.py: I’m trying to make use of new facilities in Python to drastically reduce the execution-time overhead, but it’s raising tricky questions about how coverage should work. *([read..](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html))*
 - **[Math factoid of the day: 62](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html)**, 16 Jun  
 The rhombicosidodecahedron has 62 faces and is more common than you’d think *([read..](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html))*
 - **[One way to fix Python circular imports](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html)**, 28 May  
 Python circular imports can be confusing. Simply using a different form of import can sometimes fix the problem. *([read..](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html))*
 - **[Echos of the People API user guide](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html)**, 22 May  
 A few brief notes on some things that happened at PyCon 2024 *([read..](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html))*
-- **[My flexbox layout](https://nedbatchelder.com/blog/202404/my_flexbox_layout.html)**, 19 Apr  
-I recently had to reverse engineer the layout of this site. I created it once upon a time, but had forgotten the details, and to save myself the work five years from now when I have to do it again, I’m noting down what I learned about how it works. *([read..](https://nedbatchelder.com/blog/202404/my_flexbox_layout.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-06-19 02:39 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-06-21 15:27 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
