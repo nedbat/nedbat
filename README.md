@@ -218,7 +218,7 @@ My latest **[blog][blog]** posts:
 - **[Coverage at a crossroads](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html)**, 21 Jun  
 This is an interesting time for coverage.py: I’m trying to make use of new facilities in Python to drastically reduce the execution-time overhead, but it’s raising tricky questions about how coverage should work. *([read..](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html))*
 - **[Math factoid of the day: 62](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html)**, 16 Jun  
-The rhombicosidodecahedron has 62 faces and is more common than you’d think *([read..](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html))*
+The rhombicosidodecahedron has 62 faces and is more common than you’d think. *([read..](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html))*
 - **[One way to fix Python circular imports](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html)**, 28 May  
 Python circular imports can be confusing. Simply using a different form of import can sometimes fix the problem. *([read..](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html))*
 - **[Echos of the People API user guide](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html)**, 22 May  
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-06-26 02:38 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-06-26 16:04 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
