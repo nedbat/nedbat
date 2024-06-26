@@ -222,7 +222,7 @@ The rhombicosidodecahedron has 62 faces and is more common than you’d think. *
 - **[One way to fix Python circular imports](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html)**, 28 May  
 Python circular imports can be confusing. Simply using a different form of import can sometimes fix the problem. *([read..](https://nedbatchelder.com/blog/202405/one_way_to_fix_python_circular_imports.html))*
 - **[Echos of the People API user guide](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html)**, 22 May  
-A few brief notes on some things that happened at PyCon 2024 *([read..](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html))*
+A few brief notes on some things that happened at PyCon 2024. *([read..](https://nedbatchelder.com/blog/202405/echos_of_the_people_api_user_guide.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -320,7 +320,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-06-26 16:04 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-06-26 16:07 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
