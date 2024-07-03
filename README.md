@@ -134,11 +134,6 @@ print(md_badge(
 ))
 print(md_badge_mastodon("hachyderm.io", "nedbat"))
 print(md_badge(
-    logo="icloud", logo_color="white",
-    message="Bluesky", color="3686f7",
-    text="Follow me on Bluesky", link="https://bsky.app/profile/nedbat.com",
-))
-print(md_badge(
     logo="meetup", logo_color="red", label_color="eeeeee", message="Boston Python", color="4d7954",
     text="Join us at Boston Python", link="https://about.bostonpython.com",
 ))
@@ -160,30 +155,30 @@ print(md_badge(
     text="Stack Overflow reputation", link=so_data["link"],
 ))
 print(md_badge(
-    logo="python", logo_color="FFE873", label_color="306998", message="PyPI packages", color="4B8BBE",
+    logo="python", logo_color="FFE873", label_color="306998", message="PyPI", color="4B8BBE",
     text="My PyPI packages", link="https://pypi.org/user/nedbatchelder",
 ))
 ]]] -->
 [![Read my blog](https://img.shields.io/badge/-Blog%20etc-888888?style=flat&labelColor=eeeeee&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAABpFBMVEX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8AAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8AAAAAAACwsLABAQEBAQEBAQGlpaUCAgICAgIXFxdycnKAgIBVVVSZmZgDAwMQEBANDQ0JCQgCAgIAAAAWFhYAAAAYGBgXFxcVFRUEBAQ5OTkZGRlTU1NqampmZmaAgHxfX198fHyKioqQkJCurqoMDAwFBQQAAAAgIB0QEBARERAjIyMaGhoXFxcVFRUAAAAVFRUXFxcVFRUBAQEnJyc9PT0uLi4tLS0lJSUzMzMtLS1ISEhFRUVERERhYV5XV1cPDw9GRkZWVlY%2FPz5aWlpjY19hYWFaWlojIyNjY2NLS0srKytnZ2c2NjZzc3IKCgqFhYUrKyuNjYDa2toFBQUaGhoXFxcKCgoUFBQcHBwKCgoKCgoAAAAICAEWFhYnJyMAAAAKCgoMDAwAAAAAAAAjIyM2NjYAAAARERExMSkKCgpRUU4bGxtHR0cAAAA%2BPj4oKCdOTkhZWVkFBQVPT086OjpNTUk5OTkBAQFLS0teXlZKSkpQUFBvb241NTUAAABvb294eHgAAACBIqjAAAAAi3RSTlMBBgMHCAACBQT9%2Bw%2F18eoT7efLNCQeF%2Fny8u%2Fk29nW08%2B3eHZYOi8rKCMgGxkH%2BvXz7Ofk4t%2Fc1cfFwLy2spiUjoqFd2VjXVlTUVBMR0ZCPz8%2BOzs3NjEtLB0aCwr%2B9Orq6OXi09LMxr%2B%2Fu7qro5qSj46HhIOAf317dXBtamlhVVBHRDYxKSckHhcWCkdRuAAAArhJREFUSMeV1mdX2zAUBuDrCNlJWIEQ9ipQNi0tpYWyZwuljEILBbr33nvv8f7pxkoT2fg6TvRFOdf3OTrOa9kiYVphU0hBycmQBWSEQgapyaICKcywRcKe7KbdticzCZFqIocT5HSGxxXuA1DVUkCWfdXhpL%2BzUk6NZ8pRXq6pYqEaeKGacnYjSdcjxUYtMJPspRxd6XGgOenIWi8GWskgH0deV96b6l3tR2Q%2BRBlnOZ003G446SrTmX0tQskO6b%2FV4cjtKm8BGNxWzr76BljKyZWrGBq20%2Ff0GWijAEcZB1z%2Fk3LfY4hsZuJwupDT9TYjPW6W2u5HGTBNlHYy2AFDpWR01QGTZBCzXsjheprgHHcKE%2FXAo2QTcU7Hf%2F4Y3ONuIzCudgcTP%2Bv0GDdVUzbX3cC4iVQT5esm073%2BruIo46bSvZSfe5rpJV83yLjnupfUtvA%2Bbp1HGPdSuzC5nczmXjuz5h%2FvjgEvi7S67olYdzi7U1PIuy3aGXfhrdtJYtwVZr13e5wgz3aKX2LcB09mnm0RP8S4WW%2FWtKf0jXHROS5rt9tfy7h5LmsKdAdOsFmTy9X4OCYzcrhVxlWd5J0gXVqp5h3%2F6tTrLV%2F0uqJT3BdeuOJYOsg7%2FhWo41jn3GnfV5mOY8zriv2djiMR9bplf6fjeIXivW7F3%2Bk4%2BgaqOxtdLnYmi9NxLOKh7K53uJKsTscxii1hdl3T7mzgyUCVfkeH7N%2B%2FrmoX%2BIVXcUxjTpW2LitXFg92Ko7duthOqnQuZrv27E7HsYDH%2F0uJMaBuUzvu8dZxyFF8TK33IIr694XsAVY7HcfPCIrWhFwcAYY%2FJUtZ19NxSGMKQE1LI6L3N4TM%2BcBMRl8J7NE%2F0UXaBcUfNslsUwm0%2FLXMQOeO4zZwY7ZPlfJwkjoi974IM28naC3uKOXh%2FgEMt7c2Kju6aAAAAABJRU5ErkJggg%3D%3D&logoColor=white&link=https%3A%2F%2Fnedbatchelder.com "Read my blog")](https://nedbatchelder.com)
 [![Follow @nedbat on Mastodon](https://img.shields.io/badge/%40nedbat-3.3k-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff&link=https%3A%2F%2Fhachyderm.io%2F%40nedbat "Follow @nedbat on Mastodon")](https://hachyderm.io/@nedbat)
-[![Follow me on Bluesky](https://img.shields.io/badge/-Bluesky-3686f7?style=flat&logo=icloud&logoColor=white&link=https%3A%2F%2Fbsky.app%2Fprofile%2Fnedbat.com "Follow me on Bluesky")](https://bsky.app/profile/nedbat.com)
 [![Join us at Boston Python](https://img.shields.io/badge/-Boston%20Python-4d7954?style=flat&labelColor=eeeeee&logo=meetup&logoColor=red&link=https%3A%2F%2Fabout.bostonpython.com "Join us at Boston Python")](https://about.bostonpython.com)
 [![Python Discord](https://img.shields.io/badge/-Discord-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2Fpython "Python Discord")](https://discord.gg/python)
 [![Sponsor me on GitHub](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub&link=https%3A%2F%2Fgithub.com%2Fsponsors%2Fnedbat "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
 [![Stack Overflow reputation](https://img.shields.io/badge/-372k%20%F0%9F%9F%A1%E2%80%8976%20%E2%9A%AA%E2%80%89573%20%F0%9F%9F%A4%E2%80%89669-e6873e?style=flat&labelColor=333333&logo=stackoverflow&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F14343%2Fned-batchelder "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
-[![My PyPI packages](https://img.shields.io/badge/-PyPI%20packages-4B8BBE?style=flat&labelColor=306998&logo=python&logoColor=FFE873&link=https%3A%2F%2Fpypi.org%2Fuser%2Fnedbatchelder "My PyPI packages")](https://pypi.org/user/nedbatchelder)
+[![My PyPI packages](https://img.shields.io/badge/-PyPI-4B8BBE?style=flat&labelColor=306998&logo=python&logoColor=FFE873&link=https%3A%2F%2Fpypi.org%2Fuser%2Fnedbatchelder "My PyPI packages")](https://pypi.org/user/nedbatchelder)
 <!-- [[[end]]] -->
 
 
 - My personal site is [nedbatchelder.com][nedbat].
-- I'm between gigs. My most recent was at [2U/edX](https://edx.org) working on the [Open edX project](https://openedx.org).
 - I'm an organizer of [Boston Python][bp].
+<!--
+- I'm between gigs. My most recent was at [2U/edX](https://edx.org) working on the [Open edX project](https://openedx.org).
+-->
 
 You can **find me** at:
 
 - Mastodon: [@nedbat@nedbat.com][mastodon].
-- Bluesky: [@nedbat.com][bluesky].
-- Libera IRC: [nedbat in #python][libera].
+- Libera IRC: nedbat in [#python][libera].
 - Discord: nedbat in the [Python Discord][discord].
 
 <!--
@@ -320,13 +315,12 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-07-01 02:42 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-07-03 18:28 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
 [blog]: https://nedbatchelder.com/blog
 [mastodon]: https://hachyderm.io/@nedbat
-[bluesky]: https://bsky.app/profile/nedbat.com
 [discord]: https://pythondiscord.com
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com
