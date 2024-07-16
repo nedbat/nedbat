@@ -212,7 +212,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Anthropic](https://nedbatchelder.com/blog/202407/anthropic.html)**, 16 Jul  
-I am starting a new job soon, at Anthropic, the makers of the Claude large language model. *([read..](https://nedbatchelder.com/blog/202407/anthropic.html))*
+I am starting a new job soon at Anthropic, the makers of the Claude large language model. *([read..](https://nedbatchelder.com/blog/202407/anthropic.html))*
 - **[Coverage at a crossroads](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html)**, 21 Jun  
 This is an interesting time for coverage.py: I’m trying to make use of new facilities in Python to drastically reduce the execution-time overhead, but it’s raising tricky questions about how coverage should work. *([read..](https://nedbatchelder.com/blog/202406/coverage_at_a_crossroads.html))*
 - **[Math factoid of the day: 62](https://nedbatchelder.com/blog/202406/math_factoid_of_the_day_62.html)**, 16 Jun  
@@ -316,7 +316,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-07-16 19:28 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-07-16 23:12 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
