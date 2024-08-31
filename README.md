@@ -233,8 +233,8 @@ I am starting a new job soon at Anthropic, the makers of the Claude large langua
         # (pypi name, human name, github repo, (mastserver, masthandle)),
         ("coverage", "Coverage.py", "nedbat/coveragepy", ("hachyderm.io", "coveragepy")),
         ("cogapp", "Cog", "nedbat/cog"),
-        ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("scriv", "Scriv", "nedbat/scriv"),
+        ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("watchgha", "WatchGHA", "nedbat/watchgha"),
         ("aptus", "Aptus", "nedbat/aptus"),
     ]
