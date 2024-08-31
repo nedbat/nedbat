@@ -265,14 +265,14 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
-- [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool  
-  [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy)
-  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits)
-  [![PyPI - Downloads](https://img.shields.io/pypi/dm/dinghy?style=flat "Download stats for dinghy")](https://pypistats.org/packages/dinghy)
 - [**Scriv**](https://github.com/nedbat/scriv): Changelog management tool  
   [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits)
   [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat "Download stats for scriv")](https://pypistats.org/packages/scriv)
+- [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool  
+  [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy)
+  [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits)
+  [![PyPI - Downloads](https://img.shields.io/pypi/dm/dinghy?style=flat "Download stats for dinghy")](https://pypistats.org/packages/dinghy)
 - [**WatchGHA**](https://github.com/nedbat/watchgha): Live display of current GitHub action runs  
   [![PyPI](https://img.shields.io/pypi/v/watchgha?style=flat "The watchgha PyPI page")](https://pypi.org/project/watchgha)
   [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/watchgha?logo=github&style=flat "Recent watchgha commits")](https://github.com/nedbat/watchgha/commits)
@@ -316,7 +316,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-08-31 02:43 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-08-31 11:53 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
