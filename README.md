@@ -23,11 +23,14 @@ https://onlinepngtools.com/convert-png-to-data-uri
     def requests_get_json(url):
         """Get JSON data from a URL, with retries."""
         headers = {}
+        token = None
         if "github.com" in url:
             token = os.environ.get("GITHUB_TOKEN", "")
-            if token:
-                headers["Authorization"] = f"Bearer {token}"
-
+        elif "hachyderm.io" in url:
+            token = os.environ.get("HACHYDERM_TOKEN", "")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+            
         for _ in range(3):
             resp = requests.get(url, headers=headers)
             if resp.status_code == 200:
