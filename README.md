@@ -73,7 +73,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
                 "/badge/",
                 quote(label or ""),
                 "-",
-                quote(message or ""),
+                quote(message),
                 "-",
                 color,
                 ])
@@ -113,8 +113,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
         #    url = f"https://{server}/users/{handle}/followers.json"
         #    followers = requests_get_json(url)["totalItems"]
         return md_badge(
-            #message=rounded_nice(followers),
-            label=f"@{handle}", logo="mastodon", color="96a3b0", label_color="450657", logo_color="ffffff",
+            message=f"@{handle}", logo="mastodon", color="96a3b0", label_color="450657", logo_color="ffffff",
             text=f"Follow @{handle} on Mastodon", link=f"https://{server}/@{handle}",
         )
 
