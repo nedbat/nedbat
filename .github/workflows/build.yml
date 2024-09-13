@@ -36,7 +36,6 @@ jobs:
       - name: "Cog README"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          HACHYDERM_TOKEN: "${{ secrets.HACHYDERM_TOKEN }}"
         run: |
           python -m cogapp -rP README.md
 

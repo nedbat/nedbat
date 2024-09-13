@@ -26,8 +26,6 @@ https://onlinepngtools.com/convert-png-to-data-uri
         token = None
         if "github.com" in url:
             token = os.environ.get("GITHUB_TOKEN", "")
-        elif "hachyderm.io" in url:
-            token = os.environ.get("HACHYDERM_TOKEN", "")
         if token:
             headers["Authorization"] = f"Bearer {token}"
             
@@ -75,7 +73,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
                 "/badge/",
                 quote(label or ""),
                 "-",
-                quote(message),
+                quote(message or ""),
                 "-",
                 color,
                 ])
@@ -110,11 +108,12 @@ https://onlinepngtools.com/convert-png-to-data-uri
         return md_badge(url="/badge/dynamic/json", qargs=qargs, **kwargs)
 
     def md_badge_mastodon(server, handle):
-        # from: https://github.com/badges/shields/issues/4492#issuecomment-1297165535
-        url = f"https://{server}/users/{handle}/followers.json"
-        followers = requests_get_json(url)["totalItems"]
+        # Hachyderm requires signed requests now. blech. skip the follower counts.
+        #    # from: https://github.com/badges/shields/issues/4492#issuecomment-1297165535
+        #    url = f"https://{server}/users/{handle}/followers.json"
+        #    followers = requests_get_json(url)["totalItems"]
         return md_badge(
-            message=rounded_nice(followers),
+            #message=rounded_nice(followers),
             label=f"@{handle}", logo="mastodon", color="96a3b0", label_color="450657", logo_color="ffffff",
             text=f"Follow @{handle} on Mastodon", link=f"https://{server}/@{handle}",
         )
