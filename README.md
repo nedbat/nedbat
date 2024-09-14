@@ -25,7 +25,7 @@ Process this file with cog:
             token = os.environ.get("GITHUB_TOKEN", "")
         if token:
             headers["Authorization"] = f"Bearer {token}"
-            
+
         for _ in range(3):
             resp = requests.get(url, headers=headers)
             if resp.status_code == 200:
@@ -150,9 +150,7 @@ Process this file with cog:
             b64 = base64.b64encode(imgf.read()).decode("ascii")
         return f"data:image/png;base64,{b64}"
 
-    print("")   # force a rebuild
 ]]] -->
-
 <!-- [[[end]]] -->
 
 I'm **Ned Batchelder**, a Python software developer and community organizer.
@@ -162,7 +160,7 @@ I'm **Ned Batchelder**, a Python software developer and community organizer.
 
 <!-- [[[cog
 print(md_badge(
-    logo=data_url("pencil.png"), logo_color="white", label_color="eeeeee", message="Blog etc", color="888888", 
+    logo=data_url("pencil.png"), logo_color="white", label_color="eeeeee", message="Blog etc", color="888888",
     text="Read my blog", link="https://nedbatchelder.com",
 ))
 print(md_badge_mastodon("hachyderm.io", "nedbat"))
