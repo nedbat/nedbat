@@ -5,10 +5,6 @@ Process this file with cog:
     $ python -m pip install -r requirements.pip
     $ python -m cogapp -rP README.md
 
-Helpful sites:
-https://tinypng.com/
-https://onlinepngtools.com/convert-png-to-data-uri
-
 -->
 
 <!-- [[[cog
@@ -68,6 +64,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
         qargs=None,
         **kwargs, # play fast and loose with arguments.
     ):
+        """Flexible building of a shields.io URL with optional components."""
         params = {"style": "flat"}
         if url is None:
             url = "".join([
@@ -94,11 +91,18 @@ https://onlinepngtools.com/convert-png-to-data-uri
             params.update(qargs)
         return url + "?" + urlencode(params)
 
-    def md_image(src, text, link):
-        return f'[![{text}]({src} "{text}")]({link})'
+    def md_image(image_url, text, link):
+        """Build the Markdown for an image.
+
+        image_url: the URL for the image.
+        text: used for both the alt text and the title of the image.
+        link: the URL destination when clicking on the image.
+        """
+        return f'[![{text}]({image_url} "{text}")]({link})'
 
     def md_badge(**kwargs):
-        return md_image(src=shields_url(**kwargs), text=kwargs["text"], link=kwargs["link"])
+        """Build the Markdown for a shields.io badge."""
+        return md_image(image_url=shields_url(**kwargs), text=kwargs["text"], link=kwargs["link"])
 
     def md_dynamic_badge(url, query, **kwargs):
         qargs = {
@@ -109,6 +113,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
         return md_badge(url="/badge/dynamic/json", qargs=qargs, **kwargs)
 
     def md_badge_mastodon(server, handle):
+        """A badge for a Mastodon account."""
         # https://github.com/badges/shields/issues/4492
         # https://docs.joinmastodon.org/methods/accounts/#lookup
         url = f"https://{server}/api/v1/accounts/lookup?acct={handle}"
@@ -120,6 +125,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
         )
 
     def md_badge_stackoverflow(userid):
+        """A badge for a Stackoverflow account."""
         data = requests_get_json(f"https://api.stackexchange.com/2.3/users/{userid}?order=desc&sort=reputation&site=stackoverflow")["items"][0]
         rep_points = rounded_nice(data["reputation"])
         gold = rounded_nice(data["badge_counts"]["gold"])
@@ -138,6 +144,7 @@ https://onlinepngtools.com/convert-png-to-data-uri
         )
 
     def data_url(image_file):
+        """Read an image file and return a self-contained data URL."""
         assert image_file.endswith(".png")
         with open(image_file, "rb") as imgf:
             b64 = base64.b64encode(imgf.read()).decode("ascii")
@@ -333,7 +340,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 09:56 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 10:10 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
