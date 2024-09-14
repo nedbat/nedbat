@@ -114,9 +114,27 @@ https://onlinepngtools.com/convert-png-to-data-uri
         url = f"https://{server}/api/v1/accounts/lookup?acct={handle}"
         followers = requests_get_json(url)["followers_count"]
         return md_badge(
-            label=f"@{handle}",
-            message=rounded_nice(followers), logo="mastodon", color="96a3b0", label_color="450657", logo_color="ffffff",
+            label=f"@{handle}", message=rounded_nice(followers),
+            logo="mastodon", color="96a3b0", label_color="450657", logo_color="ffffff",
             text=f"Follow @{handle} on Mastodon", link=f"https://{server}/@{handle}",
+        )
+
+    def md_badge_stackoverflow(userid):
+        data = requests_get_json(f"https://api.stackexchange.com/2.3/users/{userid}?order=desc&sort=reputation&site=stackoverflow")["items"][0]
+        rep_points = rounded_nice(data["reputation"])
+        gold = rounded_nice(data["badge_counts"]["gold"])
+        silver = rounded_nice(data["badge_counts"]["silver"])
+        bronze = rounded_nice(data["badge_counts"]["bronze"])
+        sp = "\N{THIN SPACE}"
+        return md_badge(
+            logo="stackoverflow", logo_color=None, label_color="333333", color="e6873e",
+            message=(
+                f"{rep_points} "
+                + f"\N{LARGE YELLOW CIRCLE}{sp}{gold} "
+                + f"\N{MEDIUM WHITE CIRCLE}{sp}{silver} "
+                + f"\N{LARGE BROWN CIRCLE}{sp}{bronze}"
+            ),
+            text="Stack Overflow reputation", link=data["link"],
         )
 
     def data_url(image_file):
@@ -153,15 +171,7 @@ print(md_badge(
     logo="GitHub", label="\N{HEAVY BLACK HEART}", message="Sponsor me", color="brightgreen",
     text="Sponsor me on GitHub", link="https://github.com/sponsors/nedbat",
 ))
-so_data = requests_get_json("https://api.stackexchange.com/2.3/users/14343?order=desc&sort=reputation&site=stackoverflow")["items"][0]
-repk = rounded_nice(so_data["reputation"])
-gold = rounded_nice(so_data["badge_counts"]["gold"])
-silver = rounded_nice(so_data["badge_counts"]["silver"])
-bronze = rounded_nice(so_data["badge_counts"]["bronze"])
-print(md_badge(
-    logo="stackoverflow", logo_color=None, label_color="333333", message=f"{repk} 🟡\u2009{gold} ⚪\u2009{silver} 🟤\u2009{bronze}", color="e6873e",
-    text="Stack Overflow reputation", link=so_data["link"],
-))
+print(md_badge_stackoverflow(14343))
 print(md_badge(
     logo="python", logo_color="FFE873", label_color="306998", message="PyPI", color="4B8BBE",
     text="My PyPI packages", link="https://pypi.org/user/nedbatchelder",
@@ -323,7 +333,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 09:44 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 09:56 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
