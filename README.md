@@ -236,14 +236,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Cogged GitHub profile](https://nedbatchelder.com/blog/202409/cogged_github_profile.html)**, 14 Sep  
+My GitHub profile is over-engineered with Cog. Let me explain. *([read..](https://nedbatchelder.com/blog/202409/cogged_github_profile.html))*
 - **[Coverage branches instead of arcs](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html)**, 26 Aug  
 As I mentioned in a few recent posts, I’ve been working on some significant work in coverage.py to take advantage of new capabilities in Python. *([read..](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html))*
 - **[Cherish this time](https://nedbatchelder.com/blog/202408/cherish_this_time.html)**, 11 Aug  
 New parents are often told to cherish their time with their new baby. I don’t think this is helpful advice. *([read..](https://nedbatchelder.com/blog/202408/cherish_this_time.html))*
 - **[Pushing back on sys.monitoring](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html)**, 31 Jul  
 I’ve been continuing to work on adapting coverage.py to the new sys.monitoring facility. Getting efficient branch coverage has been difficult even with the new API. *([read..](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html))*
-- **[Anthropic](https://nedbatchelder.com/blog/202407/anthropic.html)**, 16 Jul  
-I am starting a new job soon at Anthropic, the makers of the Claude large language model. *([read..](https://nedbatchelder.com/blog/202407/anthropic.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -341,12 +341,13 @@ I've also made a few informal projects, some mathy art, some small utilities:
 <br/>
 <br/>
 
+This is a [Markdown page with embedded Python code][readme.md] rendered with [cog][cog].
+See my blog post **[Cogged GitHub profile][blog_post]** for details.
+
 <!-- [[[cog
-    import datetime
-    when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
-    print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
+    print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 14:37 UTC)*
+*Updated at 2024-09-14 15:01 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
@@ -356,3 +357,6 @@ I've also made a few informal projects, some mathy art, some small utilities:
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com
 [ned_pypi]: https://pypi.org/user/nedbatchelder
+[cog]: https://github.com/nedbat/cog
+[readme.md]: https://github.com/nedbat/nedbat/blob/main/README.md?plain=1
+[blog_post]: https://nedbatchelder.com/blog/202409/cogged_github_profile.html
