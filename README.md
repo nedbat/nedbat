@@ -315,16 +315,16 @@ I maintain a few [**Python packages**][ned_pypi], including:
 
 I've also made a few informal projects, some mathy art, some small utilities:
 
+- [pkgsample](https://github.com/nedbat/pkgsample), an simple example of how to package a Python project.
+- [Truchet images](https://github.com/nedbat/truchet) explores Truchet tiles, and rendering images with them.
+  [Blog post](https://nedbatchelder.com/blog/202208/truchet_images.html).
 - [Flourish](https://github.com/nedbat/flourish) is a harmonograph explorer.
   [Blog post](https://nedbatchelder.com/blog/202101/flourish.html) and [live site](https://flourish.nedbat.com/).
 - [Stilted](https://github.com/nedbat/stilted) is a toy PostScript implementation.
   [Blog post](https://nedbatchelder.com/blog/202208/stilted.html).
-- [Truchet images](https://github.com/nedbat/truchet) explores Truchet tiles, and rendering images with them.
-  [Blog post](https://nedbatchelder.com/blog/202208/truchet_images.html).
 - [Gefilte Fish](https://github.com/nedbat/gefilte) is a Python-based DSL for writing Gmail filters.
   [Blog post](https://nedbatchelder.com/blog/202103/gefilte_fish_gmail_filter_creation.html).
 - [Pydoctor](https://github.com/nedbat/pydoctor) shows details of your Python environment, for troubleshooting.
-- [pkgsample](https://github.com/nedbat/pkgsample), an simple example of how to package a Python project.
 
 <!--
   ##
