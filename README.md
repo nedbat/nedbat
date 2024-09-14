@@ -27,6 +27,7 @@ Process this file with cog:
             headers["Authorization"] = f"Bearer {token}"
 
         for _ in range(3):
+            sys.stderr.write(f"Fetching {url}\n")
             resp = requests.get(url, headers=headers)
             if resp.status_code == 200:
                 break
@@ -345,7 +346,7 @@ I've also made a few informal projects, some mathy art, some small utilities:
     when = f"{datetime.datetime.now():%Y-%m-%d %H:%M}"
     print(f"*(made with [cog](https://github.com/nedbat/cog) at {when} UTC)*")
 ]]] -->
-*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 14:25 UTC)*
+*(made with [cog](https://github.com/nedbat/cog) at 2024-09-14 10:41 UTC)*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com
