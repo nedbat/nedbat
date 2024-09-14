@@ -167,6 +167,11 @@ print(md_badge(
 ))
 print(md_badge_mastodon("hachyderm.io", "nedbat"))
 print(md_badge(
+    logo="icloud", logo_color="white",
+    message="Bluesky", color="3686f7",
+    text="Follow me on Bluesky", link="https://bsky.app/profile/nedbat.com",
+))
+print(md_badge(
     logo="meetup", logo_color="red", label_color="eeeeee", message="Boston Python", color="4d7954",
     text="Join us at Boston Python", link="https://about.bostonpython.com",
 ))
@@ -205,6 +210,7 @@ You can **find me** at:
 - Mastodon: [@nedbat@nedbat.com][mastodon].
 - Libera IRC: nedbat in [#python][libera].
 - Discord: nedbat in the [Python Discord][discord].
+- Bluesky: [nedbat](https://bsky.app/profile/nedbat.com).
 
 <!--
   ##
