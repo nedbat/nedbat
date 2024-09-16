@@ -196,6 +196,7 @@ print(badge(
 
 - My personal site is [nedbatchelder.com][nedbat].
 - I'm an organizer of [Boston Python][bp].
+- I'm a member of the [Python Docs Editorial Board][pdeb].
 - I work for an AI company, but [have concerns about AI][antblog].
 
 You can **find me** at:
@@ -355,6 +356,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com
 [antblog]: https://nedbatchelder.com/blog/202407/anthropic.html
+[pdeb]: https://python.github.io/editorial-board/
 [ned_pypi]: https://pypi.org/user/nedbatchelder
 [cog]: https://github.com/nedbat/cog
 [readme.md]: https://github.com/nedbat/nedbat/blob/main/README.md?plain=1
