@@ -349,15 +349,15 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 *Updated at 2024-09-17 02:33 UTC*
 <!-- [[[end]]] -->
 
-[nedbat]: https://nedbatchelder.com
-[blog]: https://nedbatchelder.com/blog
+[nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
+[blog]: https://nedbatchelder.com/blog "My blog"
 [mastodon]: https://hachyderm.io/@nedbat
 [discord]: https://pythondiscord.com
 [libera]: https://libera.chat
-[bp]: https://bostonpython.com
-[antblog]: https://nedbatchelder.com/blog/202407/anthropic.html
+[bp]: https://bostonpython.com "The Boston Python home page"
+[antblog]: https://nedbatchelder.com/blog/202407/anthropic.html "My blog post about working at Anthropic"
 [pdeb]: https://python.github.io/editorial-board/
-[ned_pypi]: https://pypi.org/user/nedbatchelder
-[cog]: https://github.com/nedbat/cog
-[readme.md]: https://github.com/nedbat/nedbat/blob/main/README.md?plain=1
-[blog_post]: https://nedbatchelder.com/blog/202409/cogged_github_profile.html
+[ned_pypi]: https://pypi.org/user/nedbatchelder "The list of all my packages on PyPI"
+[cog]: https://github.com/nedbat/cog "The cog repo on GitHub"
+[readme.md]: https://github.com/nedbat/nedbat/blob/main/README.md?plain=1 "The raw source for this GitHub profile"
+[blog_post]: https://nedbatchelder.com/blog/202409/cogged_github_profile.html "Discussion of how this page is constructed"
