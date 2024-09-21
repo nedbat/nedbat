@@ -234,14 +234,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Cleaning up a messy branch](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html)**, 21 Sep<br/>
+I had to clean up a messy git branch. Revert commits helped. *([read..](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html))*
 - **[Cogged GitHub profile](https://nedbatchelder.com/blog/202409/cogged_github_profile.html)**, 14 Sep<br/>
 My GitHub profile is over-engineered with Cog. Let me explain. *([read..](https://nedbatchelder.com/blog/202409/cogged_github_profile.html))*
 - **[Coverage branches instead of arcs](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html)**, 26 Aug<br/>
 As I mentioned in a few recent posts, I’ve been working on some significant work in coverage.py to take advantage of new capabilities in Python. *([read..](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html))*
 - **[Cherish this time](https://nedbatchelder.com/blog/202408/cherish_this_time.html)**, 11 Aug<br/>
 New parents are often told to cherish their time with their new baby. I don’t think this is helpful advice. *([read..](https://nedbatchelder.com/blog/202408/cherish_this_time.html))*
-- **[Pushing back on sys.monitoring](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html)**, 31 Jul<br/>
-I’ve been continuing to work on adapting coverage.py to the new sys.monitoring facility. Getting efficient branch coverage has been difficult even with the new API. *([read..](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -345,7 +345,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-09-21 11:19 UTC*
+*Updated at 2024-09-21 15:02 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
