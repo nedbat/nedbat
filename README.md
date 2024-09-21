@@ -219,8 +219,7 @@ You can **find me** at:
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
         print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b}", end="")
         if twoline:
-            # Two trailing spaces make a line break in Markdown.
-            print(f"  \n{entry['description_text']} *([read..]({entry['url']}))*")
+            print(f"<br/>\n{entry['description_text']} *([read..]({entry['url']}))*")
         else:
             print()
 ]]] -->
@@ -284,7 +283,7 @@ I’ve been continuing to work on adapting coverage.py to the new sys.monitoring
             link=f"https://pypistats.org/packages/{pkg}",
             title=f"Download stats for {pkg}",
         )
-        print(f"- {main_line}  ") # trailing spaces for Markdown line break...
+        print(f"- {main_line}<br/>")
         print(f"  {pypi_badge} {github_badge} {pypi_downloads_badge}")
         if mastinfo is not None:
             print(f"  {badge_mastodon(*mastinfo)}")
