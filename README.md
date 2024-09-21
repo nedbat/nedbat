@@ -234,13 +234,13 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
-- **[Cogged GitHub profile](https://nedbatchelder.com/blog/202409/cogged_github_profile.html)**, 14 Sep  
+- **[Cogged GitHub profile](https://nedbatchelder.com/blog/202409/cogged_github_profile.html)**, 14 Sep<br/>
 My GitHub profile is over-engineered with Cog. Let me explain. *([read..](https://nedbatchelder.com/blog/202409/cogged_github_profile.html))*
-- **[Coverage branches instead of arcs](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html)**, 26 Aug  
+- **[Coverage branches instead of arcs](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html)**, 26 Aug<br/>
 As I mentioned in a few recent posts, I’ve been working on some significant work in coverage.py to take advantage of new capabilities in Python. *([read..](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html))*
-- **[Cherish this time](https://nedbatchelder.com/blog/202408/cherish_this_time.html)**, 11 Aug  
+- **[Cherish this time](https://nedbatchelder.com/blog/202408/cherish_this_time.html)**, 11 Aug<br/>
 New parents are often told to cherish their time with their new baby. I don’t think this is helpful advice. *([read..](https://nedbatchelder.com/blog/202408/cherish_this_time.html))*
-- **[Pushing back on sys.monitoring](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html)**, 31 Jul  
+- **[Pushing back on sys.monitoring](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html)**, 31 Jul<br/>
 I’ve been continuing to work on adapting coverage.py to the new sys.monitoring facility. Getting efficient branch coverage has been difficult even with the new API. *([read..](https://nedbatchelder.com/blog/202407/pushing_back_on_sysmonitoring.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
@@ -296,18 +296,18 @@ I maintain a few [**Python packages**][ned_pypi], including:
     for args in pkgs:
         write_package(*args)
 ]]] -->
-- [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python  
+- [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python<br/>
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat?style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
   [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-246-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
-- [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files  
+- [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files<br/>
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat?style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
-- [**Scriv**](https://github.com/nedbat/scriv): Changelog management tool  
+- [**Scriv**](https://github.com/nedbat/scriv): Changelog management tool<br/>
   [![PyPI](https://img.shields.io/pypi/v/scriv?style=flat?style=flat "The scriv PyPI page")](https://pypi.org/project/scriv) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/scriv?logo=github&style=flat?style=flat "Recent scriv commits")](https://github.com/nedbat/scriv/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/scriv?style=flat?style=flat "Download stats for scriv")](https://pypistats.org/packages/scriv)
-- [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool  
+- [**Dinghy**](https://github.com/nedbat/dinghy): A GitHub activity digest tool<br/>
   [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat?style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/dinghy?style=flat?style=flat "Download stats for dinghy")](https://pypistats.org/packages/dinghy)
-- [**WatchGHA**](https://github.com/nedbat/watchgha): Live display of current GitHub action runs  
+- [**WatchGHA**](https://github.com/nedbat/watchgha): Live display of current GitHub action runs<br/>
   [![PyPI](https://img.shields.io/pypi/v/watchgha?style=flat?style=flat "The watchgha PyPI page")](https://pypi.org/project/watchgha) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/watchgha?logo=github&style=flat?style=flat "Recent watchgha commits")](https://github.com/nedbat/watchgha/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/watchgha?style=flat?style=flat "Download stats for watchgha")](https://pypistats.org/packages/watchgha)
-- [**Aptus**](https://github.com/nedbat/aptus): Mandelbrot fractal viewer  
+- [**Aptus**](https://github.com/nedbat/aptus): Mandelbrot fractal viewer<br/>
   [![PyPI](https://img.shields.io/pypi/v/aptus?style=flat?style=flat "The aptus PyPI page")](https://pypi.org/project/aptus) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat?style=flat "Recent aptus commits")](https://github.com/nedbat/aptus/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
 
@@ -345,7 +345,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-09-19 02:45 UTC*
+*Updated at 2024-09-21 11:19 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
