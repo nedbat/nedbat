@@ -234,14 +234,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Changelog automation](https://nedbatchelder.com/blog/202409/changelog_automation.html)**, 29 Sep<br/>
+Some details of custom automation I use for changelogs. *([read..](https://nedbatchelder.com/blog/202409/changelog_automation.html))*
 - **[Changelog philosophy](https://nedbatchelder.com/blog/202409/changelog_philosophy.html)**, 28 Sep<br/>
 I playfully quipped about changelogs, and Sumana Harihareswara thoughtfully responded with Changelogs and Release Notes. I agree with her on some things, and disagree on others. *([read..](https://nedbatchelder.com/blog/202409/changelog_philosophy.html))*
 - **[Cleaning up a messy branch](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html)**, 21 Sep<br/>
 I had to clean up a messy git branch. Revert commits helped. *([read..](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html))*
 - **[Cogged GitHub profile](https://nedbatchelder.com/blog/202409/cogged_github_profile.html)**, 14 Sep<br/>
 My GitHub profile is over-engineered with Cog. Let me explain. *([read..](https://nedbatchelder.com/blog/202409/cogged_github_profile.html))*
-- **[Coverage branches instead of arcs](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html)**, 26 Aug<br/>
-As I mentioned in a few recent posts, I’ve been working on some significant work in coverage.py to take advantage of new capabilities in Python. *([read..](https://nedbatchelder.com/blog/202408/coverage_branches_instead_of_arcs.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -345,7 +345,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-09-29 17:50 UTC*
+*Updated at 2024-09-29 18:30 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
