@@ -23,6 +23,7 @@ jobs:
         with:
           fetch-depth: 0
           show-progress: false
+          persist-credentials: false
 
       - name: "Set up Python"
         uses: "actions/setup-python@v5"
@@ -34,19 +35,20 @@ jobs:
           python -m pip install -r requirements.pip
 
       - name: "Cog README"
-        env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         run: |
           python -m cogapp -rP README.md
 
       - name: "Commit and push if changed"
-        # The timestamp line always changes.  
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # The timestamp line always changes.
         # Only commit if more than one line changed.
         run: |
           if (( $(git diff --numstat README.md | cut -f 1) > 1)); then
             git diff
             git config user.name README-bot
             git config user.email actions@users.noreply.github.com
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
             git commit -am "Updated README"
             git push
           fi
