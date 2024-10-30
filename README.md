@@ -269,14 +269,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[GitHub action security: zizmor](https://nedbatchelder.com/blog/202410/github_action_security_zizmor.html)**, 30 Oct<br/>
+Zizmor is a new tool to check your GitHub action workflows for security concerns. I found it really helpful to lock down actions. *([read..](https://nedbatchelder.com/blog/202410/github_action_security_zizmor.html))*
 - **[Git aliases: switch to mainster, etc](https://nedbatchelder.com/blog/202410/git_aliases_switch_to_mainster_etc.html)**, 26 Oct<br/>
 Some of my more elaborate git command aliases, explained. *([read..](https://nedbatchelder.com/blog/202410/git_aliases_switch_to_mainster_etc.html))*
 - **[Changelog automation](https://nedbatchelder.com/blog/202409/changelog_automation.html)**, 29 Sep<br/>
 Some details of custom automation I use for changelogs. *([read..](https://nedbatchelder.com/blog/202409/changelog_automation.html))*
 - **[Changelog philosophy](https://nedbatchelder.com/blog/202409/changelog_philosophy.html)**, 28 Sep<br/>
 I playfully quipped about changelogs, and Sumana Harihareswara thoughtfully responded with Changelogs and Release Notes. I agree with her on some things, and disagree on others. *([read..](https://nedbatchelder.com/blog/202409/changelog_philosophy.html))*
-- **[Cleaning up a messy branch](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html)**, 21 Sep<br/>
-I had to clean up a messy git branch. Revert commits helped. *([read..](https://nedbatchelder.com/blog/202409/cleaning_up_a_messy_branch.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -380,7 +380,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-10-30 07:57 UTC*
+*Updated at 2024-10-30 13:07 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
