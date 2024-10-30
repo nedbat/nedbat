@@ -205,7 +205,7 @@ You can **find me** at:
 - Mastodon: [@nedbat@nedbat.com][mastodon].
 - Libera IRC: nedbat in [#python][libera].
 - Discord: nedbat in the [Python Discord][discord].
-- Bluesky: [nedbat](https://bsky.app/profile/nedbat.com).
+- Bluesky: [nedbat.com](https://bsky.app/profile/nedbat.com).
 
 <!--
   ##
