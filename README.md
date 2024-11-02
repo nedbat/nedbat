@@ -333,7 +333,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
 ]]] -->
 - [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python<br/>
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat?style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-253-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-254-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=ffffff "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files<br/>
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat?style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
 - [**Scriv**](https://github.com/nedbat/scriv): Changelog management tool<br/>
@@ -380,7 +380,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-10-30 13:07 UTC*
+*Updated at 2024-11-02 18:47 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
