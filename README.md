@@ -275,14 +275,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)**, 19 Nov<br/>
+People were surprised by my example of assigning to a dict item in a for loop. Here’s more explanation. *([read..](https://nedbatchelder.com/blog/202411/loop_targets.html))*
 - **[Me on On the Board](https://nedbatchelder.com/blog/202411/me_on_on_the_board.html)**, 10 Nov<br/>
 I was on episode 4 of the On The Board podcast: Taking on New Challenges. I’m never quite sure what parts of my experience people will relate to, but it was a good chat with Jason and Michael about becoming a newb late in my career. *([read..](https://nedbatchelder.com/blog/202411/me_on_on_the_board.html))*
 - **[Coverage.py originally](https://nedbatchelder.com/blog/202411/coveragepy_originally.html)**, 2 Nov<br/>
 Coverage.py was started in 2001 but not by me. It’s interesting to see how small it started (350 lines!) and how far it’s come (20k lines). *([read..](https://nedbatchelder.com/blog/202411/coveragepy_originally.html))*
 - **[GitHub action security: zizmor](https://nedbatchelder.com/blog/202410/github_action_security_zizmor.html)**, 30 Oct<br/>
 Zizmor is a new tool to check your GitHub action workflows for security concerns. I found it really helpful to lock down actions. *([read..](https://nedbatchelder.com/blog/202410/github_action_security_zizmor.html))*
-- **[Git aliases: switch to mainster, etc](https://nedbatchelder.com/blog/202410/git_aliases_switch_to_mainster_etc.html)**, 26 Oct<br/>
-Some of my more elaborate git command aliases, explained. *([read..](https://nedbatchelder.com/blog/202410/git_aliases_switch_to_mainster_etc.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -386,7 +386,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-11-18 02:51 UTC*
+*Updated at 2024-11-19 12:16 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
