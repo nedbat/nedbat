@@ -218,12 +218,16 @@ print("&#xa0;" * 4)
 print(md_image("https://nedbatchelder.com/pix/ukraine.png", "Support Ukraine", "https://stand-with-ukraine.pp.ua/#support-ukraine", attrs=attrs))
 print("&#xa0;" * 4)
 print(md_image("https://nedbatchelder.com/pix/progressprideflag.png", "Pride", "https://nedbatchelder.com/blog/201207/my_mom_got_married.html", attrs=attrs))
+print("&#xa0;" * 4)
+print(md_image("https://nedbatchelder.com/pix/us-flag.png", "Optimistic despite current events", "https://progressive.org/magazine/reasons-for-progressive-optimism-hightower/", attrs=attrs))
 ]]] -->
 [<img src="https://nedbatchelder.com/pix/blm.jpg" title="Black lives matter" height="75" style="border: 1px solid #888"/>](https://nedbatchelder.com/blog/202006/black_lives_matter.html)
 &#xa0;&#xa0;&#xa0;&#xa0;
 [<img src="https://nedbatchelder.com/pix/ukraine.png" title="Support Ukraine" height="75" style="border: 1px solid #888"/>](https://stand-with-ukraine.pp.ua/#support-ukraine)
 &#xa0;&#xa0;&#xa0;&#xa0;
 [<img src="https://nedbatchelder.com/pix/progressprideflag.png" title="Pride" height="75" style="border: 1px solid #888"/>](https://nedbatchelder.com/blog/201207/my_mom_got_married.html)
+&#xa0;&#xa0;&#xa0;&#xa0;
+[<img src="https://nedbatchelder.com/pix/us-flag.png" title="Optimistic despite current events" height="75" style="border: 1px solid #888"/>](https://progressive.org/magazine/reasons-for-progressive-optimism-hightower/)
 <!-- [[[end]]] -->
 
 
@@ -386,7 +390,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-11-21 02:48 UTC*
+*Updated at 2024-11-21 06:42 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
