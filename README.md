@@ -280,7 +280,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[My politics](https://nedbatchelder.com/blog/202411/my_politics.html)**, 21 Nov<br/>
-I am a liberal. I believe in helping people. *([read..](https://nedbatchelder.com/blog/202411/my_politics.html))*
+I am a liberal, and I am proud to fly the American flag. *([read..](https://nedbatchelder.com/blog/202411/my_politics.html))*
 - **[Loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)**, 19 Nov<br/>
 People were surprised by my example of assigning to a dict item in a for loop. Here’s more explanation. *([read..](https://nedbatchelder.com/blog/202411/loop_targets.html))*
 - **[Me on On the Board](https://nedbatchelder.com/blog/202411/me_on_on_the_board.html)**, 10 Nov<br/>
@@ -390,7 +390,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-11-22 11:44 UTC*
+*Updated at 2024-11-22 12:11 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
