@@ -219,7 +219,7 @@ print(md_image("https://nedbatchelder.com/pix/ukraine.png", "Support Ukraine", "
 print("&#xa0;" * 4)
 print(md_image("https://nedbatchelder.com/pix/progressprideflag.png", "Pride", "https://nedbatchelder.com/blog/201207/my_mom_got_married.html", attrs=attrs))
 print("&#xa0;" * 4)
-print(md_image("https://nedbatchelder.com/pix/us-flag.png", "Optimistic despite current events", "https://progressive.org/magazine/reasons-for-progressive-optimism-hightower/", attrs=attrs))
+print(md_image("https://nedbatchelder.com/pix/us-flag.png", "Optimistic despite current events", "https://nedbatchelder.com/blog/202411/my_politics.html", attrs=attrs))
 ]]] -->
 [<img src="https://nedbatchelder.com/pix/blm.jpg" title="Black lives matter" height="75" style="border: 1px solid #888"/>](https://nedbatchelder.com/blog/202006/black_lives_matter.html)
 &#xa0;&#xa0;&#xa0;&#xa0;
