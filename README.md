@@ -279,14 +279,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Testing some tidbits](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html)**, 4 Dec<br/>
+A custom test harness for some esoteric Python expressions *([read..](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html))*
 - **[Dinner](https://nedbatchelder.com/blog/202412/dinner.html)**, 1 Dec<br/>
 My son Nat has autism, and one way it affects him is he can be very quiet and passive, even when he wants something very much. This played out on our drive home from Thanks­giving this week. *([read..](https://nedbatchelder.com/blog/202412/dinner.html))*
 - **[My politics](https://nedbatchelder.com/blog/202411/my_politics.html)**, 21 Nov<br/>
 I am a liberal, and I am proud to fly the American flag. *([read..](https://nedbatchelder.com/blog/202411/my_politics.html))*
 - **[Loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)**, 19 Nov<br/>
 People were surprised by my example of assigning to a dict item in a for loop. Here’s more explanation. *([read..](https://nedbatchelder.com/blog/202411/loop_targets.html))*
-- **[Me on On the Board](https://nedbatchelder.com/blog/202411/me_on_on_the_board.html)**, 10 Nov<br/>
-I was on episode 4 of the On The Board podcast: Taking on New Challenges. I’m never quite sure what parts of my experience people will relate to, but it was a good chat with Jason and Michael about becoming a newb late in my career. *([read..](https://nedbatchelder.com/blog/202411/me_on_on_the_board.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -390,7 +390,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2024-12-04 02:53 UTC*
+*Updated at 2024-12-04 12:37 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
