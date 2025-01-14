@@ -279,14 +279,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Nat running](https://nedbatchelder.com/blog/202501/nat_running.html)**, 14 Jan<br/>
+I took this picture nine years ago, but it’s still one of my favorites *([read..](https://nedbatchelder.com/blog/202501/nat_running.html))*
 - **[Testing some tidbits](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html)**, 4 Dec<br/>
 A custom test harness for some esoteric Python expressions *([read..](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html))*
 - **[Dinner](https://nedbatchelder.com/blog/202412/dinner.html)**, 1 Dec<br/>
 My son Nat has autism, and one way it affects him is he can be very quiet and passive, even when he wants something very much. This played out on our drive home from Thanks­giving this week. *([read..](https://nedbatchelder.com/blog/202412/dinner.html))*
 - **[My politics](https://nedbatchelder.com/blog/202411/my_politics.html)**, 21 Nov<br/>
 I am a liberal, and I am proud to fly the American flag. *([read..](https://nedbatchelder.com/blog/202411/my_politics.html))*
-- **[Loop targets](https://nedbatchelder.com/blog/202411/loop_targets.html)**, 19 Nov<br/>
-People were surprised by my example of assigning to a dict item in a for loop. Here’s more explanation. *([read..](https://nedbatchelder.com/blog/202411/loop_targets.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -390,7 +390,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-01-14 02:44 UTC*
+*Updated at 2025-01-14 19:06 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
