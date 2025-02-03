@@ -246,10 +246,10 @@ I'm **Ned Batchelder**, a Python software developer and community organizer.
 
 You can **find me** at:
 
+- Bluesky: [nedbat.com](https://bsky.app/profile/nedbat.com).
 - Mastodon: [@nedbat@nedbat.com][mastodon].
 - Libera IRC: nedbat in [#python][libera].
 - Discord: nedbat in the [Python Discord][discord].
-- Bluesky: [nedbat.com](https://bsky.app/profile/nedbat.com).
 
 <!--
   ##
