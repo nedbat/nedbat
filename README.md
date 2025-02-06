@@ -362,7 +362,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
   ##
   -->
 
-I've also made a few informal projects, some mathy art, some small utilities:
+I've also made a few informal projects, some mathy art, and some small utilities:
 
 - [pkgsample](https://github.com/nedbat/pkgsample), an simple example of how to package a Python project.
 - [Truchet images](https://github.com/nedbat/truchet) explores Truchet tiles, and rendering images with them.
