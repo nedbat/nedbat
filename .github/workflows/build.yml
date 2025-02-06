@@ -9,7 +9,7 @@ on:
   repository_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 defaults:
   run:
