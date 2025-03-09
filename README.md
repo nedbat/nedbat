@@ -279,14 +279,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Faster branch coverage measurement](https://nedbatchelder.com/blog/202503/faster_branch_coverage_measurement.html)**, 9 Mar<br/>
+After nearly two years, I think this is finally ready: coverage.py can use sys.monitoring to more efficiently measure branch coverage. *([read..](https://nedbatchelder.com/blog/202503/faster_branch_coverage_measurement.html))*
 - **[Intricate interleaved iteration](https://nedbatchelder.com/blog/202501/intricate_interleaved_iteration.html)**, 30 Jan<br/>
 Someone asked recently, “is there any reason to use a generator if I need to store all the values anyway?” As it happens, I did just that in the code for this blog’s sidebar because I found it the most readable way to do it. Maybe it was a good idea, maybe not. *([read..](https://nedbatchelder.com/blog/202501/intricate_interleaved_iteration.html))*
 - **[Nat running](https://nedbatchelder.com/blog/202501/nat_running.html)**, 14 Jan<br/>
 I took this picture nine years ago, but it’s still one of my favorites *([read..](https://nedbatchelder.com/blog/202501/nat_running.html))*
 - **[Testing some tidbits](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html)**, 4 Dec<br/>
 A custom test harness for some esoteric Python expressions *([read..](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html))*
-- **[Dinner](https://nedbatchelder.com/blog/202412/dinner.html)**, 1 Dec<br/>
-My son Nat has autism, and one way it affects him is he can be very quiet and passive, even when he wants something very much. This played out on our drive home from Thanks­giving this week. *([read..](https://nedbatchelder.com/blog/202412/dinner.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -343,7 +343,7 @@ I maintain a few [**Python packages**][ned_pypi], including:
 ]]] -->
 - [**Coverage.py**](https://github.com/nedbat/coveragepy): The code coverage tool for Python<br/>
   [![PyPI](https://img.shields.io/pypi/v/coverage?style=flat?style=flat "The coverage PyPI page")](https://pypi.org/project/coverage) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/coveragepy?logo=github&style=flat?style=flat "Recent coverage.py commits")](https://github.com/nedbat/coveragepy/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/coverage?style=flat?style=flat "Download stats for coverage")](https://pypistats.org/packages/coverage)
-  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-276-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=white "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
+  [![Follow @coveragepy on Mastodon](https://img.shields.io/badge/%40coveragepy-277-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=white "Follow @coveragepy on Mastodon")](https://hachyderm.io/@coveragepy)
 - [**Cog**](https://github.com/nedbat/cog): Small bits of Python computation for static files<br/>
   [![PyPI](https://img.shields.io/pypi/v/cogapp?style=flat?style=flat "The cogapp PyPI page")](https://pypi.org/project/cogapp) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/cog?logo=github&style=flat?style=flat "Recent cog commits")](https://github.com/nedbat/cog/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/cogapp?style=flat?style=flat "Download stats for cogapp")](https://pypistats.org/packages/cogapp)
 - [**Scriv**](https://github.com/nedbat/scriv): Changelog management tool<br/>
@@ -390,7 +390,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-03-07 02:48 UTC*
+*Updated at 2025-03-09 20:48 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
