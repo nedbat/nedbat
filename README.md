@@ -213,13 +213,13 @@ print(badge(
 
 <!-- [[[cog
 attrs = {"height": 75, "style": "border: 1px solid #888"}
-print(md_image("https://nedbatchelder.com/pix/blm.jpg", "Black lives matter", "https://nedbatchelder.com/blog/202006/black_lives_matter.html", attrs=attrs))
+print(md_image("https://nedbatchelder.com/pix/us-flag.png", "Optimistic despite current events", "https://nedbatchelder.com/blog/202411/my_politics.html", attrs=attrs))
 print("&#xa0;" * 4)
 print(md_image("https://nedbatchelder.com/pix/ukraine.png", "Support Ukraine", "https://stand-with-ukraine.pp.ua/#support-ukraine", attrs=attrs))
 print("&#xa0;" * 4)
 print(md_image("https://nedbatchelder.com/pix/progressprideflag.png", "Pride", "https://nedbatchelder.com/blog/201207/my_mom_got_married.html", attrs=attrs))
 print("&#xa0;" * 4)
-print(md_image("https://nedbatchelder.com/pix/us-flag.png", "Optimistic despite current events", "https://nedbatchelder.com/blog/202411/my_politics.html", attrs=attrs))
+print(md_image("https://nedbatchelder.com/pix/blm.jpg", "Black lives matter", "https://nedbatchelder.com/blog/202006/black_lives_matter.html", attrs=attrs))
 ]]] -->
 [<img src="https://nedbatchelder.com/pix/blm.jpg" title="Black lives matter" height="75" style="border: 1px solid #888"/>](https://nedbatchelder.com/blog/202006/black_lives_matter.html)
 &#xa0;&#xa0;&#xa0;&#xa0;
@@ -242,7 +242,6 @@ I'm **Ned Batchelder**, a Python software developer and community organizer.
 - My personal site is [nedbatchelder.com][nedbat].
 - I'm an organizer of [Boston Python][bp].
 - I'm a member of the [Python Docs Editorial Board][pdeb].
-- I work for an AI company, but [have concerns about AI][antblog].
 
 You can **find me** at:
 
@@ -399,7 +398,6 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 [discord]: https://pythondiscord.com
 [libera]: https://libera.chat
 [bp]: https://bostonpython.com "The Boston Python home page"
-[antblog]: https://nedbatchelder.com/blog/202407/anthropic.html "My blog post about working at Anthropic"
 [pdeb]: https://python.github.io/editorial-board/
 [ned_pypi]: https://pypi.org/user/nedbatchelder "The list of all my packages on PyPI"
 [cog]: https://github.com/nedbat/cog "The cog repo on GitHub"
