@@ -278,14 +278,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Horseless intelligence](https://nedbatchelder.com/blog/202503/horseless_intelligence.html)**, 17 Mar<br/>
+Some thoughts and opinions about AI. In a stretch, I compare AI to automobiles. *([read..](https://nedbatchelder.com/blog/202503/horseless_intelligence.html))*
 - **[Faster branch coverage measurement](https://nedbatchelder.com/blog/202503/faster_branch_coverage_measurement.html)**, 9 Mar<br/>
 After nearly two years, I think this is finally ready: coverage.py can use sys.monitoring to more efficiently measure branch coverage. *([read..](https://nedbatchelder.com/blog/202503/faster_branch_coverage_measurement.html))*
 - **[Intricate interleaved iteration](https://nedbatchelder.com/blog/202501/intricate_interleaved_iteration.html)**, 30 Jan<br/>
 Someone asked recently, “is there any reason to use a generator if I need to store all the values anyway?” As it happens, I did just that in the code for this blog’s sidebar because I found it the most readable way to do it. Maybe it was a good idea, maybe not. *([read..](https://nedbatchelder.com/blog/202501/intricate_interleaved_iteration.html))*
 - **[Nat running](https://nedbatchelder.com/blog/202501/nat_running.html)**, 14 Jan<br/>
 I took this picture nine years ago, but it’s still one of my favorites *([read..](https://nedbatchelder.com/blog/202501/nat_running.html))*
-- **[Testing some tidbits](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html)**, 4 Dec<br/>
-A custom test harness for some esoteric Python expressions *([read..](https://nedbatchelder.com/blog/202412/testing_some_tidbits.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-03-12 23:32 UTC*
+*Updated at 2025-03-17 17:57 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
