@@ -279,7 +279,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Find the bear](https://nedbatchelder.com/blog/202504/find_the_bear.html)**, 6 Apr<br/>
-30 years ago: my attempt to connect with my six-year-old backfires *([read..](https://nedbatchelder.com/blog/202504/find_the_bear.html))*
+Connecting with my six-year-old doesn’t go as planned. *([read..](https://nedbatchelder.com/blog/202504/find_the_bear.html))*
 - **[Nedflix](https://nedbatchelder.com/blog/202504/nedflix.html)**, 3 Apr<br/>
 Well, Anthropic and I were not a good fit, though as predicted it was an experience. I’ve started a new job on the Python language team at Netflix. *([read..](https://nedbatchelder.com/blog/202504/nedflix.html))*
 - **[Human sorting improved](https://nedbatchelder.com/blog/202503/human_sorting_improved.html)**, 29 Mar<br/>
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-04-06 18:18 UTC*
+*Updated at 2025-04-06 18:21 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
