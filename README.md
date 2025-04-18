@@ -278,14 +278,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Regex affordances](https://nedbatchelder.com/blog/202504/regex_affordances.html)**, 18 Apr<br/>
+A tour of some real code showing little-used power features of the Python regular expression module re. *([read..](https://nedbatchelder.com/blog/202504/regex_affordances.html))*
 - **[Find the bear](https://nedbatchelder.com/blog/202504/find_the_bear.html)**, 6 Apr<br/>
 Connecting with my six-year-old doesn’t go as planned. *([read..](https://nedbatchelder.com/blog/202504/find_the_bear.html))*
 - **[Nedflix](https://nedbatchelder.com/blog/202504/nedflix.html)**, 3 Apr<br/>
 Well, Anthropic and I were not a good fit, though as predicted it was an experience. I’ve started a new job on the Python language team at Netflix. *([read..](https://nedbatchelder.com/blog/202504/nedflix.html))*
 - **[Human sorting improved](https://nedbatchelder.com/blog/202503/human_sorting_improved.html)**, 29 Mar<br/>
 When sorting strings, you’d often like the order to make sense to a person. That means numbers need to be treated numerically even if they are in a larger string. *([read..](https://nedbatchelder.com/blog/202503/human_sorting_improved.html))*
-- **[Horseless intelligence](https://nedbatchelder.com/blog/202503/horseless_intelligence.html)**, 17 Mar<br/>
-Some thoughts and opinions about AI. In a stretch, I compare AI to automobiles. *([read..](https://nedbatchelder.com/blog/202503/horseless_intelligence.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-04-17 02:54 UTC*
+*Updated at 2025-04-18 15:24 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
