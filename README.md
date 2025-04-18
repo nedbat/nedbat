@@ -279,7 +279,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Regex affordances](https://nedbatchelder.com/blog/202504/regex_affordances.html)**, 18 Apr<br/>
-A tour of some real code showing little-used power features of the Python regular expression module re. *([read..](https://nedbatchelder.com/blog/202504/regex_affordances.html))*
+A tour of some real code showing little-used power features of the Python regular expression module. *([read..](https://nedbatchelder.com/blog/202504/regex_affordances.html))*
 - **[Find the bear](https://nedbatchelder.com/blog/202504/find_the_bear.html)**, 6 Apr<br/>
 Connecting with my six-year-old doesn’t go as planned. *([read..](https://nedbatchelder.com/blog/202504/find_the_bear.html))*
 - **[Nedflix](https://nedbatchelder.com/blog/202504/nedflix.html)**, 3 Apr<br/>
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-04-18 15:24 UTC*
+*Updated at 2025-04-18 15:30 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
