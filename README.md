@@ -278,14 +278,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Digital Equipment Corporation no more](https://nedbatchelder.com/blog/202506/digital_equipment_corporation_no_more.html)**, 9 Jun<br/>
+Tech giants come and go *([read..](https://nedbatchelder.com/blog/202506/digital_equipment_corporation_no_more.html))*
 - **[PyCon summer camp](https://nedbatchelder.com/blog/202505/pycon_summer_camp.html)**, 15 May<br/>
 PyCon is exciting, but how do you know which enthusiasms are real and which are just summer crushes? *([read..](https://nedbatchelder.com/blog/202505/pycon_summer_camp.html))*
 - **[Filtering GitHub actions by changed files](https://nedbatchelder.com/blog/202505/filtering_github_actions_by_changed_files.html)**, 4 May<br/>
 How to limit what GitHub workflows run based on what files have changed. *([read..](https://nedbatchelder.com/blog/202505/filtering_github_actions_by_changed_files.html))*
 - **[Regex affordances](https://nedbatchelder.com/blog/202504/regex_affordances.html)**, 18 Apr<br/>
 A tour of some real code showing little-used power features of the Python regular expression module. *([read..](https://nedbatchelder.com/blog/202504/regex_affordances.html))*
-- **[Find the bear](https://nedbatchelder.com/blog/202504/find_the_bear.html)**, 6 Apr<br/>
-Connecting with my six-year-old doesn’t go as planned. *([read..](https://nedbatchelder.com/blog/202504/find_the_bear.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-06-07 03:00 UTC*
+*Updated at 2025-06-09 14:50 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
