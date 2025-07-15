@@ -278,14 +278,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[2048: iterators and iterables](https://nedbatchelder.com/blog/202507/2048_iterators_and_iterables.html)**, 15 Jul<br/>
+Making a simple game, I waded into a classic iterator/iterable confusion. *([read..](https://nedbatchelder.com/blog/202507/2048_iterators_and_iterables.html))*
 - **[Math factoid of the day: 63](https://nedbatchelder.com/blog/202506/math_factoid_of_the_day_63.html)**, 16 Jun<br/>
 Two geometric facts about 63, but how to connect them? *([read..](https://nedbatchelder.com/blog/202506/math_factoid_of_the_day_63.html))*
 - **[Digital Equipment Corporation no more](https://nedbatchelder.com/blog/202506/digital_equipment_corporation_no_more.html)**, 9 Jun<br/>
 Tech giants come and go *([read..](https://nedbatchelder.com/blog/202506/digital_equipment_corporation_no_more.html))*
 - **[PyCon summer camp](https://nedbatchelder.com/blog/202505/pycon_summer_camp.html)**, 15 May<br/>
 PyCon is exciting, but how do you know which enthusiasms are real and which are just summer crushes? *([read..](https://nedbatchelder.com/blog/202505/pycon_summer_camp.html))*
-- **[Filtering GitHub actions by changed files](https://nedbatchelder.com/blog/202505/filtering_github_actions_by_changed_files.html)**, 4 May<br/>
-How to limit what GitHub workflows run based on what files have changed. *([read..](https://nedbatchelder.com/blog/202505/filtering_github_actions_by_changed_files.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-07-05 03:00 UTC*
+*Updated at 2025-07-15 10:54 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
