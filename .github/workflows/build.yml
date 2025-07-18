@@ -40,6 +40,8 @@ jobs:
           python -m pip install -r requirements.pip
 
       - name: "Cog README"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python -m cogapp -rP README.md
 
