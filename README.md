@@ -279,7 +279,7 @@ My latest **[blog][blog]** posts:
     print("- and [many more][blog]..")
 ]]] -->
 - **[Starting with pytest’s parametrize](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html)**, 13 Aug<br/>
-pytest’s parametrize feature is powerful but it looks scary. This is a step-by-step explanation. *([read..](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html))*
+Pytest’s parametrize feature is powerful but it looks scary. I hope this step-by-step explanation helps people use it more. *([read..](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html))*
 - **[Coverage.py regex pragmas](https://nedbatchelder.com/blog/202507/coveragepy_regex_pragmas.html)**, 28 Jul<br/>
 Coverage.py uses regexes to define pragma syntax. This is surprisingly powerful. *([read..](https://nedbatchelder.com/blog/202507/coveragepy_regex_pragmas.html))*
 - **[Coverage 7.10.0: patch](https://nedbatchelder.com/blog/202507/coverage_7100_patch.html)**, 24 Jul<br/>
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-08-13 10:51 UTC*
+*Updated at 2025-08-13 10:57 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
