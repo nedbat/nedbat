@@ -303,7 +303,6 @@ Coverage 7.10 has some significant new features that have solved some long-stand
         ("scriv", "Scriv", "nedbat/scriv"),
         ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("watchgha", "WatchGHA", "nedbat/watchgha"),
-        ("aptus", "Aptus", "nedbat/aptus"),
     ]
 
     def write_package(pkg, human, repo, mastinfo=None):
@@ -351,8 +350,6 @@ I maintain a few [**Python packages**][ned_pypi], including:
   [![PyPI](https://img.shields.io/pypi/v/dinghy?style=flat?style=flat "The dinghy PyPI page")](https://pypi.org/project/dinghy) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/dinghy?logo=github&style=flat?style=flat "Recent dinghy commits")](https://github.com/nedbat/dinghy/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/dinghy?style=flat?style=flat "Download stats for dinghy")](https://pypistats.org/packages/dinghy)
 - [**WatchGHA**](https://github.com/nedbat/watchgha): Live display of current GitHub action runs<br/>
   [![PyPI](https://img.shields.io/pypi/v/watchgha?style=flat?style=flat "The watchgha PyPI page")](https://pypi.org/project/watchgha) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/watchgha?logo=github&style=flat?style=flat "Recent watchgha commits")](https://github.com/nedbat/watchgha/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/watchgha?style=flat?style=flat "Download stats for watchgha")](https://pypistats.org/packages/watchgha)
-- [**Aptus**](https://github.com/nedbat/aptus): Mandelbrot fractal viewer<br/>
-  [![PyPI](https://img.shields.io/pypi/v/aptus?style=flat?style=flat "The aptus PyPI page")](https://pypi.org/project/aptus) [![GitHub last commit](https://img.shields.io/github/last-commit/nedbat/aptus?logo=github&style=flat?style=flat "Recent aptus commits")](https://github.com/nedbat/aptus/commits) [![PyPI - Downloads](https://img.shields.io/pypi/dm/aptus?style=flat?style=flat "Download stats for aptus")](https://pypistats.org/packages/aptus)
 <!-- [[[end]]] -->
 
 <!--
@@ -373,6 +370,7 @@ I've also made a few informal projects, some mathy art, and some small utilities
 - [Gefilte Fish](https://github.com/nedbat/gefilte) is a Python-based DSL for writing Gmail filters.
   [Blog post](https://nedbatchelder.com/blog/202103/gefilte_fish_gmail_filter_creation.html).
 - [Pydoctor](https://github.com/nedbat/pydoctor) shows details of your Python environment, for troubleshooting.
+- [Aptus](https://nedbatchelder.com/code/aptus/v3.html) is a Mandelbrot toy.
 
 <!--
   ##
@@ -389,7 +387,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-08-25 03:00 UTC*
+*Updated at 2025-08-25 06:26 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
