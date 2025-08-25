@@ -278,14 +278,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Finding unneeded pragmas](https://nedbatchelder.com/blog/202508/finding_unneeded_pragmas.html)**, 24 Aug<br/>
+A proof-of-concept tool for finding unneeded coverage.py exclusion pragmas *([read..](https://nedbatchelder.com/blog/202508/finding_unneeded_pragmas.html))*
 - **[Starting with pytest’s parametrize](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html)**, 13 Aug<br/>
 Pytest’s parametrize feature is powerful but it looks scary. I hope this step-by-step explanation helps people use it more. *([read..](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html))*
 - **[Coverage.py regex pragmas](https://nedbatchelder.com/blog/202507/coveragepy_regex_pragmas.html)**, 28 Jul<br/>
 Coverage.py uses regexes to define pragma syntax. This is surprisingly powerful. *([read..](https://nedbatchelder.com/blog/202507/coveragepy_regex_pragmas.html))*
 - **[Coverage 7.10.0: patch](https://nedbatchelder.com/blog/202507/coverage_7100_patch.html)**, 24 Jul<br/>
 Coverage 7.10 has some significant new features that have solved some long-standing problems. *([read..](https://nedbatchelder.com/blog/202507/coverage_7100_patch.html))*
-- **[2048: iterators and iterables](https://nedbatchelder.com/blog/202507/2048_iterators_and_iterables.html)**, 15 Jul<br/>
-Making a simple game, I waded into a classic iterator/iterable confusion. *([read..](https://nedbatchelder.com/blog/202507/2048_iterators_and_iterables.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -389,7 +389,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-08-16 03:00 UTC*
+*Updated at 2025-08-25 03:00 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
