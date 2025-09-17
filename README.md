@@ -201,7 +201,7 @@ print(badge(
 [![Join us at Boston Python](https://img.shields.io/badge/-Boston%20Python-4d7954?style=flat&labelColor=eeeeee&logo=meetup&logoColor=red "Join us at Boston Python")](https://about.bostonpython.com)
 [![Python Discord](https://img.shields.io/badge/-Discord-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white "Python Discord")](https://discord.gg/python)
 [![Sponsor me on GitHub](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
-[![Stack Overflow reputation](https://img.shields.io/badge/-378k%20%F0%9F%9F%A1%E2%80%8977%20%E2%9A%AA%E2%80%89581%20%F0%9F%9F%A4%E2%80%89674-e6873e?style=flat&labelColor=333333&logo=stackoverflow "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
+[![Stack Overflow reputation](https://img.shields.io/badge/-378k%20%F0%9F%9F%A1%E2%80%8977%20%E2%9A%AA%E2%80%89582%20%F0%9F%9F%A4%E2%80%89674-e6873e?style=flat&labelColor=333333&logo=stackoverflow "Stack Overflow reputation")](https://stackoverflow.com/users/14343/ned-batchelder)
 [![My PyPI packages](https://img.shields.io/badge/-PyPI-4B8BBE?style=flat&labelColor=306998&logo=python&logoColor=FFE873 "My PyPI packages")](https://pypi.org/user/nedbatchelder)
 <!-- [[[end]]] -->
 
@@ -387,7 +387,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-08-25 06:26 UTC*
+*Updated at 2025-09-17 02:47 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
