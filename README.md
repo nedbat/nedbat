@@ -282,14 +282,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Natural cubics, circular Simplex](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html)**, 21 Oct<br/>
+More investigations into generative art *([read..](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html))*
 - **[Hobby Hilbert Simplex](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html)**, 26 Sep<br/>
 An exploration and explanation of how to generate interesting swoopy art. *([read..](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html))*
 - **[Testing is better than DSA](https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html)**, 22 Sep<br/>
 People should spend less time learning DSA, more time learning testing. *([read..](https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html))*
 - **[Finding unneeded pragmas](https://nedbatchelder.com/blog/202508/finding_unneeded_pragmas.html)**, 24 Aug<br/>
 A proof-of-concept tool for finding unneeded coverage.py exclusion pragmas. *([read..](https://nedbatchelder.com/blog/202508/finding_unneeded_pragmas.html))*
-- **[Starting with pytest’s parametrize](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html)**, 13 Aug<br/>
-Pytest’s parametrize feature is powerful but it looks scary. I hope this step-by-step explanation helps people use it more. *([read..](https://nedbatchelder.com/blog/202508/starting_with_pytests_parametrize.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -391,7 +391,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-10-19 12:36 UTC*
+*Updated at 2025-10-21 11:21 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
