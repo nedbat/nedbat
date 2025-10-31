@@ -285,7 +285,7 @@ My latest **[blog][blog]** posts:
 - **[Side project advice](https://nedbatchelder.com/blog/202510/side_project_advice.html)**, 30 Oct<br/>
 A chat about side projects from a Boston Python project night: choose your paths and forgive yourself. *([read..](https://nedbatchelder.com/blog/202510/side_project_advice.html))*
 - **[Natural cubics, circular Simplex](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html)**, 21 Oct<br/>
-More investigations into generative art *([read..](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html))*
+More investigations into generative art. *([read..](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html))*
 - **[Hobby Hilbert Simplex](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html)**, 26 Sep<br/>
 An exploration and explanation of how to generate interesting swoopy art. *([read..](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html))*
 - **[Testing is better than DSA](https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html)**, 22 Sep<br/>
@@ -391,7 +391,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-10-30 12:19 UTC*
+*Updated at 2025-10-31 12:59 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
