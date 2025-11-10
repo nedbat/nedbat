@@ -282,14 +282,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Three releases, one new organization](https://nedbatchelder.com/blog/202511/three_releases_one_new_organization.html)**, 9 Nov<br/>
+This weekend I made three releases of coverage.py. What happened? *([read..](https://nedbatchelder.com/blog/202511/three_releases_one_new_organization.html))*
 - **[Side project advice](https://nedbatchelder.com/blog/202510/side_project_advice.html)**, 30 Oct<br/>
 A chat about side projects from a Boston Python project night: choose your paths and forgive yourself. *([read..](https://nedbatchelder.com/blog/202510/side_project_advice.html))*
 - **[Natural cubics, circular Simplex](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html)**, 21 Oct<br/>
 More investigations into generative art. *([read..](https://nedbatchelder.com/blog/202510/natural_cubics_circular_simplex.html))*
 - **[Hobby Hilbert Simplex](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html)**, 26 Sep<br/>
 An exploration and explanation of how to generate interesting swoopy art. *([read..](https://nedbatchelder.com/blog/202509/hobby_hilbert_simplex.html))*
-- **[Testing is better than DSA](https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html)**, 22 Sep<br/>
-People should spend less time learning DSA, more time learning testing. *([read..](https://nedbatchelder.com/blog/202509/testing_is_better_than_dsa.html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -391,7 +391,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2025-10-31 12:59 UTC*
+*Updated at 2025-11-10 00:52 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
