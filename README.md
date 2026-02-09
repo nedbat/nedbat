@@ -365,6 +365,8 @@ I maintain a few [**Python packages**][ned_pypi], including:
 I've also made a few informal projects, some mathy art, and some small utilities:
 
 - [pkgsample](https://github.com/nedbat/pkgsample), an simple example of how to package a Python project.
+- [edtext](https://github.com/nedbat/edtext), a utility for selecting and manipulating text using ed-inspired addressing.
+  [Blog post](https://nedbatchelder.com/blog/202602/edtext).
 - [Truchet images](https://github.com/nedbat/truchet) explores Truchet tiles and rendering images with them.
   [Blog post](https://nedbatchelder.com/blog/202208/truchet_images.html).
 - [Flourish](https://github.com/nedbat/flourish) is a harmonograph explorer.
