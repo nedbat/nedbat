@@ -282,14 +282,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[EdText](https://nedbatchelder.com/blog/202602/edtext)**, 9 Feb<br/>
+edtext is a utility inspired by the ed editor for selecting and manipulating lines of text. *([read..](https://nedbatchelder.com/blog/202602/edtext))*
 - **[Testing: exceptions and caches](https://nedbatchelder.com/blog/202601/testing_exceptions_and_caches)**, 25 Jan<br/>
 Nicer ways to test exceptions and to test cached function results. *([read..](https://nedbatchelder.com/blog/202601/testing_exceptions_and_caches))*
 - **[No more .html](https://nedbatchelder.com/blog/202601/no_more_html)**, 2 Jan<br/>
 My site used to have URLs ending with .html. Not anymore. *([read..](https://nedbatchelder.com/blog/202601/no_more_html))*
 - **[Generating data shapes with Hypothesis](https://nedbatchelder.com/blog/202512/generating_data_shapes_with_hypothesis)**, 21 Dec<br/>
 I used Hypothesis to generate random data structure schemas, and then generate random data using them. I learned a lot along the way. *([read..](https://nedbatchelder.com/blog/202512/generating_data_shapes_with_hypothesis))*
-- **[A testing conundrum](https://nedbatchelder.com/blog/202512/a_testing_conundrum)**, 18 Dec<br/>
-A useful class that is hard to test thoroughly, and my failed attempt to use Hypothesis to do it. *([read..](https://nedbatchelder.com/blog/202512/a_testing_conundrum))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -391,7 +391,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-02-06 03:21 UTC*
+*Updated at 2026-02-09 12:39 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
