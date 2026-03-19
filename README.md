@@ -302,9 +302,10 @@ My site used to have URLs ending with .html. Not anymore. *([read..](https://ned
 <!-- [[[cog
     pkgs = [
         # (pypi name, human name, github repo, (mastserver, masthandle)),
-        ("coverage", "Coverage.py", "nedbat/coveragepy", ("hachyderm.io", "coveragepy")),
+        ("coverage", "Coverage.py", "coveragepy/coveragepy", ("hachyderm.io", "coveragepy")),
         ("cogapp", "Cog", "nedbat/cog"),
         ("scriv", "Scriv", "nedbat/scriv"),
+        ("linklint", "Linklint", "nedbat/linklint"),
         ("dinghy", "Dinghy", "nedbat/dinghy"),
         ("watchgha", "WatchGHA", "nedbat/watchgha"),
     ]
