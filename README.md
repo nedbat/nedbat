@@ -197,7 +197,7 @@ print(badge(
 ]]] -->
 [![Read my blog](https://img.shields.io/badge/-Blog%20etc-888888?style=flat&labelColor=eeeeee&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAABpFBMVEX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8AAAD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8AAAAAAACwsLABAQEBAQEBAQGlpaUCAgICAgIXFxdycnKAgIBVVVSZmZgDAwMQEBANDQ0JCQgCAgIAAAAWFhYAAAAYGBgXFxcVFRUEBAQ5OTkZGRlTU1NqampmZmaAgHxfX198fHyKioqQkJCurqoMDAwFBQQAAAAgIB0QEBARERAjIyMaGhoXFxcVFRUAAAAVFRUXFxcVFRUBAQEnJyc9PT0uLi4tLS0lJSUzMzMtLS1ISEhFRUVERERhYV5XV1cPDw9GRkZWVlY%2FPz5aWlpjY19hYWFaWlojIyNjY2NLS0srKytnZ2c2NjZzc3IKCgqFhYUrKyuNjYDa2toFBQUaGhoXFxcKCgoUFBQcHBwKCgoKCgoAAAAICAEWFhYnJyMAAAAKCgoMDAwAAAAAAAAjIyM2NjYAAAARERExMSkKCgpRUU4bGxtHR0cAAAA%2BPj4oKCdOTkhZWVkFBQVPT086OjpNTUk5OTkBAQFLS0teXlZKSkpQUFBvb241NTUAAABvb294eHgAAACBIqjAAAAAi3RSTlMBBgMHCAACBQT9%2Bw%2F18eoT7efLNCQeF%2Fny8u%2Fk29nW08%2B3eHZYOi8rKCMgGxkH%2BvXz7Ofk4t%2Fc1cfFwLy2spiUjoqFd2VjXVlTUVBMR0ZCPz8%2BOzs3NjEtLB0aCwr%2B9Orq6OXi09LMxr%2B%2Fu7qro5qSj46HhIOAf317dXBtamlhVVBHRDYxKSckHhcWCkdRuAAAArhJREFUSMeV1mdX2zAUBuDrCNlJWIEQ9ipQNi0tpYWyZwuljEILBbr33nvv8f7pxkoT2fg6TvRFOdf3OTrOa9kiYVphU0hBycmQBWSEQgapyaICKcywRcKe7KbdticzCZFqIocT5HSGxxXuA1DVUkCWfdXhpL%2BzUk6NZ8pRXq6pYqEaeKGacnYjSdcjxUYtMJPspRxd6XGgOenIWi8GWskgH0deV96b6l3tR2Q%2BRBlnOZ003G446SrTmX0tQskO6b%2FV4cjtKm8BGNxWzr76BljKyZWrGBq20%2Ff0GWijAEcZB1z%2Fk3LfY4hsZuJwupDT9TYjPW6W2u5HGTBNlHYy2AFDpWR01QGTZBCzXsjheprgHHcKE%2FXAo2QTcU7Hf%2F4Y3ONuIzCudgcTP%2Bv0GDdVUzbX3cC4iVQT5esm073%2BruIo46bSvZSfe5rpJV83yLjnupfUtvA%2Bbp1HGPdSuzC5nczmXjuz5h%2FvjgEvi7S67olYdzi7U1PIuy3aGXfhrdtJYtwVZr13e5wgz3aKX2LcB09mnm0RP8S4WW%2FWtKf0jXHROS5rt9tfy7h5LmsKdAdOsFmTy9X4OCYzcrhVxlWd5J0gXVqp5h3%2F6tTrLV%2F0uqJT3BdeuOJYOsg7%2FhWo41jn3GnfV5mOY8zriv2djiMR9bplf6fjeIXivW7F3%2Bk4%2BgaqOxtdLnYmi9NxLOKh7K53uJKsTscxii1hdl3T7mzgyUCVfkeH7N%2B%2FrmoX%2BIVXcUxjTpW2LitXFg92Ko7duthOqnQuZrv27E7HsYDH%2F0uJMaBuUzvu8dZxyFF8TK33IIr694XsAVY7HcfPCIrWhFwcAYY%2FJUtZ19NxSGMKQE1LI6L3N4TM%2BcBMRl8J7NE%2F0UXaBcUfNslsUwm0%2FLXMQOeO4zZwY7ZPlfJwkjoi974IM28naC3uKOXh%2FgEMt7c2Kju6aAAAAABJRU5ErkJggg%3D%3D&logoColor=white "Read my blog")](https://nedbatchelder.com)
 [![Follow @nedbat on Mastodon (3963)](https://img.shields.io/badge/%40nedbat-4.0k-96a3b0?style=flat&labelColor=450657&logo=mastodon&logoColor=white "Follow @nedbat on Mastodon (3963)")](https://hachyderm.io/@nedbat)
-[![Follow nedbat.com on Bluesky (4358)](https://img.shields.io/badge/Bluesky-4.4k-96a3b0?style=flat&labelColor=3686f7&logo=icloud&logoColor=white "Follow nedbat.com on Bluesky (4358)")](https://bsky.app/profile/nedbat.com)
+[![Follow nedbat.com on Bluesky (4359)](https://img.shields.io/badge/Bluesky-4.4k-96a3b0?style=flat&labelColor=3686f7&logo=icloud&logoColor=white "Follow nedbat.com on Bluesky (4359)")](https://bsky.app/profile/nedbat.com)
 [![Join us at Boston Python](https://img.shields.io/badge/-Boston%20Python-4d7954?style=flat&labelColor=eeeeee&logo=meetup&logoColor=red "Join us at Boston Python")](https://about.bostonpython.com)
 [![Python Discord](https://img.shields.io/badge/-Discord-ffe97c?style=flat&labelColor=7289da&logo=discord&logoColor=white "Python Discord")](https://discord.gg/python)
 [![Sponsor me on GitHub](https://img.shields.io/badge/%E2%9D%A4-Sponsor%20me-brightgreen?style=flat&logo=GitHub "Sponsor me on GitHub")](https://github.com/sponsors/nedbat)
@@ -282,14 +282,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Human.json](https://nedbatchelder.com/blog/202603/humanjson)**, 22 Mar<br/>
+human.json is an interesting idea, but comes with the usual semantic web problems. *([read..](https://nedbatchelder.com/blog/202603/humanjson))*
 - **[Pytest parameter functions](https://nedbatchelder.com/blog/202602/pytest_parameter_functions)**, 27 Feb<br/>
 Pytest’s parametrize can be made even more powerful with your own helper functions to build test cases. *([read..](https://nedbatchelder.com/blog/202602/pytest_parameter_functions))*
 - **[EdText](https://nedbatchelder.com/blog/202602/edtext)**, 9 Feb<br/>
 edtext is a utility inspired by the ed editor for selecting and manipulating lines of text. *([read..](https://nedbatchelder.com/blog/202602/edtext))*
 - **[Testing: exceptions and caches](https://nedbatchelder.com/blog/202601/testing_exceptions_and_caches)**, 25 Jan<br/>
 Nicer ways to test exceptions and to test cached function results. *([read..](https://nedbatchelder.com/blog/202601/testing_exceptions_and_caches))*
-- **[No more .html](https://nedbatchelder.com/blog/202601/no_more_html)**, 2 Jan<br/>
-My site used to have URLs ending with .html. Not anymore. *([read..](https://nedbatchelder.com/blog/202601/no_more_html))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-03-22 17:23 UTC*
+*Updated at 2026-03-22 23:01 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
