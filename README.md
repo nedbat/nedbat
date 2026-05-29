@@ -282,14 +282,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Snake way for ducklings](https://nedbatchelder.com/blog/202605/snake_way_for_ducklings)**, 29 May<br/>
+An explanation for non-Bostonians of the Boston Python mascot. *([read..](https://nedbatchelder.com/blog/202605/snake_way_for_ducklings))*
 - **[PyCon US 2026](https://nedbatchelder.com/blog/202605/pycon_us_2026)**, 24 May<br/>
 Thoughts from PyCon US 2026 in Long Beach CA. *([read..](https://nedbatchelder.com/blog/202605/pycon_us_2026))*
 - **[School is artificial](https://nedbatchelder.com/blog/202604/school_is_artificial)**, 25 Apr<br/>
 The real world is not like school. *([read..](https://nedbatchelder.com/blog/202604/school_is_artificial))*
 - **[Linklint](https://nedbatchelder.com/blog/202604/linklint)**, 12 Apr<br/>
 Linklint is a Sphinx extension to suppress excessive links in the Python documentation. *([read..](https://nedbatchelder.com/blog/202604/linklint))*
-- **[Human.json](https://nedbatchelder.com/blog/202603/humanjson)**, 22 Mar<br/>
-human.json is an interesting idea, but comes with the usual semantic web problems. *([read..](https://nedbatchelder.com/blog/202603/humanjson))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-05-28 03:45 UTC*
+*Updated at 2026-05-29 11:41 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
