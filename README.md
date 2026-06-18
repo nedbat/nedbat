@@ -281,14 +281,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Dodecahedron with stars](https://nedbatchelder.com/blog/202606/dodecahedron_with_stars)**, 18 Jun<br/>
+A Platonic dodecahedron decorated with an Islamic pattern. *([read..](https://nedbatchelder.com/blog/202606/dodecahedron_with_stars))*
 - **[Cultural factoids of the day: 64](https://nedbatchelder.com/blog/202606/cultural_factoids_of_the_day_64)**, 16 Jun<br/>
 The number 64 appears all over the place. *([read..](https://nedbatchelder.com/blog/202606/cultural_factoids_of_the_day_64))*
 - **[Franklin’s parents grave](https://nedbatchelder.com/blog/202606/franklins_parents_grave)**, 2 Jun<br/>
 There are many historical artifacts and monuments in Boston. This is one of my favorites: *([read..](https://nedbatchelder.com/blog/202606/franklins_parents_grave))*
 - **[Snake way for ducklings](https://nedbatchelder.com/blog/202605/snake_way_for_ducklings)**, 29 May<br/>
 An explanation for non-Bostonians of the Boston Python mascot. *([read..](https://nedbatchelder.com/blog/202605/snake_way_for_ducklings))*
-- **[PyCon US 2026](https://nedbatchelder.com/blog/202605/pycon_us_2026)**, 24 May<br/>
-Thoughts from PyCon US 2026 in Long Beach CA. *([read..](https://nedbatchelder.com/blog/202605/pycon_us_2026))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -395,7 +395,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-06-18 03:46 UTC*
+*Updated at 2026-06-18 11:58 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
