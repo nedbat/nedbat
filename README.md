@@ -372,6 +372,8 @@ I've also made a few informal projects, some mathy art, and some small utilities
   [Blog post](https://nedbatchelder.com/blog/202208/truchet_images.html).
 - [Flourish](https://github.com/nedbat/flourish) is a harmonograph explorer.
   [Blog post](https://nedbatchelder.com/blog/202101/flourish.html) and [live site](https://flourish.nedbat.com/).
+- [Acidica](https://github.com/nedbat/acidica) is a toy BASIC implementation.
+  [Blog post](https://nedbatchelder.com/blog/202607/acidica.html).
 - [Stilted](https://github.com/nedbat/stilted) is a toy PostScript implementation.
   [Blog post](https://nedbatchelder.com/blog/202208/stilted.html).
 - [Gefilte Fish](https://github.com/nedbat/gefilte) is a Python-based DSL for writing Gmail filters.
