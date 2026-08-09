@@ -280,14 +280,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Caller-specific coverage](https://nedbatchelder.com/blog/202608/callerspecific_coverage)**, 9 Aug<br/>
+An idea for a new feature for coverage measurement: per-caller coverage *([read..](https://nedbatchelder.com/blog/202608/callerspecific_coverage))*
 - **[Acidica](https://nedbatchelder.com/blog/202607/acidica)**, 26 Jul<br/>
 A toy BASIC interpreter, written for fun. *([read..](https://nedbatchelder.com/blog/202607/acidica))*
 - **[A place of certainty](https://nedbatchelder.com/blog/202607/a_place_of_certainty)**, 14 Jul<br/>
 My mother is 86, and she is declining. *([read..](https://nedbatchelder.com/blog/202607/a_place_of_certainty))*
 - **[Dodecahedron with stars](https://nedbatchelder.com/blog/202606/dodecahedron_with_stars)**, 18 Jun<br/>
 A Platonic dodecahedron decorated with an Islamic pattern. *([read..](https://nedbatchelder.com/blog/202606/dodecahedron_with_stars))*
-- **[Cultural factoids of the day: 64](https://nedbatchelder.com/blog/202606/cultural_factoids_of_the_day_64)**, 16 Jun<br/>
-The number 64 appears all over the place. *([read..](https://nedbatchelder.com/blog/202606/cultural_factoids_of_the_day_64))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-08-06 05:31 UTC*
+*Updated at 2026-08-09 20:23 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
