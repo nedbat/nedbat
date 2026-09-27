@@ -280,14 +280,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Expert asterisks](https://nedbatchelder.com/blog/202609/expert_asterisks)**, 27 Sep<br/>
+Watching discussions happening online, I see a frequent unfortunate tic I’ll call the Expert Asterisk. A beginner is asking for help, and experts are answering. *([read..](https://nedbatchelder.com/blog/202609/expert_asterisks))*
 - **[Silence is golden lightning talk](https://nedbatchelder.com/blog/202609/silence_is_golden_lightning_talk)**, 16 Sep<br/>
 A lightning talk I did at PyCon US 2026 *([read..](https://nedbatchelder.com/blog/202609/silence_is_golden_lightning_talk))*
 - **[Micro language implementation: Calcium](https://nedbatchelder.com/blog/202608/micro_language_implementation_calcium)**, 22 Aug<br/>
 A tiny language, to explain how programming languages are implemented. *([read..](https://nedbatchelder.com/blog/202608/micro_language_implementation_calcium))*
 - **[Caller-specific coverage](https://nedbatchelder.com/blog/202608/callerspecific_coverage)**, 9 Aug<br/>
 An idea for a new feature for coverage measurement: per-caller coverage *([read..](https://nedbatchelder.com/blog/202608/callerspecific_coverage))*
-- **[Acidica](https://nedbatchelder.com/blog/202607/acidica)**, 26 Jul<br/>
-A toy BASIC interpreter, written for fun. *([read..](https://nedbatchelder.com/blog/202607/acidica))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-09-27 08:26 UTC*
+*Updated at 2026-09-27 20:28 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
