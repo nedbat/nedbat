@@ -280,14 +280,14 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
+- **[Evergreen posts](https://nedbatchelder.com/blog/202610/evergreen_posts)**, 28 Oct<br/>
+How blog posts here indicate their age, and how I had too much fun with it. *([read..](https://nedbatchelder.com/blog/202610/evergreen_posts))*
 - **[Making git hooks visible](https://nedbatchelder.com/blog/202610/making_git_hooks_visible)**, 11 Oct<br/>
 A terminal prompt technique to see the status of git hooks. *([read..](https://nedbatchelder.com/blog/202610/making_git_hooks_visible))*
 - **[Expert asterisks](https://nedbatchelder.com/blog/202609/expert_asterisks)**, 27 Sep<br/>
 Watching discussions happening online, I see a frequent unfortunate tic I’ll call the Expert Asterisk. A beginner is asking for help, and experts are answering. *([read..](https://nedbatchelder.com/blog/202609/expert_asterisks))*
 - **[Silence is golden lightning talk](https://nedbatchelder.com/blog/202609/silence_is_golden_lightning_talk)**, 16 Sep<br/>
 A lightning talk I did at PyCon US 2026 *([read..](https://nedbatchelder.com/blog/202609/silence_is_golden_lightning_talk))*
-- **[Micro language implementation: Calcium](https://nedbatchelder.com/blog/202608/micro_language_implementation_calcium)**, 22 Aug<br/>
-A tiny language, to explain how programming languages are implemented. *([read..](https://nedbatchelder.com/blog/202608/micro_language_implementation_calcium))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
 
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-10-28 10:08 UTC*
+*Updated at 2026-10-28 13:18 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
