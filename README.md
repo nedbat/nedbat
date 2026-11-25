@@ -263,7 +263,7 @@ You can **find me** at:
 
     def write_blog_post(entry, twoline=False):
         when = datetime.datetime.strptime(entry['when_iso'], "%Y%m%d")
-        print(f"- **[{entry['title']}]({entry['url']})**, {when:%-d %b}", end="")
+        print(f"- **[{entry['title']}]({entry['url']})** ({when:%-d %b})", end="")
         if twoline:
             print(f"<br/>\n{entry['description_text']} *([read..]({entry['url']}))*")
         else:
@@ -280,13 +280,13 @@ My latest **[blog][blog]** posts:
         write_blog_post(entry, twoline=True)
     print("- and [many more][blog]..")
 ]]] -->
-- **[Human sorting, hardened](https://nedbatchelder.com/blog/202611/human_sorting_hardened)**, 25 Nov<br/>
+- **[Human sorting, hardened](https://nedbatchelder.com/blog/202611/human_sorting_hardened)** (25 Nov)<br/>
 How many times can I revisit three lines of code that are 20 years old? *([read..](https://nedbatchelder.com/blog/202611/human_sorting_hardened))*
-- **[Cupcake party](https://nedbatchelder.com/blog/202611/cupcake_party)**, 15 Nov<br/>
+- **[Cupcake party](https://nedbatchelder.com/blog/202611/cupcake_party)** (15 Nov)<br/>
 Today is Nat’s 37th birthday. We went to his group home yesterday to celebrate. *([read..](https://nedbatchelder.com/blog/202611/cupcake_party))*
-- **[Evergreen posts](https://nedbatchelder.com/blog/202610/evergreen_posts)**, 28 Oct<br/>
+- **[Evergreen posts](https://nedbatchelder.com/blog/202610/evergreen_posts)** (28 Oct)<br/>
 How blog posts here indicate their age, and how I had too much fun with it. *([read..](https://nedbatchelder.com/blog/202610/evergreen_posts))*
-- **[Making git hooks visible](https://nedbatchelder.com/blog/202610/making_git_hooks_visible)**, 11 Oct<br/>
+- **[Making git hooks visible](https://nedbatchelder.com/blog/202610/making_git_hooks_visible)** (11 Oct)<br/>
 A terminal prompt technique to see the status of git hooks. *([read..](https://nedbatchelder.com/blog/202610/making_git_hooks_visible))*
 - and [many more][blog]..
 <!-- [[[end]]] -->
@@ -396,7 +396,7 @@ See my blog post **[Cogged GitHub profile][blog_post]** for details.
 <!-- [[[cog
     print(f"*Updated at {datetime.datetime.now():%Y-%m-%d %H:%M} UTC*")
 ]]] -->
-*Updated at 2026-11-25 22:47 UTC*
+*Updated at 2026-11-25 17:57 UTC*
 <!-- [[[end]]] -->
 
 [nedbat]: https://nedbatchelder.com "My site with blog, talks, etc"
